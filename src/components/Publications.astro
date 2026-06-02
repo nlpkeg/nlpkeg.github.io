@@ -1,0 +1,79 @@
+---
+import { getCollection } from 'astro:content';
+import { type Lang } from '../i18n/ui';
+import { SITE } from '../config';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+
+const pubs = await getCollection('publications');
+const years = [...new Set(pubs.map((p) => p.data.year))].sort((a, b) => b - a);
+const byYear = years.map((y) => ({
+  year: y,
+  items: pubs.filter((p) => p.data.year === y).sort((a, b) => a.data.title.localeCompare(b.data.title)),
+}));
+
+const linkLabel = {
+  paper: lang === 'zh' ? '论文' : 'Paper',
+  arxiv: 'arXiv',
+  code: lang === 'zh' ? '代码' : 'Code',
+  project: lang === 'zh' ? '项目' : 'Project',
+};
+---
+
+<section class="sec">
+  <div class="wrap">
+    {byYear.map((group) => (
+      <div class="year-block">
+        <div class="year">{group.year}</div>
+        <ol class="plist">
+          {group.items.map((p) => (
+            <li class="pub">
+              <div class="title">
+                {p.data.links.paper ? (
+                  <a href={p.data.links.paper} target="_blank" rel="noopener">{p.data.title}</a>
+                ) : (
+                  <span>{p.data.title}</span>
+                )}
+                {p.data.highlight && <span class="badge">{p.data.highlight}</span>}
+              </div>
+              <div class="authors">{p.data.authors}</div>
+              <div class="venue">{p.data.venue}</div>
+              <div class="links">
+                {(['paper', 'arxiv', 'code', 'project'] as const).map((k) =>
+                  p.data.links[k] ? (
+                    <a href={p.data.links[k]} target="_blank" rel="noopener">{linkLabel[k]}</a>
+                  ) : null
+                )}
+                {p.data.links.bibtex && <span class="bib">BibTeX</span>}
+              </div>
+            </li>
+          ))}
+        </ol>
+      </div>
+    ))}
+    <p class="foot">{lang === 'zh' ? '更多论文持续补充中，完整列表见 ' : 'More publications coming soon — full list on '}<a href={SITE.github} target="_blank" rel="noopener">GitHub</a> · <a href="https://dblp.org/pid/47/2026-1.html" target="_blank" rel="noopener">DBLP</a></p>
+  </div>
+</section>
+
+<style>
+  .sec { padding: 30px 0 90px; position: relative; z-index: 2; }
+  .year-block { display: grid; grid-template-columns: 90px 1fr; gap: 24px; margin-bottom: 18px; }
+  .year { font-family: var(--font-display); font-size: 30px; font-weight: 800; color: color-mix(in srgb, var(--accent) 70%, var(--muted)); position: sticky; top: 90px; align-self: start; }
+  .plist { list-style: none; margin: 0; padding: 0; }
+  .pub { padding: 20px 0; border-bottom: 1px solid var(--line); }
+  .pub:first-child { padding-top: 0; }
+  .title { font-size: 17px; font-weight: 600; line-height: 1.45; margin-bottom: 6px; }
+  .title a { color: var(--ink); }
+  .title a:hover { color: var(--accent); }
+  .badge { display: inline-block; font-family: var(--font-display); font-size: 11px; color: var(--accent); border: 1px solid color-mix(in srgb, var(--accent) 50%, transparent); border-radius: 5px; padding: 1px 7px; margin-left: 8px; vertical-align: middle; }
+  .authors { color: var(--muted); font-size: 14px; margin-bottom: 3px; }
+  .venue { color: var(--faint); font-size: 13px; font-family: var(--font-display); margin-bottom: 10px; }
+  .links { display: flex; gap: 10px; flex-wrap: wrap; }
+  .links a, .bib { font-family: var(--font-display); font-size: 12.5px; color: var(--accent); border: 1px solid var(--line); border-radius: 7px; padding: 4px 11px; }
+  .links a:hover { border-color: var(--accent); }
+  .bib { color: var(--faint); }
+  .foot { margin-top: 30px; color: var(--muted); font-size: 14px; }
+  .foot a { color: var(--accent); }
+  @media (max-width: 700px) { .year-block { grid-template-columns: 1fr; gap: 8px; } .year { position: static; font-size: 24px; } }
+</style>

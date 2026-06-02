@@ -1,0 +1,134 @@
+/* Theme token sets. Switch via ACTIVE_THEME in src/config.ts (sets <html data-theme>).
+   Each theme defines the same variable contract so components stay theme-agnostic. */
+
+/* ============ A · 知识星图 / Knowledge Constellation (dark, default) ============ */
+[data-theme='constellation'] {
+  --bg: #070a16;
+  --bg-2: #0b0f22;
+  --panel: #0e1430;
+  --panel-2: #0a0e22;
+  --line: #1b2350;
+  --line-strong: #232c55;
+
+  --cyan: #36d6ff;
+  --blue: #1e9be0;
+  --royal: #2a6bf2;
+  --deep: #15357e;
+
+  --ink: #eaf1ff;
+  --muted: #8a98c8;
+  --faint: #5b679a;
+
+  --accent: var(--cyan);
+  --accent-grad: linear-gradient(90deg, var(--royal), var(--blue));
+  --glow: 0 0 40px rgba(54, 214, 255, 0.25);
+  --shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+
+  /* neural-graph hero colors (read by NeuralCanvas) */
+  --net-node: #9be9ff;
+  --net-line-rgb: 54, 214, 255;
+  --net-glow-rgb: 54, 214, 255;
+
+  --font-display: 'Space Grotesk', 'Noto Sans SC', sans-serif;
+  --font-body: 'Noto Sans SC', 'Inter', system-ui, sans-serif;
+
+  --radius: 16px;
+  --hero-network: 1; /* enable animated neural-graph hero */
+  color-scheme: dark;
+}
+
+/* A · light mode (toggled via data-mode="light") */
+[data-theme='constellation'][data-mode='light'] {
+  --bg: #f3f7fd;
+  --bg-2: #e9f0fa;
+  --panel: #ffffff;
+  --panel-2: #f0f5fc;
+  --line: #dde6f3;
+  --line-strong: #cbd8ec;
+
+  --ink: #0f1b33;
+  --muted: #5c6a8c;
+  --faint: #8a97b8;
+
+  --accent: var(--royal);
+  --accent-grad: linear-gradient(90deg, var(--royal), var(--blue));
+  --glow: 0 14px 34px rgba(21, 53, 126, 0.12);
+  --shadow: 0 18px 44px rgba(21, 53, 126, 0.12);
+
+  --net-node: #2a6bf2;
+  --net-line-rgb: 42, 107, 242;
+  --net-glow-rgb: 30, 155, 224;
+
+  color-scheme: light;
+}
+
+/* ============ B · 学术电路 / Academic Circuit (light) — backup ============ */
+[data-theme='circuit'] {
+  --bg: #ffffff;
+  --bg-2: #f5f8fc;
+  --panel: #ffffff;
+  --panel-2: #eef3fa;
+  --line: #e2e9f3;
+  --line-strong: #d2deee;
+
+  --cyan: #1e9be0;
+  --blue: #1e9be0;
+  --royal: #2a6bf2;
+  --deep: #15357e;
+
+  --ink: #0f1b33;
+  --muted: #7c8aa6;
+  --faint: #97a5be;
+
+  --accent: var(--royal);
+  --accent-grad: linear-gradient(90deg, #1e9be0, #15357e);
+  --glow: 0 14px 32px rgba(21, 53, 126, 0.1);
+  --shadow: 0 18px 40px rgba(21, 53, 126, 0.1);
+
+  --net-node: #2a6bf2;
+  --net-line-rgb: 42, 107, 242;
+  --net-glow-rgb: 30, 155, 224;
+
+  --font-display: 'IBM Plex Serif', 'Noto Sans SC', serif;
+  --font-body: 'IBM Plex Sans', 'Noto Sans SC', system-ui, sans-serif;
+
+  --radius: 14px;
+  --hero-network: 0;
+  color-scheme: light;
+}
+
+/* ============ C · 神经流形 / Neural Flow (gradient) — backup ============ */
+[data-theme='flow'] {
+  --bg: #fbfcff;
+  --bg-2: #f3f6fc;
+  --panel: #ffffff;
+  --panel-2: #eef3fa;
+  --line: #e6ebf5;
+  --line-strong: #d8e0ee;
+
+  --cyan: #36d6ff;
+  --blue: #1e9be0;
+  --royal: #2a6bf2;
+  --deep: #15357e;
+  --indigo: #2b1d6e;
+
+  --ink: #0a1026;
+  --muted: #8590ab;
+  --faint: #aab4cd;
+
+  --accent: var(--royal);
+  --accent-grad: linear-gradient(135deg, var(--cyan), var(--royal), var(--indigo));
+  --glow: 0 20px 44px rgba(21, 53, 126, 0.12);
+  --shadow: 0 20px 44px rgba(21, 53, 126, 0.12);
+
+  --net-node: #2a6bf2;
+  --net-line-rgb: 42, 107, 242;
+  --net-glow-rgb: 30, 155, 224;
+
+  --font-display: 'Sora', 'Noto Sans SC', sans-serif;
+  --font-body: 'Sora', 'Noto Sans SC', system-ui, sans-serif;
+
+  --radius: 18px;
+  --hero-network: 0;
+  color-scheme: light;
+}

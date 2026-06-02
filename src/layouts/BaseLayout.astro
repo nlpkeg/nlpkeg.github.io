@@ -1,0 +1,50 @@
+---
+import '../styles/global.css';
+import { ACTIVE_THEME, SITE } from '../config';
+import { type Lang } from '../i18n/ui';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+
+interface Props {
+  lang: Lang;
+  title?: string;
+  description?: string;
+}
+
+const { lang, title, description } = Astro.props;
+const pageTitle = title ? `${title} · ${SITE.shortName}@${SITE.org}` : `${SITE.shortName}@${SITE.org} · ${lang === 'zh' ? SITE.nameZh : SITE.nameEn}`;
+const desc = description ?? (lang === 'zh' ? SITE.nameZh : SITE.nameEn);
+// Each theme has a natural mode; the toggle + localStorage can override.
+const defaultMode = ACTIVE_THEME === 'constellation' ? 'dark' : 'light';
+---
+
+<!doctype html>
+<html lang={lang === 'zh' ? 'zh-CN' : 'en'} data-theme={ACTIVE_THEME} data-mode={defaultMode}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/logos/nlpke-mark.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@500;600;700&family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>{pageTitle}</title>
+    <meta name="description" content={desc} />
+    <script is:inline>
+      // Apply saved dark/light preference before paint (no flash).
+      try {
+        var m = localStorage.getItem('nlpke-mode');
+        if (m === 'light' || m === 'dark') document.documentElement.setAttribute('data-mode', m);
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <Nav lang={lang} />
+    <main>
+      <slot />
+    </main>
+    <Footer lang={lang} />
+  </body>
+</html>

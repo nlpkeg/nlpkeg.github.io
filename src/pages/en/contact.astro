@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHead from '../../components/PageHead.astro';
+import { SITE } from '../../config';
+---
+
+<BaseLayout lang="en" title="Contact">
+  <PageHead kicker="Contact" title="Contact" subtitle={`${SITE.instituteEn} · ${SITE.location}`} />
+  <section class="sec"><div class="wrap card">
+    <dl>
+      <div><dt>Institute</dt><dd>{SITE.instituteEn}</dd></div>
+      <div><dt>Location</dt><dd>{SITE.location}</dd></div>
+      <div><dt>Email</dt><dd><a href="mailto:shizhu.he@ia.ac.cn">shizhu.he@ia.ac.cn</a></dd></div>
+      <div><dt>GitHub</dt><dd><a href={SITE.github} target="_blank" rel="noopener">{SITE.github}</a></dd></div>
+      <div><dt>HuggingFace</dt><dd><a href={SITE.huggingface} target="_blank" rel="noopener">{SITE.huggingface}</a></dd></div>
+    </dl>
+  </div></section>
+</BaseLayout>
+
+<style>
+  .sec { padding: 20px 0 90px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 34px; }
+  dl { margin: 0; }
+  dl > div { display: flex; gap: 24px; padding: 18px 0; border-bottom: 1px solid var(--line); }
+  dl > div:last-child { border-bottom: 0; }
+  dt { width: 110px; color: var(--faint); font-family: var(--font-display); font-size: 14px; }
+  dd { margin: 0; color: var(--ink); }
+  dd a { color: var(--accent); }
+</style>

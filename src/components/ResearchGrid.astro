@@ -1,0 +1,57 @@
+---
+import { getCollection } from 'astro:content';
+import { type Lang } from '../i18n/ui';
+import { useTranslations } from '../i18n/utils';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+
+const items = (await getCollection('research')).sort((a, b) => a.data.order - b.data.order);
+---
+
+<section class="sec" id="research">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="k">{t('research.kicker')}</div>
+      <h2>{t('research.title')}</h2>
+      <p>{t('research.subtitle')}</p>
+    </div>
+    <div class="grid6">
+      {items.map((it) => (
+        <article class="node">
+          <div class="no">{String(it.data.order).padStart(2, '0')}</div>
+          <div class="ic">{it.data.icon}</div>
+          <h3>{lang === 'zh' ? it.data.titleZh : it.data.titleEn}</h3>
+          <div class="ene">{lang === 'zh' ? it.data.titleEn : it.data.titleZh}</div>
+          <p>{lang === 'zh' ? it.data.summaryZh : it.data.summaryEn}</p>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .sec { padding: 56px 0; position: relative; z-index: 2; }
+  .sec-head { text-align: center; margin-bottom: 40px; }
+  .sec-head .k { color: var(--accent); font-family: var(--font-display); font-size: 13px; letter-spacing: .16em; text-transform: uppercase; }
+  .sec-head h2 { font-size: 38px; font-weight: 800; margin: 10px 0 8px; }
+  .sec-head p { color: var(--muted); font-size: 15px; }
+  .grid6 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .node {
+    position: relative; background: linear-gradient(160deg, var(--panel), var(--panel-2));
+    border: 1px solid var(--line); border-radius: var(--radius); padding: 28px; transition: .25s; overflow: hidden;
+  }
+  .node::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px;
+    background: linear-gradient(90deg, transparent, var(--accent), transparent); opacity: 0; transition: .25s;
+  }
+  .node:hover { transform: translateY(-6px); border-color: color-mix(in srgb, var(--accent) 40%, transparent); box-shadow: var(--shadow), var(--glow); }
+  .node:hover::before { opacity: 1; }
+  .ic { width: 46px; height: 46px; border-radius: 12px; display: grid; place-items: center; font-size: 22px; background: color-mix(in srgb, var(--royal) 14%, transparent); border: 1px solid var(--line); margin-bottom: 18px; box-shadow: var(--glow); }
+  .no { position: absolute; top: 22px; right: 24px; font-family: var(--font-display); font-size: 13px; color: var(--faint); }
+  h3 { font-size: 18px; font-weight: 700; margin-bottom: 8px; }
+  .ene { font-family: var(--font-display); font-size: 12px; color: var(--accent); letter-spacing: .03em; margin-bottom: 10px; }
+  p { color: var(--muted); font-size: 13.5px; line-height: 1.6; }
+  @media (max-width: 900px) { .grid6 { grid-template-columns: 1fr; } }
+</style>

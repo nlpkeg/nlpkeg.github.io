@@ -1,0 +1,115 @@
+---
+import { getCollection } from 'astro:content';
+import { type Lang } from '../i18n/ui';
+import { localizedPath } from '../i18n/utils';
+import { GRAD_STUDENTS } from '../config';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+
+const people = (await getCollection('people')).filter((p) => p.data.active);
+const faculty = people.filter((p) => p.data.group === 'faculty').sort((a, b) => a.data.order - b.data.order);
+const staff = people
+  .filter((p) => p.data.group === 'engineer' || p.data.group === 'secretary')
+  .sort((a, b) => (a.data.group === b.data.group ? a.data.order - b.data.order : a.data.group === 'engineer' ? -1 : 1));
+
+const name = (m: (typeof people)[number]) => (lang === 'zh' ? m.data.nameZh : m.data.nameEn);
+const L = {
+  faculty: lang === 'zh' ? '导师' : 'Supervisors',
+  facultyNote: lang === 'zh' ? '研究生导师' : 'Graduate Advisor',
+  staff: lang === 'zh' ? '工程师与秘书' : 'Engineers & Secretaries',
+  students: lang === 'zh' ? '研究生' : 'Graduate Students',
+  studentsLine:
+    lang === 'zh'
+      ? `${GRAD_STUDENTS} 名在读研究生（博士 / 硕士）`
+      : `${GRAD_STUDENTS} graduate students (PhD / Master)`,
+  view: lang === 'zh' ? '查看简介 →' : 'View profile →',
+};
+---
+
+<section class="sec">
+  <div class="wrap">
+    <img class="group-photo" src="/group-photo.jpg" alt={lang === 'zh' ? 'NLPKE 课题组合影' : 'NLPKE group photo'} loading="lazy" />
+
+    <h3 class="grp">{L.faculty}</h3>
+    <div class="team-row">
+      {faculty.map((m) => (
+        <a class="mem" href={localizedPath(`/team/${m.id}`, lang)}>
+          {m.data.photo ? (
+            <img class="av" src={m.data.photo} alt={name(m)} loading="lazy" />
+          ) : (
+            <div class="av ph">{m.data.nameZh.charAt(0)}</div>
+          )}
+          <h4>{name(m)} <span>{lang === 'zh' ? m.data.nameEn : m.data.nameZh}</span></h4>
+          <div class="role">{lang === 'zh' ? m.data.roleZh : m.data.roleEn}{m.data.advisor ? ` · ${L.facultyNote}` : ''}</div>
+          <p>{lang === 'zh' ? m.data.interestsZh : m.data.interestsEn}</p>
+          <span class="more">{L.view}</span>
+        </a>
+      ))}
+    </div>
+
+    {staff.length > 0 && (
+      <>
+        <h3 class="grp">{L.staff}</h3>
+        <div class="staff-row">
+          {staff.map((m) => (
+            <div class="staff">
+              {m.data.photo ? (
+                <img class="sav" src={m.data.photo} alt={name(m)} loading="lazy" />
+              ) : (
+                <div class="sav ph">{m.data.nameZh.charAt(0)}</div>
+              )}
+              <div class="sinfo">
+                <div class="sname">{name(m)}</div>
+                <div class="srole">{lang === 'zh' ? m.data.roleZh : m.data.roleEn}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </>
+    )}
+
+    <h3 class="grp">{L.students}</h3>
+    <div class="students-line">
+      <span class="big">{GRAD_STUDENTS}</span>
+      <span class="txt">{L.studentsLine}</span>
+    </div>
+  </div>
+</section>
+
+<style>
+  .sec { padding: 12px 0 72px; position: relative; z-index: 2; }
+  .group-photo { width: 100%; height: auto; border-radius: var(--radius); border: 1px solid var(--line); margin-bottom: 32px; box-shadow: var(--shadow); display: block; }
+  .grp { font-size: 22px; font-weight: 800; margin: 0 0 22px; padding-left: 14px; border-left: 4px solid var(--accent); }
+  .grp:not(:first-of-type) { margin-top: 56px; }
+
+  /* faculty (large photo, borderless photo, card kept) */
+  .team-row { display: grid; grid-template-columns: repeat(5, 1fr); gap: 18px; }
+  .mem { display: block; text-align: left; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 16px 22px; transition: .25s; }
+  .mem:hover { transform: translateY(-4px); border-color: color-mix(in srgb, var(--accent) 30%, transparent); box-shadow: var(--shadow); }
+  .av { width: 100%; aspect-ratio: 1 / 1; border-radius: 14px; margin-bottom: 16px; object-fit: cover; object-position: center 22%; display: block; }
+  .av.ph { background: var(--accent-grad); display: grid; place-items: center; color: #fff; font-size: 72px; font-family: var(--font-display); font-weight: 700; }
+  .mem h4 { font-size: 19px; font-weight: 700; margin-bottom: 3px; color: var(--ink); }
+  .mem h4 span { font-size: 13px; color: var(--muted); font-weight: 400; font-family: var(--font-display); margin-left: 6px; }
+  .role { font-family: var(--font-display); font-size: 12.5px; color: var(--accent); margin: 5px 0 8px; }
+  .mem p { font-size: 13px; color: var(--muted); }
+  .more { display: inline-block; margin-top: 10px; font-size: 12.5px; color: var(--accent); font-family: var(--font-display); }
+
+  /* staff (smaller) */
+  .staff-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+  .staff { display: flex; align-items: center; gap: 14px; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+  .sav { width: 56px; height: 56px; border-radius: 12px; flex: none; object-fit: cover; object-position: center 25%; display: block; }
+  .sav.ph { background: color-mix(in srgb, var(--royal) 16%, transparent); border: 1px solid var(--line); display: grid; place-items: center; color: var(--accent); font-family: var(--font-display); font-weight: 700; font-size: 22px; }
+  .sname { font-size: 15px; font-weight: 600; color: var(--ink); }
+  .srole { font-size: 12px; color: var(--muted); font-family: var(--font-display); }
+
+  /* students count */
+  .students-line { display: flex; align-items: baseline; gap: 16px; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 26px 30px; }
+  .students-line .big { font-family: var(--font-display); font-size: 42px; font-weight: 800; color: var(--accent); line-height: 1; }
+  .students-line .txt { color: var(--muted); font-size: 16px; }
+
+  @media (max-width: 900px) {
+    .team-row { grid-template-columns: repeat(2, 1fr); }
+    .staff-row { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>

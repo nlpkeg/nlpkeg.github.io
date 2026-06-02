@@ -1,0 +1,65 @@
+---
+import { SITE, STATS } from '../config';
+import { type Lang } from '../i18n/ui';
+import { useTranslations, localizedPath } from '../i18n/utils';
+import NeuralCanvas from './NeuralCanvas.astro';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+---
+
+<section class="hero">
+  <NeuralCanvas />
+  <div class="wrap inner">
+    <div class="eyebrow"><i></i>{t('hero.eyebrow')}</div>
+    {lang === 'zh' ? (
+      <h1>自然语言处理<br />与<span class="gradient-text">知识工程</span>研究组</h1>
+    ) : (
+      <h1>NLP &amp; <span class="gradient-text">Knowledge Engineering</span><br />Research Group</h1>
+    )}
+    <div class="en">{lang === 'zh' ? `${SITE.nameEn} · ${SITE.org}` : `${SITE.nameZh} · ${SITE.instituteEn}`}</div>
+    <p class="lead">{t('hero.lead')}</p>
+    <div class="cta">
+      <a class="btn1" href={localizedPath('/research', lang)}>{t('hero.cta1')} →</a>
+      <a class="btn2" href={localizedPath('/tools', lang)}>{t('hero.cta2')}</a>
+    </div>
+    <div class="stats">
+      {STATS.map((s) => (
+        <div class="stat">
+          <div class="n">{s.n}</div>
+          <div class="l">{lang === 'zh' ? s.zh : s.en}</div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .hero { position: relative; min-height: 100vh; display: flex; align-items: center; overflow: hidden; }
+  .hero::after {
+    content: ''; position: absolute; inset: 0; z-index: 1; pointer-events: none;
+    background:
+      radial-gradient(ellipse 70% 60% at 70% 40%, color-mix(in srgb, var(--royal) 18%, transparent), transparent 70%),
+      linear-gradient(180deg, transparent 60%, var(--bg) 100%);
+  }
+  .inner { position: relative; z-index: 2; width: 100%; }
+  .eyebrow {
+    display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--line);
+    background: color-mix(in srgb, var(--accent) 6%, transparent); color: var(--accent);
+    font-size: 12.5px; letter-spacing: .12em; text-transform: uppercase; padding: 7px 14px;
+    border-radius: 30px; margin-bottom: 26px; font-family: var(--font-display);
+  }
+  .eyebrow i { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px var(--accent); }
+  h1 { font-size: 60px; line-height: 1.12; font-weight: 900; letter-spacing: -.5px; margin-bottom: 18px; }
+  .en { font-family: var(--font-display); color: var(--muted); font-size: 18px; letter-spacing: .04em; margin-bottom: 22px; }
+  .lead { max-width: 620px; color: var(--muted); font-size: 17px; margin-bottom: 34px; }
+  .cta { display: flex; gap: 14px; margin-bottom: 54px; flex-wrap: wrap; }
+  .btn1 { background: var(--accent-grad); color: #fff; padding: 13px 26px; border-radius: 12px; font-weight: 600; box-shadow: var(--glow); }
+  .btn2 { border: 1px solid var(--line); padding: 13px 26px; border-radius: 12px; font-weight: 600; color: var(--ink); }
+  .btn2:hover { border-color: var(--accent); color: var(--accent); }
+  .stats { display: flex; gap: 48px; flex-wrap: wrap; }
+  .stat .n { font-family: var(--font-display); font-size: 36px; font-weight: 700; color: var(--ink); }
+  .stat .l { color: var(--faint); font-size: 13px; letter-spacing: .04em; }
+  @media (max-width: 900px) { h1 { font-size: 40px; } .stats { gap: 24px; } }
+</style>

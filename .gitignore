@@ -1,0 +1,26 @@
+# build output
+dist/
+# generated types
+.astro/
+# dependencies
+node_modules/
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+# environment
+.env
+.env.production
+# macOS
+.DS_Store
+# editor
+.vscode/
+.idea/
+.gstack/
+# old static site + raw source assets (needed copies live in public/)
+static/
+/合照.jpg
+/合照裁切.jpg
+/所LoGo/
+/自然语言处理与知识工程研究组Logo/

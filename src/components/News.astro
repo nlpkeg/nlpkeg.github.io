@@ -1,0 +1,60 @@
+---
+import { getCollection } from 'astro:content';
+import { type Lang } from '../i18n/ui';
+import { useTranslations, localizedPath } from '../i18n/utils';
+
+interface Props { lang: Lang; limit?: number }
+const { lang, limit = 3 } = Astro.props;
+const t = useTranslations(lang);
+const slugOf = (id: string) => id.replace(/^(zh|en)\//, '');
+
+const all = (await getCollection('news'))
+  .filter((x) => x.data.lang === lang && !x.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const items = limit > 0 ? all.slice(0, limit) : all;
+
+const fmt = (d: Date) =>
+  d.toLocaleDateString(lang === 'zh' ? 'zh-CN' : 'en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+---
+
+<section class="sec" id="news">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="k">{t('news.kicker')}</div>
+      <h2>{t('news.title')}</h2>
+      <p>{t('news.subtitle')}</p>
+    </div>
+    <div class="news-list">
+      {items.map((it) => (
+        <a class="nw" href={localizedPath(`/news/${slugOf(it.id)}`, lang)}>
+          <div class="ban"></div>
+          <div class="bd">
+            <div class="dt">{fmt(it.data.date)}{it.data.tag ? ` · ${it.data.tag}` : ''}</div>
+            <h4>{it.data.title}</h4>
+            <p>{it.data.summary}</p>
+            <span class="readmore">{lang === 'zh' ? '阅读全文 →' : 'Read more →'}</span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .sec { padding: 56px 0; position: relative; z-index: 2; }
+  .sec-head { text-align: center; margin-bottom: 40px; }
+  .sec-head .k { color: var(--accent); font-family: var(--font-display); font-size: 13px; letter-spacing: .16em; text-transform: uppercase; }
+  .sec-head h2 { font-size: 38px; font-weight: 800; margin: 10px 0 8px; }
+  .sec-head p { color: var(--muted); font-size: 15px; }
+  .news-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .nw { display: block; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--panel); transition: .25s; }
+  .nw:hover { transform: translateY(-4px); border-color: color-mix(in srgb, var(--accent) 30%, transparent); box-shadow: var(--shadow); }
+  .readmore { display: inline-block; margin-top: 12px; font-size: 12.5px; color: var(--accent); font-family: var(--font-display); }
+  .ban { height: 130px; background: linear-gradient(135deg, var(--deep), var(--royal)); position: relative; }
+  .ban::after { content: ''; position: absolute; inset: 0; background: radial-gradient(circle at 70% 30%, color-mix(in srgb, var(--accent) 40%, transparent), transparent 60%); }
+  .bd { padding: 20px; }
+  .dt { color: var(--faint); font-size: 12px; font-family: var(--font-display); }
+  h4 { font-size: 15.5px; margin: 8px 0 6px; font-weight: 700; }
+  p { color: var(--muted); font-size: 13px; }
+  @media (max-width: 900px) { .news-list { grid-template-columns: 1fr; } }
+</style>

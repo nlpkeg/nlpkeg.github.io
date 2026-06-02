@@ -1,0 +1,70 @@
+---
+import { SITE } from '../config';
+import { type Lang } from '../i18n/ui';
+import { useTranslations, localizedPath } from '../i18n/utils';
+import ThemeToggle from './ThemeToggle.astro';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+
+// Switch language but stay on the current page (slugs are shared across locales).
+const path = Astro.url.pathname;
+const switchHref =
+  lang === 'zh'
+    ? path === '/'
+      ? '/en/'
+      : `/en${path}`
+    : path.replace(/^\/en(?=\/|$)/, '') || '/';
+
+const links = [
+  { key: 'nav.home', href: '/' },
+  { key: 'nav.team', href: '/team' },
+  { key: 'nav.research', href: '/research' },
+  { key: 'nav.publications', href: '/publications' },
+  { key: 'nav.tools', href: '/tools' },
+  { key: 'nav.news', href: '/news' },
+] as const;
+---
+
+<header>
+  <nav class="wrap">
+    <a class="brand" href={localizedPath('/', lang)}>
+      <img src="/logos/nlpke-mark.png" alt="NLPKE" class="logo" />
+      <span class="brand-txt"><b>{SITE.shortName}</b><small>@{SITE.org}</small></span>
+    </a>
+    <div class="navlinks">
+      {links.map((l) => <a href={localizedPath(l.href, lang)}>{t(l.key)}</a>)}
+    </div>
+    <div class="navr">
+      <ThemeToggle />
+      <a class="toggle" href={switchHref}>{lang === 'zh' ? '中 / EN' : 'EN / 中'}</a>
+      <a class="ghbtn" href={SITE.github} target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </nav>
+</header>
+
+<style>
+  header {
+    position: fixed; inset: 0 0 auto 0; z-index: 50;
+    backdrop-filter: blur(14px);
+    background: color-mix(in srgb, var(--bg) 78%, transparent);
+    border-bottom: 1px solid var(--line);
+  }
+  nav { display: flex; align-items: center; justify-content: space-between; height: 68px; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .logo { width: 36px; height: 36px; border-radius: 8px; object-fit: contain; background: rgba(255,255,255,.04); }
+  .brand-txt { display: flex; flex-direction: column; line-height: 1.05; font-family: var(--font-display); }
+  .brand-txt b { font-size: 17px; letter-spacing: .5px; color: var(--ink); }
+  .brand-txt small { font-size: 11px; color: var(--muted); }
+  .navlinks { display: flex; gap: 28px; font-size: 14px; color: var(--muted); font-weight: 500; }
+  .navlinks a:hover { color: var(--accent); }
+  .navr { display: flex; align-items: center; gap: 14px; }
+  .toggle { border: 1px solid var(--line); border-radius: 20px; padding: 5px 12px; font-size: 12px; color: var(--muted); }
+  .toggle:hover { color: var(--accent); border-color: var(--accent); }
+  .ghbtn {
+    background: var(--accent-grad); padding: 8px 16px; border-radius: 10px;
+    font-size: 13px; font-weight: 600; color: #fff; box-shadow: var(--glow);
+  }
+  @media (max-width: 900px) { .navlinks { display: none; } }
+</style>

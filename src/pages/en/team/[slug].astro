@@ -1,0 +1,16 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import MemberProfile from '../../../components/MemberProfile.astro';
+
+export async function getStaticPaths() {
+  const people = (await getCollection('people')).filter((p) => p.data.group === 'faculty');
+  return people.map((member) => ({ params: { slug: member.id }, props: { member } }));
+}
+
+const { member } = Astro.props;
+---
+
+<BaseLayout lang="en" title={member.data.nameEn}>
+  <MemberProfile lang="en" member={member} />
+</BaseLayout>

@@ -1,0 +1,15 @@
+---
+import { type Lang } from '../i18n/ui';
+import Hero from './Hero.astro';
+import ResearchGrid from './ResearchGrid.astro';
+import Tools from './Tools.astro';
+import News from './News.astro';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+---
+
+<Hero lang={lang} />
+<ResearchGrid lang={lang} />
+<Tools lang={lang} />
+<News lang={lang} />

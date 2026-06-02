@@ -1,0 +1,16 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import NewsArticle from '../../components/NewsArticle.astro';
+
+export async function getStaticPaths() {
+  const news = (await getCollection('news')).filter((n) => n.data.lang === 'zh' && !n.data.draft);
+  return news.map((entry) => ({ params: { slug: entry.id.replace(/^zh\//, '') }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+---
+
+<BaseLayout lang="zh" title={entry.data.title}>
+  <NewsArticle lang="zh" entry={entry} />
+</BaseLayout>

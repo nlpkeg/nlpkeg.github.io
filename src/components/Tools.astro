@@ -1,0 +1,53 @@
+---
+import { getCollection } from 'astro:content';
+import { type Lang } from '../i18n/ui';
+import { useTranslations } from '../i18n/utils';
+
+interface Props { lang: Lang; all?: boolean }
+const { lang, all = false } = Astro.props;
+const t = useTranslations(lang);
+
+const items = (await getCollection('tools'))
+  .filter((x) => all || x.data.flagship)
+  .sort((a, b) => a.data.order - b.data.order);
+---
+
+<section class="sec band" id="tools">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="k">{t('tools.kicker')}</div>
+      <h2>{t('tools.title')}</h2>
+      <p>{t('tools.subtitle')}</p>
+    </div>
+    <div class="tgrid">
+      {items.map((it) => (
+        <a class="tool" href={it.data.url ?? '#'} target="_blank" rel="noopener">
+          <div class="top">
+            <div class="nm">{it.data.name}</div>
+            {it.data.stars && <div class="star">{it.data.stars}</div>}
+          </div>
+          {it.data.badge && <span class="tag">{it.data.badge}</span>}
+          <p>{lang === 'zh' ? it.data.descZh : it.data.descEn}</p>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .sec { padding: 56px 0; position: relative; z-index: 2; }
+  .band { background: linear-gradient(180deg, transparent, color-mix(in srgb, var(--royal) 4%, transparent), transparent); }
+  .sec-head { text-align: center; margin-bottom: 40px; }
+  .sec-head .k { color: var(--accent); font-family: var(--font-display); font-size: 13px; letter-spacing: .16em; text-transform: uppercase; }
+  .sec-head h2 { font-size: 38px; font-weight: 800; margin: 10px 0 8px; }
+  .sec-head p { color: var(--muted); font-size: 15px; }
+  .tgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .tool { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 26px; transition: .25s; display: block; }
+  .tool:hover { border-color: color-mix(in srgb, var(--accent) 35%, transparent); transform: translateY(-4px); }
+  .top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+  .nm { font-family: var(--font-display); font-weight: 700; font-size: 19px; color: var(--ink); }
+  .star { color: var(--accent); font-size: 13px; font-family: var(--font-display); }
+  .tag { display: inline-block; font-size: 11px; color: var(--faint); border: 1px solid var(--line); border-radius: 6px; padding: 2px 8px; margin-bottom: 12px; font-family: var(--font-display); }
+  p { color: var(--muted); font-size: 13.5px; }
+  @media (max-width: 900px) { .tgrid { grid-template-columns: 1fr; } }
+</style>

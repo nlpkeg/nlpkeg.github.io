@@ -1,0 +1,61 @@
+---
+import { SITE } from '../config';
+import { type Lang } from '../i18n/ui';
+import { useTranslations, localizedPath } from '../i18n/utils';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const year = new Date().getFullYear();
+---
+
+<footer>
+  <div class="wrap">
+    <div class="fcols">
+      <div class="ft brandcol">
+        <div class="brand">
+          <img src="/logos/nlpke-mark.png" alt="NLPKE" class="logo" />
+          <span><b>{SITE.shortName}</b>@{SITE.org}</span>
+        </div>
+        <p>{lang === 'zh' ? SITE.nameZh : SITE.nameEn}<br />{lang === 'zh' ? SITE.instituteZh : SITE.instituteEn}</p>
+      </div>
+      <div class="ft">
+        <h5>{t('footer.nav')}</h5>
+        <a href={localizedPath('/team', lang)}>{t('nav.team')}</a>
+        <a href={localizedPath('/research', lang)}>{t('nav.research')}</a>
+        <a href={localizedPath('/publications', lang)}>{t('nav.publications')}</a>
+        <a href={localizedPath('/tools', lang)}>{t('nav.tools')}</a>
+      </div>
+      <div class="ft">
+        <h5>{t('footer.resources')}</h5>
+        <a href={SITE.github} target="_blank" rel="noopener">GitHub · nlpkeg</a>
+        <a href={SITE.huggingface} target="_blank" rel="noopener">HuggingFace · NLPKE</a>
+        <a href={localizedPath('/news', lang)}>{t('nav.news')}</a>
+      </div>
+      <div class="ft">
+        <h5>{t('footer.contact')}</h5>
+        <a href={localizedPath('/join', lang)}>{t('footer.join')}</a>
+        <a href={localizedPath('/contact', lang)}>{t('footer.contactWay')}</a>
+        <span class="loc">{SITE.location}</span>
+      </div>
+    </div>
+    <div class="fbot">
+      <span>© {year} {SITE.shortName}@{SITE.org} · {t('footer.tagline')}</span>
+      <span>{SITE.instituteEn}</span>
+    </div>
+  </div>
+</footer>
+
+<style>
+  footer { border-top: 1px solid var(--line); padding: 54px 0 40px; margin-top: 40px; background: var(--bg-2); }
+  .fcols { display: flex; justify-content: space-between; gap: 40px; flex-wrap: wrap; margin-bottom: 36px; }
+  .brandcol { max-width: 300px; }
+  .brand { display: flex; align-items: center; gap: 10px; font-family: var(--font-display); margin-bottom: 14px; }
+  .brand .logo { width: 34px; height: 34px; object-fit: contain; }
+  .brand b { color: var(--ink); }
+  .brandcol p { color: var(--muted); font-size: 13.5px; }
+  .ft h5 { font-family: var(--font-display); font-size: 13px; color: var(--faint); text-transform: uppercase; letter-spacing: .1em; margin-bottom: 14px; }
+  .ft a, .ft .loc { display: block; color: var(--muted); font-size: 14px; margin-bottom: 9px; }
+  .ft a:hover { color: var(--accent); }
+  .fbot { color: var(--faint); font-size: 12.5px; border-top: 1px solid var(--line); padding-top: 22px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; }
+</style>

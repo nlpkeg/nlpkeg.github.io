@@ -1,0 +1,64 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { type Lang } from '../i18n/ui';
+import { localizedPath } from '../i18n/utils';
+
+interface Props { lang: Lang; member: CollectionEntry<'people'> }
+const { lang, member } = Astro.props;
+const d = member.data;
+const name = lang === 'zh' ? d.nameZh : d.nameEn;
+const alt = lang === 'zh' ? d.nameEn : d.nameZh;
+const role = lang === 'zh' ? d.roleZh : d.roleEn;
+const interests = lang === 'zh' ? d.interestsZh : d.interestsEn;
+const bio = lang === 'zh' ? (d.bioZh ?? d.bioEn) : (d.bioEn ?? d.bioZh);
+
+const linkLabels: Record<string, string> = { homepage: 'Homepage', scholar: 'Google Scholar', dblp: 'DBLP', github: 'GitHub' };
+const linkEntries = Object.entries(d.links).filter(([, v]) => v);
+---
+
+<section class="profile">
+  <div class="wrap">
+    <a class="back" href={localizedPath('/team', lang)}>← {lang === 'zh' ? '返回团队' : 'Back to Team'}</a>
+    <div class="head">
+      {d.photo ? (
+        <img class="av" src={d.photo} alt={name} />
+      ) : (
+        <div class="av ph">{d.nameZh.charAt(0)}</div>
+      )}
+      <div class="meta">
+        <h1>{name} <span>{alt}</span></h1>
+        <div class="role">{role}</div>
+        <div class="interests">{interests}</div>
+        <div class="links">
+          {linkEntries.map(([k, v]) =>
+            k === 'email' ? (
+              <a href={`mailto:${v}`}>Email</a>
+            ) : (
+              <a href={v} target="_blank" rel="noopener">{linkLabels[k] ?? k}</a>
+            )
+          )}
+        </div>
+      </div>
+    </div>
+    {bio && <div class="bio"><p>{bio}</p></div>}
+  </div>
+</section>
+
+<style>
+  .profile { padding: 130px 0 90px; position: relative; z-index: 2; }
+  .back { display: inline-block; color: var(--muted); font-size: 14px; margin-bottom: 30px; font-family: var(--font-display); }
+  .back:hover { color: var(--accent); }
+  .head { display: flex; gap: 36px; align-items: center; flex-wrap: wrap; }
+  .av { width: 180px; height: 180px; border-radius: 18px; object-fit: cover; border: 1px solid var(--line); box-shadow: var(--shadow); }
+  .av.ph { background: var(--accent-grad); display: grid; place-items: center; color: #fff; font-size: 64px; font-family: var(--font-display); font-weight: 700; box-shadow: var(--glow); }
+  .meta h1 { font-size: 40px; font-weight: 800; }
+  .meta h1 span { font-size: 18px; color: var(--muted); font-weight: 400; font-family: var(--font-display); margin-left: 8px; }
+  .role { color: var(--accent); font-family: var(--font-display); font-size: 16px; margin: 8px 0; }
+  .interests { color: var(--muted); font-size: 15px; margin-bottom: 16px; }
+  .links { display: flex; gap: 12px; flex-wrap: wrap; }
+  .links a { font-size: 13.5px; color: var(--accent); border: 1px solid var(--line); border-radius: 8px; padding: 7px 14px; font-family: var(--font-display); }
+  .links a:hover { border-color: var(--accent); }
+  .bio { margin-top: 40px; max-width: 820px; }
+  .bio p { color: var(--ink); font-size: 16.5px; line-height: 1.9; }
+  @media (max-width: 700px) { .head { gap: 24px; } .av { width: 130px; height: 130px; } .meta h1 { font-size: 30px; } }
+</style>

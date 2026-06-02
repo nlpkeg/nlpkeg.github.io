@@ -1,0 +1,10 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import News from '../../components/News.astro';
+---
+
+<BaseLayout lang="en" title="News">
+  <div class="pad"><News lang="en" limit={0} /></div>
+</BaseLayout>
+
+<style>.pad { padding-top: 36px; }</style>
