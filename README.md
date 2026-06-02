@@ -31,7 +31,7 @@ src/content/
   research/       6 个研究方向（首页卡 + 研究页）
   tools/          开源工具（flagship=true 才上首页；url 直链具体 GitHub 仓库）
   people/         成员（group: faculty | engineer | secretary | phd | master）
-  publications/   论文（links.paper 必须指向会议官方页：aclanthology / openreview / ojs.aaai.org）
+  # 论文不是 md：由 scripts/fetch_publications.py 从 DBLP 爬到 src/data/publications.json
   news/zh/ news/en/   资讯（WP 式，含 date/tag，自动生成 /news/<slug> 详情页）
 ```
 
@@ -62,9 +62,18 @@ src/content/
 - 仓库 **Settings → Pages → Source 必须设为 “GitHub Actions”**。
 - 组织站点仓库名固定为 `nlpkeg.github.io`，根路径，`astro.config.mjs` 里 `site='https://nlpkeg.github.io'`、`base='/'`。
 
-## 待办 / 占位（接手前请知悉）
+## 论文爬虫
 
-- **论文作者列表是占位**（会议链接已核实为真实），正式上线前逐条核对作者与顺序。
+`scripts/fetch_publications.py`（仅标准库）从 **DBLP** 按作者 PID 拉全量论文 → 去重 → 同名过滤（DBLP 同名 profile 会混入别人的论文，规则：≥2 位组内作者，或 1 位+严格 NLP 顶会）→ 按"主会官方页 > arXiv > 期刊"选链接 → 写入 `src/data/publications.json`。
+
+```bash
+python3 scripts/fetch_publications.py            # 增量：只加新论文，保留已有（含手工 highlight）
+python3 scripts/fetch_publications.py --refresh  # 全量重建
+```
+
+加新成员：在脚本顶部 `AUTHORS` 加一行（name + email + DBLP `pid`，pid 从 https://dblp.org/search/author/api?q=<name>&format=json 查），再跑增量。
+
+## 待办 / 占位（接手前请知悉）
 - `people/jin-zhuoran`（金卓然）：职称按「助理研究员」暂定、无照片（主页当前 404）、`advisor:false`；待补照片与确认。
 - 何世柱、刘康照片为旧站兜底图，分辨率偏低，建议替换高清图。
 - 研究方向详情页、论文全量、公众号资讯迁移尚未做（流程见 CONTENT.md）。

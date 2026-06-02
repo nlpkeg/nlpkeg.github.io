@@ -1,0 +1,4606 @@
+[
+  {
+    "id": "journals-ipm-ChenZZLLZ26",
+    "dblpKey": "journals/ipm/ChenZZLLZ26",
+    "title": "ASDE: Low-budget text classification via active semi-supervised learning with debiasing training mechanism",
+    "authors": "Yubo Chen, Tong Zhou, Daojian Zeng, Sirui Li, Kang Liu, Jun Zhao",
+    "venue": "Inf. Process. Manag. 2026",
+    "year": 2026,
+    "links": {
+      "paper": "https://doi.org/10.1016/j.ipm.2025.104390"
+    }
+  },
+  {
+    "id": "conf-aaai-LiangCZHZL26",
+    "dblpKey": "conf/aaai/LiangCZHZL26",
+    "title": "Bias-Restrained Prefix Representation Finetuning for Mathematical Reasoning",
+    "authors": "Sirui Liang, Pengfei Cao, Jian Zhao, Cong Huang, Jun Zhao, Kang Liu",
+    "venue": "AAAI 2026",
+    "year": 2026,
+    "links": {
+      "paper": "https://doi.org/10.1609/aaai.v40i38.40461",
+      "arxiv": "https://arxiv.org/abs/2511.10707"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2604-25914",
+    "dblpKey": "journals/corr/abs-2604-25914",
+    "title": "DV-World: Benchmarking Data Visualization Agents in Real-World Scenarios",
+    "authors": "Jinxiang Meng, Shaoping Huang, Fangyu Lei, Jingyu Guo, Haoxiang Liu, Jiahao Su, Sihan Wang, Yao Wang, Enrui Wang, Ye Yang, Hongze Chai, Jinming Lv, Anbang Yu, Huangjing Zhang, Yitong Zhang, Yiming Huang, Zeyao Ma, Shizhu He, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2026",
+    "year": 2026,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2604.25914"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2604-14142",
+    "dblpKey": "journals/corr/abs-2604-14142",
+    "title": "From P(y|x) to P(y): Investigating Reinforcement Learning in Pre-train Space",
+    "authors": "Yuqiao Tan, Minzheng Wang, Bo Liu, Zichen Liu, Tian Liang, Shizhu He, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2026",
+    "year": 2026,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2604.14142"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2604-19884",
+    "dblpKey": "journals/corr/abs-2604-19884",
+    "title": "From Signal Degradation to Computation Collapse: Uncovering the Two Failure Modes of LLM Quantization",
+    "authors": "Chenxi Zhou, Pengfei Cao, Jiang Li, Bohan Yu, Jinyu Ye, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2026",
+    "year": 2026,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2604.19884"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2603-28533",
+    "dblpKey": "journals/corr/abs-2603-28533",
+    "title": "GraphWalker: Agentic Knowledge Graph Question Answering via Synthetic Trajectory Curriculum",
+    "authors": "Shuwen Xu, Yao Xu, Jiaxiang Liu, Chenhao Yuan, Wenshuo Peng, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2026",
+    "year": 2026,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2603.28533"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2601-07470",
+    "dblpKey": "journals/corr/abs-2601-07470",
+    "title": "Learning How to Remember: A Meta-Cognitive Management Method for Structured and Transferable Agent Memory",
+    "authors": "Sirui Liang, Pengfei Cao, Jian Zhao, Wenhao Teng, Xiangwen Liao, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2026",
+    "year": 2026,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2601.07470"
+    }
+  },
+  {
+    "id": "conf-dasfaa-ChangCLZ26",
+    "dblpKey": "conf/dasfaa/ChangCLZ26",
+    "title": "Legal-AP: A Framework to Enhance LLM's Legal Reasoning via Knowledge Augmentation and Adapter-Wise Parametric Fusion",
+    "authors": "Ao Chang, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "DASFAA 2026",
+    "year": 2026,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-981-92-0369-7_20"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2603-02024",
+    "dblpKey": "journals/corr/abs-2603-02024",
+    "title": "MMR-Life: Piecing Together Real-life Scenes for Multimodal Multi-image Reasoning",
+    "authors": "Jiachun Li, Shaoping Huang, Zhuoran Jin, Chenlong Zhang, Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2026",
+    "year": 2026,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2603.02024"
+    }
+  },
+  {
+    "id": "journals-ai-CaoCJCLZ26",
+    "dblpKey": "journals/ai/CaoCJCLZ26",
+    "title": "One mind, many tongues: A deep dive into language-agnostic knowledge neurons in large language models",
+    "authors": "Pengfei Cao, Yuheng Chen, Zhuoran Jin, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "Artif. Intell. 2026",
+    "year": 2026,
+    "links": {
+      "paper": "https://doi.org/10.1016/j.artint.2026.104490",
+      "arxiv": "https://arxiv.org/abs/2411.17401"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2603-28610",
+    "dblpKey": "journals/corr/abs-2603-28610",
+    "title": "ResAdapt: Adaptive Resolution for Efficient Multimodal Reasoning",
+    "authors": "Huanxuan Liao, Zhongtao Jiang, Yupu Hao, Yuqiao Tan, Shizhu He, Ben Wang, Jun Zhao, Kun Xu, Kang Liu",
+    "venue": "arXiv 2026",
+    "year": 2026,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2603.28610"
+    }
+  },
+  {
+    "id": "conf-aaai-LuoLXCQZJDZL26",
+    "dblpKey": "conf/aaai/LuoLXCQZJDZL26",
+    "title": "RetroLM: Retrieval-Augmented KVs for Long-Context Processing",
+    "authors": "Kun Luo, Zheng Liu, Shitao Xiao, Jiabei Chen, Hongjin Qian, Peitian Zhang, Shanshan Jiang, Bin Dong, Jun Zhao, Kang Liu",
+    "venue": "AAAI 2026",
+    "year": 2026,
+    "links": {
+      "paper": "https://doi.org/10.1609/aaai.v40i38.40511"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2603-21720",
+    "dblpKey": "journals/corr/abs-2603-21720",
+    "title": "SemEval-2026 Task 12: Abductive Event Reasoning: Towards Real-World Event Causal Inference for Large Language Models",
+    "authors": "Pengfei Cao, Ming-Hsuan Yang, Yubo Chen, Chenlong Zhang, Mingxuan Liu, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2026",
+    "year": 2026,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2603.21720"
+    }
+  },
+  {
+    "id": "conf-aaai-LiaoXHLYLBZL26",
+    "dblpKey": "conf/aaai/LiaoXHLYLBZL26",
+    "title": "SparK: Query-Aware Unstructured Sparsity with Recoverable KV Cache Channel Pruning",
+    "authors": "Huanxuan Liao, Yixing Xu, Shizhu He, Guanchen Li, Xuanwu Yin, Dong Li, Emad Barsoum, Jun Zhao, Kang Liu",
+    "venue": "AAAI 2026",
+    "year": 2026,
+    "links": {
+      "paper": "https://doi.org/10.1609/aaai.v40i38.40466",
+      "arxiv": "https://arxiv.org/abs/2508.15212"
+    }
+  },
+  {
+    "id": "conf-aaai-LeiMHHZL26",
+    "dblpKey": "conf/aaai/LeiMHHZL26",
+    "title": "TaREx: Reinforcement Learning for Code-Driven Table Reasoning",
+    "authors": "Fangyu Lei, Jinxiang Meng, Yiming Huang, Shizhu He, Jun Zhao, Kang Liu",
+    "venue": "AAAI 2026",
+    "year": 2026,
+    "links": {
+      "paper": "https://doi.org/10.1609/aaai.v40i37.40415"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2603-11896",
+    "dblpKey": "journals/corr/abs-2603-11896",
+    "title": "Think While Watching: Online Streaming Segment-Level Memory for Multi-Turn Video Reasoning in Multimodal Large Language Models",
+    "authors": "Lu Wang, Zhuoran Jin, Yupu Hao, Yubo Chen, Kang Liu, Yulong Ao, Jun Zhao",
+    "venue": "arXiv 2026",
+    "year": 2026,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2603.11896"
+    }
+  },
+  {
+    "id": "journals-dint-QinZCLZ26",
+    "dblpKey": "journals/dint/QinZCLZ26",
+    "title": "Uncovering Ontology Knowledge in Large Language Models",
+    "authors": "Xiaotong Qin, Tong Zhou, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "Data Intell. 2026",
+    "year": 2026,
+    "links": {
+      "paper": "https://doi.org/10.3724/2096-7004.di.2025.0079"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2602-02636",
+    "dblpKey": "journals/corr/abs-2602-02636",
+    "title": "WideSeek: Advancing Wide Research via Multi-Agent Scaling",
+    "authors": "Ziyang Huang, Haolin Ren, Xiaowei Yuan, Jiawei Wang, Zhongtao Jiang, Kun Xu, Shizhu He, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2026",
+    "year": 2026,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2602.02636"
+    }
+  },
+  {
+    "id": "journals-ijautcomp-WangL00025",
+    "dblpKey": "journals/ijautcomp/WangL00025",
+    "title": "A Survey of Recent Advances in Commonsense Knowledge Acquisition: Methods and Resources",
+    "authors": "Chenhao Wang, Jiachun Li, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "Int. J. Autom. Comput. 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://doi.org/10.1007/s11633-023-1471-3"
+    }
+  },
+  {
+    "id": "conf-acl-MenCJ00025",
+    "dblpKey": "conf/acl/MenCJ00025",
+    "title": "A Troublemaker with Contagious Jailbreak Makes Chaos in Honest Towns",
+    "authors": "Tianyi Men, Pengfei Cao, Zhuoran Jin, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "ACL 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.acl-long.859/",
+      "arxiv": "https://arxiv.org/abs/2410.16155"
+    }
+  },
+  {
+    "id": "conf-acl-MenJC00025",
+    "dblpKey": "conf/acl/MenJC00025",
+    "title": "Agent-RewardBench: Towards a Unified Benchmark for Reward Modeling across Perception, Planning, and Safety in Real-World Multimodal Agents",
+    "authors": "Tianyi Men, Zhuoran Jin, Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "ACL 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.acl-long.857/",
+      "arxiv": "https://arxiv.org/abs/2506.21252"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2505-17153",
+    "dblpKey": "journals/corr/abs-2505-17153",
+    "title": "Amplify Adjacent Token Differences: Enhancing Long Chain-of-Thought Reasoning with Shift-FFN",
+    "authors": "Yao Xu, Mingyu Xu, Fangyu Lei, Wangtao Sun, Xiangrong Zeng, Bingning Wang, Guang Liu, Shizhu He, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2505.17153"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2506-18768",
+    "dblpKey": "journals/corr/abs-2506-18768",
+    "title": "ASP2LJ : An Adversarial Self-Play Laywer Augmented Legal Judgment Framework",
+    "authors": "Ao Chang, Tong Zhou, Yubo Chen, Delai Qiu, Shengping Liu, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2506.18768"
+    }
+  },
+  {
+    "id": "conf-coling-LiaoHXZLLZ25",
+    "dblpKey": "conf/coling/LiaoHXZLLZ25",
+    "title": "Awakening Augmented Generation: Learning to Awaken Internal Knowledge of Large Language Models for Question Answering",
+    "authors": "Huanxuan Liao, Shizhu He, Yao Xu, Yuanzhe Zhang, Shengping Liu, Kang Liu, Jun Zhao",
+    "venue": "COLING 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.coling-main.89/"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2503-23895",
+    "dblpKey": "journals/corr/abs-2503-23895",
+    "title": "Better wit than wealth: Dynamic Parametric Retrieval Augmented Generation for Test-time Knowledge Enhancement",
+    "authors": "Yuqiao Tan, Shizhu He, Huanxuan Liao, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2503.23895"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2505-15774",
+    "dblpKey": "journals/corr/abs-2505-15774",
+    "title": "Beyond Hard and Soft: Hybrid Context Compression for Balancing Local and Global Information Retention",
+    "authors": "Huanxuan Liao, Wen Hu, Yao Xu, Shizhu He, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2505.15774"
+    }
+  },
+  {
+    "id": "conf-cncl-SunZZYHXHZL25",
+    "dblpKey": "conf/cncl/SunZZYHXHZL25",
+    "title": "Beyond Instruction Following: Evaluating Inferential Rule Following of Large Language Models",
+    "authors": "Wangtao Sun, Chenxiang Zhang, Xueyou Zhang, Xuanqing Yu, Ziyang Huang, Haotian Xu, Shizhu He, Jun Zhao, Kang Liu",
+    "venue": "CCL 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-981-95-2725-0_25"
+    }
+  },
+  {
+    "id": "conf-naacl-YuanCCJL25",
+    "dblpKey": "conf/naacl/YuanCCJL25",
+    "title": "Beyond Under-Alignment: Atomic Preference Enhanced Factuality Tuning for Large Language Models",
+    "authors": "Hongbang Yuan, Yubo Chen, Pengfei Cao, Zhuoran Jin, Kang Liu",
+    "venue": "NAACL (Findings) 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.findings-naacl.354/",
+      "arxiv": "https://arxiv.org/abs/2406.12416"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2512-19673",
+    "dblpKey": "journals/corr/abs-2512-19673",
+    "title": "Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies",
+    "authors": "Yuqiao Tan, Minzheng Wang, Shizhu He, Huanxuan Liao, Chengfeng Zhao, Qiunan Lu, Tian Liang, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2512.19673"
+    }
+  },
+  {
+    "id": "conf-iclr-HuangLWZL25",
+    "dblpKey": "conf/iclr/HuangLWZL25",
+    "title": "Capability Localization: Capabilities Can be Localized rather than Individual Knowledge",
+    "authors": "Xiusheng Huang, Jiaxiang Liu, Yequan Wang, Jun Zhao, Kang Liu",
+    "venue": "ICLR 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://openreview.net/forum?id=f6r1mYwM1g",
+      "arxiv": "https://arxiv.org/abs/2502.20992"
+    }
+  },
+  {
+    "id": "conf-acl-Shen000025",
+    "dblpKey": "conf/acl/Shen000025",
+    "title": "CiteLab: Developing and Diagnosing LLM Citation Generation Workflows via the Human-LLM Interaction",
+    "authors": "Jiajun Shen, Tong Zhou, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "ACL 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://doi.org/10.18653/v1/2025.acl-demo.47"
+    }
+  },
+  {
+    "id": "conf-aaai-HaoCJL0LZ25",
+    "dblpKey": "conf/aaai/HaoCJL0LZ25",
+    "title": "CITI: Enhancing Tool Utilizing Ability in Large Language Models Without Sacrificing General Performance",
+    "authors": "Yupu Hao, Pengfei Cao, Zhuoran Jin, Huanxuan Liao, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "AAAI 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://doi.org/10.1609/aaai.v39i22.34573",
+      "arxiv": "https://arxiv.org/abs/2409.13202"
+    }
+  },
+  {
+    "id": "conf-semweb-ZhouCLZ25",
+    "dblpKey": "conf/semweb/ZhouCLZ25",
+    "title": "CogNet3: Fusing Dynamic Emotional Knowledge of Personality Homophilous Groups in Real-World Events into Multi-Source Knowledge Graph",
+    "authors": "Tong Zhou, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "ISWC (Industry/Doctoral Consortium/Posters/Demos) 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://ceur-ws.org/Vol-4085/paper60.pdf"
+    }
+  },
+  {
+    "id": "conf-acl-ChenC0WL0025",
+    "dblpKey": "conf/acl/ChenC0WL0025",
+    "title": "Cracking Factual Knowledge: A Comprehensive Analysis of Degenerate Knowledge Neurons in Large Language Models",
+    "authors": "Yuheng Chen, Pengfei Cao, Yubo Chen, Yining Wang, Shengping Liu, Kang Liu, Jun Zhao",
+    "venue": "ACL 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.acl-long.505/"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2512-04324",
+    "dblpKey": "journals/corr/abs-2512-04324",
+    "title": "DAComp: Benchmarking Data Agents across the Full Data Intelligence Lifecycle",
+    "authors": "Fangyu Lei, Jinxiang Meng, Yiming Huang, Junjie Zhao, Yitong Zhang, Jianwen Luo, Xin Zou, Ruiyi Yang, Wenbo Shi, Yan Gao, Shizhu He, Zuo Wang, Qian Liu, Yang Wang, Ke Wang, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2512.04324"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2502-11482",
+    "dblpKey": "journals/corr/abs-2502-11482",
+    "title": "DATA: Decomposed Attention-based Task Adaptation for Rehearsal-Free Continual Learning",
+    "authors": "Huanxuan Liao, Shizhu He, Yupu Hao, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2502.11482"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2508-02506",
+    "dblpKey": "journals/corr/abs-2508-02506",
+    "title": "Decomposed Reasoning with Reinforcement Learning for Relevance Assessment in UGC Platforms",
+    "authors": "Xiaowei Yuan, Lei Jin, Haoxin Zhang, Yan Gao, Yi Wu, Yao Hu, Ziyang Huang, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2508.02506"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2502-11444",
+    "dblpKey": "journals/corr/abs-2502-11444",
+    "title": "Does RAG Really Perform Bad For Long-Context Processing?",
+    "authors": "Kun Luo, Zheng Liu, Peitian Zhang, Hongjin Qian, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2502.11444"
+    }
+  },
+  {
+    "id": "conf-naacl-ZhangZCJCLZ25",
+    "dblpKey": "conf/naacl/ZhangZCJCLZ25",
+    "title": "DTELS: Towards Dynamic Granularity of Timeline Summarization",
+    "authors": "Chenlong Zhang, Tong Zhou, Pengfei Cao, Zhuoran Jin, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "NAACL (Long Papers) 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.naacl-long.136/",
+      "arxiv": "https://arxiv.org/abs/2411.09297"
+    }
+  },
+  {
+    "id": "conf-icde-LiuZCZL25",
+    "dblpKey": "conf/icde/LiuZCZL25",
+    "title": "Enhancing Large Language Models with Pseudo-and Multisource-Knowledge Graphs for Open-ended Question Answering",
+    "authors": "Jiaxiang Liu, Tong Zhou, Yubo Chen, Jun Zhao, Kang Liu",
+    "venue": "ICDEW 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://doi.org/10.1109/ICDEW67478.2025.00019",
+      "arxiv": "https://arxiv.org/abs/2402.09911"
+    }
+  },
+  {
+    "id": "conf-acl-ZhuTJHL025",
+    "dblpKey": "conf/acl/ZhuTJHL025",
+    "title": "Establishing Trustworthy LLM Evaluation via Shortcut Neuron Analysis",
+    "authors": "Kejian Zhu, Shangqing Tu, Zhuoran Jin, Lei Hou, Juanzi Li, Jun Zhao",
+    "venue": "ACL 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.acl-long.192/",
+      "arxiv": "https://arxiv.org/abs/2506.04142"
+    }
+  },
+  {
+    "id": "conf-acl-HaoCJL0LZ25",
+    "dblpKey": "conf/acl/HaoCJL0LZ25",
+    "title": "Evaluating Personalized Tool-Augmented LLMs from the Perspectives of Personalization and Proactivity",
+    "authors": "Yupu Hao, Pengfei Cao, Zhuoran Jin, Huanxuan Liao, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "ACL 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.acl-long.1064/",
+      "arxiv": "https://arxiv.org/abs/2503.00771"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2512-04545",
+    "dblpKey": "journals/corr/abs-2512-04545",
+    "title": "EvoEdit: Lifelong Free-Text Knowledge Editing through Latent Perturbation Augmentation and Knowledge-driven Parameter Fusion",
+    "authors": "Pengfei Cao, Zeao Ji, Daojian Zeng, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2512.04545"
+    }
+  },
+  {
+    "id": "conf-acl-Yuan0HW0JZL25",
+    "dblpKey": "conf/acl/Yuan0HW0JZL25",
+    "title": "Exploiting Contextual Knowledge in LLMs through V-usable Information based Layer Enhancement",
+    "authors": "Xiaowei Yuan, Zhao Yang, Ziyang Huang, Yequan Wang, Siqi Fan, Yiming Ju, Jun Zhao, Kang Liu",
+    "venue": "ACL 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.acl-long.1531/",
+      "arxiv": "https://arxiv.org/abs/2504.15630"
+    }
+  },
+  {
+    "id": "conf-emnlp-ZhaoJLG25",
+    "dblpKey": "conf/emnlp/ZhaoJLG25",
+    "title": "FinRAGBench-V: A Benchmark for Multimodal RAG with Visual Citation in the Financial Domain",
+    "authors": "Suifeng Zhao, Zhuoran Jin, Sujian Li, Jun Gao",
+    "venue": "EMNLP 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://doi.org/10.18653/v1/2025.emnlp-main.211",
+      "arxiv": "https://arxiv.org/abs/2505.17471"
+    }
+  },
+  {
+    "id": "conf-coling-SunH0025",
+    "dblpKey": "conf/coling/SunH0025",
+    "title": "From Chain to Tree: Refining Chain-like Rules into Tree-like Rules on Knowledge Graphs",
+    "authors": "Wangtao Sun, Shizhu He, Jun Zhao, Kang Liu",
+    "venue": "COLING Workshops 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.neusymbridge-1.4/",
+      "arxiv": "https://arxiv.org/abs/2403.05130"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2502-14848",
+    "dblpKey": "journals/corr/abs-2502-14848",
+    "title": "GATE: Graph-based Adaptive Tool Evolution Across Diverse Tasks",
+    "authors": "Jianwen Luo, Yiming Huang, Jinxiang Meng, Fangyu Lei, Shizhu He, Xiao Liu, Shanshan Jiang, Bin Dong, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2502.14848"
+    }
+  },
+  {
+    "id": "conf-acl-HuangSZL25",
+    "dblpKey": "conf/acl/HuangSZL25",
+    "title": "Improve Rule Retrieval and Reasoning with Self-Induction and Relevance ReEstimate",
+    "authors": "Ziyang Huang, Wangtao Sun, Jun Zhao, Kang Liu",
+    "venue": "ACL (Findings) 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.findings-acl.286/",
+      "arxiv": "https://arxiv.org/abs/2505.10870"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2510-26575",
+    "dblpKey": "journals/corr/abs-2510-26575",
+    "title": "InfoFlow: Reinforcing Search Agent Via Reward Density Optimization",
+    "authors": "Kun Luo, Hongjin Qian, Zheng Liu, Ziyi Xia, Shitao Xiao, Siqi Bao, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2510.26575"
+    }
+  },
+  {
+    "id": "conf-emnlp-WuWS0YLZH0025",
+    "dblpKey": "conf/emnlp/WuWS0YLZH0025",
+    "title": "KMatrix-2: A Comprehensive Heterogeneous Knowledge Collaborative Enhancement Toolkit for Large Language Model",
+    "authors": "Shun Wu, Di Wu, Wangtao Sun, Ziyang Huang, Xiaowei Yuan, Kun Luo, Xueyou Zhang, Shizhu He, Jun Zhao, Kang Liu",
+    "venue": "EMNLP (System Demonstrations) 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://doi.org/10.18653/v1/2025.emnlp-demos.42"
+    }
+  },
+  {
+    "id": "conf-acl-LiuXYZWHYLC0025",
+    "dblpKey": "conf/acl/LiuXYZWHYLC0025",
+    "title": "Know-MRI: A Knowledge Mechanisms Revealer&Interpreter for Large Language Models",
+    "authors": "Jiaxiang Liu, Boxuan Xing, Chenhao Yuan, Chenxiang Zhang, Di Wu, Xiusheng Huang, Haida Yu, Chuhan Lang, Pengfei Cao, Jun Zhao, Kang Liu",
+    "venue": "ACL 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://doi.org/10.18653/v1/2025.acl-demo.20",
+      "arxiv": "https://arxiv.org/abs/2506.08427"
+    }
+  },
+  {
+    "id": "conf-aaai-HuC00025",
+    "dblpKey": "conf/aaai/HuC00025",
+    "title": "Knowledge in Superposition: Unveiling the Failures of Lifelong Knowledge Editing for Large Language Models",
+    "authors": "Chenhui Hu, Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "AAAI 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://doi.org/10.1609/aaai.v39i22.34583",
+      "arxiv": "https://arxiv.org/abs/2408.07413"
+    }
+  },
+  {
+    "id": "conf-iclr-ChenC00025",
+    "dblpKey": "conf/iclr/ChenC00025",
+    "title": "Knowledge Localization: Mission Not Accomplished? Enter Query Localization!",
+    "authors": "Yuheng Chen, Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "ICLR 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://openreview.net/forum?id=tfyHbvFZ0K",
+      "arxiv": "https://arxiv.org/abs/2405.14117"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2505-19683",
+    "dblpKey": "journals/corr/abs-2505-19683",
+    "title": "Large Language Models for Planning: A Comprehensive and Systematic Survey",
+    "authors": "Pengfei Cao, Tianyi Men, Wencan Liu, Jingwen Zhang, Xuzhao Li, Xixun Lin, Dianbo Sui, Yanan Cao, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2505.19683"
+    }
+  },
+  {
+    "id": "conf-naacl-XuHCZWLZL25",
+    "dblpKey": "conf/naacl/XuHCZWLZL25",
+    "title": "LLaSA: Large Language and Structured Data Assistant",
+    "authors": "Yao Xu, Shizhu He, Jiabei Chen, ZengXiangrong ZengXiangrong, Bingning Wang, Guang Liu, Jun Zhao, Kang Liu",
+    "venue": "NAACL (Long Papers) 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.naacl-long.97/",
+      "arxiv": "https://arxiv.org/abs/2411.14460"
+    }
+  },
+  {
+    "id": "conf-emnlp-ZhouCCLSCLZ25",
+    "dblpKey": "conf/emnlp/ZhouCCLSCLZ25",
+    "title": "M2Edit: Locate and Edit Multi-Granularity Knowledge in Multimodal Large Language Model",
+    "authors": "Yang Zhou, Pengfei Cao, Yubo Chen, Qingbin Liu, Dianbo Sui, Xi Chen, Kang Liu, Jun Zhao",
+    "venue": "EMNLP 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://doi.org/10.18653/v1/2025.emnlp-main.1478"
+    }
+  },
+  {
+    "id": "conf-iclr-LiCJ00025",
+    "dblpKey": "conf/iclr/LiCJ00025",
+    "title": "MIRAGE: Evaluating and Explaining Inductive Reasoning Process in Language Models",
+    "authors": "Jiachun Li, Pengfei Cao, Zhuoran Jin, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "ICLR 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://openreview.net/forum?id=tZCqSVncRf",
+      "arxiv": "https://arxiv.org/abs/2410.09542"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2506-04141",
+    "dblpKey": "journals/corr/abs-2506-04141",
+    "title": "MMR-V: What's Left Unsaid? A Benchmark for Multimodal Deep Reasoning in Videos",
+    "authors": "Kejian Zhu, Zhuoran Jin, Hongbang Yuan, Jiachun Li, Shangqing Tu, Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2506.04141"
+    }
+  },
+  {
+    "id": "conf-emnlp-LeiZCLZ25",
+    "dblpKey": "conf/emnlp/LeiZCLZ25",
+    "title": "MotivGraph-SoIQ: Integrating Motivational Knowledge Graphs and Socratic Dialogue for Enhanced LLM Ideation",
+    "authors": "Xinping Lei, Tong Zhou, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "EMNLP (Findings) 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.findings-emnlp.158/",
+      "arxiv": "https://arxiv.org/abs/2509.21978"
+    }
+  },
+  {
+    "id": "conf-emnlp-MaoGSHGLY25",
+    "dblpKey": "conf/emnlp/MaoGSHGLY25",
+    "title": "Multilingual Knowledge Graph Completion via Efficient Multilingual Knowledge Sharing",
+    "authors": "Cunli Mao, Xiaofei Gao, Ran Song, Shizhu He, Shengxiang Gao, Kang Liu, Zhengtao Yu",
+    "venue": "EMNLP (Findings) 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.findings-emnlp.577/",
+      "arxiv": "https://arxiv.org/abs/2510.07736"
+    }
+  },
+  {
+    "id": "conf-acl-LiaoFZZWZ25",
+    "dblpKey": "conf/acl/LiaoFZZWZ25",
+    "title": "My Words Imply Your Opinion: Reader Agent-Based Propagation Enhancement for Personalized Implicit Emotion Analysis",
+    "authors": "Jian Liao, Yu Feng, Yujin Zheng, Jun Zhao, Suge Wang, Jianxing Zheng",
+    "venue": "ACL 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.acl-long.787/"
+    }
+  },
+  {
+    "id": "conf-acl-TanHLZ25",
+    "dblpKey": "conf/acl/TanHLZ25",
+    "title": "Neural Incompatibility: The Unbridgeable Gap of Cross-Scale Parametric Knowledge Transfer in Large Language Models",
+    "authors": "Yuqiao Tan, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "ACL 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.acl-long.1047/",
+      "arxiv": "https://arxiv.org/abs/2505.14436"
+    }
+  },
+  {
+    "id": "conf-aaai-LiaoHXZLZ25",
+    "dblpKey": "conf/aaai/LiaoHXZLZ25",
+    "title": "Neural-Symbolic Collaborative Distillation: Advancing Small Language Models for Complex Reasoning Tasks",
+    "authors": "Huanxuan Liao, Shizhu He, Yao Xu, Yuanzhe Zhang, Kang Liu, Jun Zhao",
+    "venue": "AAAI 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://doi.org/10.1609/aaai.v39i23.34636",
+      "arxiv": "https://arxiv.org/abs/2409.13203"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2510-23451",
+    "dblpKey": "journals/corr/abs-2510-23451",
+    "title": "Omni-Reward: Towards Generalist Omni-Modal Reward Modeling with Free-Form Preferences",
+    "authors": "Zhuoran Jin, Hongbang Yuan, Kejian Zhu, Jiachun Li, Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2510.23451"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2509-06356",
+    "dblpKey": "journals/corr/abs-2509-06356",
+    "title": "PL-CA: A Parametric Legal Case Augmentation Framework",
+    "authors": "Ao Chang, Yubo Chen, Jun Zhao",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2509.06356"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2503-22480",
+    "dblpKey": "journals/corr/abs-2503-22480",
+    "title": "Probabilistic Uncertain Reward Model: A Natural Generalization of Bradley-Terry Reward Model",
+    "authors": "Wangtao Sun, Xiang Cheng, Xing Yu, Haotian Xu, Zhao Yang, Shizhu He, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2503.22480"
+    }
+  },
+  {
+    "id": "conf-coling-0001SHSHL25",
+    "dblpKey": "conf/coling/0001SHSHL25",
+    "title": "Proceedings of Bridging Neurons and Symbols for Natural Language Processing and Knowledge Graphs Reasoning @ COLING 2025",
+    "authors": "Kang Liu, Yangqiu Song, Zhen Han, Rafet Sifa, Shizhu He, Yunfei Long",
+    "venue": "COLING Workshops 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.neusymbridge-1.0/"
+    }
+  },
+  {
+    "id": "journals-ipm-ChenZLJCWQLZ25",
+    "dblpKey": "journals/ipm/ChenZLJCWQLZ25",
+    "title": "Prompt robust large language model for Chinese medical named entity recognition",
+    "authors": "Yubo Chen, Baoli Zhang, Sirui Li, Zhuoran Jin, Zhengyuan Cai, Yingzheng Wang, Delai Qiu, Shengping Liu, Jun Zhao",
+    "venue": "Inf. Process. Manag. 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://doi.org/10.1016/j.ipm.2025.104189"
+    }
+  },
+  {
+    "id": "conf-acl-JinYMC0XLJ0025",
+    "dblpKey": "conf/acl/JinYMC0XLJ0025",
+    "title": "RAG-RewardBench: Benchmarking Reward Models in Retrieval Augmented Generation for Preference Alignment",
+    "authors": "Zhuoran Jin, Hongbang Yuan, Tianyi Men, Pengfei Cao, Yubo Chen, Jiexin Xu, Huaijun Li, Xiaojian Jiang, Kang Liu, Jun Zhao",
+    "venue": "ACL (Findings) 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.findings-acl.877/",
+      "arxiv": "https://arxiv.org/abs/2412.13746"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2506-01710",
+    "dblpKey": "journals/corr/abs-2506-01710",
+    "title": "Reasoning-Table: Exploring Reinforcement Learning for Table Reasoning",
+    "authors": "Fangyu Lei, Jinxiang Meng, Yiming Huang, Tinghong Chen, Yun Zhang, Shizhu He, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2506.01710"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2505-07596",
+    "dblpKey": "journals/corr/abs-2505-07596",
+    "title": "Reinforced Internal-External Knowledge Synergistic Reasoning for Efficient Adaptive Search Agent",
+    "authors": "Ziyang Huang, Xiaowei Yuan, Yiming Ju, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2505.07596"
+    }
+  },
+  {
+    "id": "conf-acl-XieC00025",
+    "dblpKey": "conf/acl/XieC00025",
+    "title": "Revealing the Deceptiveness of Knowledge Editing: A Mechanistic Analysis of Superficial Editing",
+    "authors": "Jiakuan Xie, Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "ACL 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.acl-long.868/",
+      "arxiv": "https://arxiv.org/abs/2505.12636"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2503-05188",
+    "dblpKey": "journals/corr/abs-2503-05188",
+    "title": "Rewarding Curse: Analyze and Mitigate Reward Modeling Issues for LLM Reasoning",
+    "authors": "Jiachun Li, Pengfei Cao, Yubo Chen, Jiexin Xu, Huaijun Li, Xiaojian Jiang, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2503.05188"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2506-07171",
+    "dblpKey": "journals/corr/abs-2506-07171",
+    "title": "RULE: Reinforcement UnLEarning Achieves Forget-Retain Pareto Optimality",
+    "authors": "Chenlong Zhang, Zhuoran Jin, Hongbang Yuan, Jiaheng Wei, Tong Zhou, Kang Liu, Jun Zhao, Yubo Chen",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2506.07171"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2508-18609",
+    "dblpKey": "journals/corr/abs-2508-18609",
+    "title": "Scaling Laws for Task-Stratified Knowledge in Post-Training Quantized Large Language Models",
+    "authors": "Chenxi Zhou, Pengfei Cao, Jiang Li, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2508.18609"
+    }
+  },
+  {
+    "id": "conf-acl-ChenLHLXZL25",
+    "dblpKey": "conf/acl/ChenLHLXZL25",
+    "title": "Search-in-Context: Efficient Multi-Hop QA over Long Contexts via Monte Carlo Tree Search with Dynamic KV Retrieval",
+    "authors": "Jiabei Chen, Guang Liu, Shizhu He, Kun Luo, Yao Xu, Jun Zhao, Kang Liu",
+    "venue": "ACL (Findings) 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.findings-acl.1356/"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2505-16385",
+    "dblpKey": "journals/corr/abs-2505-16385",
+    "title": "Semantic Pivots Enable Cross-Lingual Transfer in Large Language Models",
+    "authors": "Kaiyu He, Tong Zhou, Yubo Chen, Delai Qiu, Shengping Liu, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2505.16385"
+    }
+  },
+  {
+    "id": "conf-coling-LiaoHHLZZL25",
+    "dblpKey": "conf/coling/LiaoHHLZZL25",
+    "title": "SKIntern: Internalizing Symbolic Knowledge for Distilling Better CoT Capabilities into Small Language Models",
+    "authors": "Huanxuan Liao, Shizhu He, Yupu Hao, Xiang Li, Yuanzhe Zhang, Jun Zhao, Kang Liu",
+    "venue": "COLING 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.coling-main.215/",
+      "arxiv": "https://arxiv.org/abs/2409.13183"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2505-23474",
+    "dblpKey": "journals/corr/abs-2505-23474",
+    "title": "Socratic-PRMBench: Benchmarking Process Reward Models with Systematic Reasoning Patterns",
+    "authors": "Xiang Li, Haiyang Yu, Xinghua Zhang, Ziyang Huang, Shizhu He, Kang Liu, Jun Zhao, Fei Huang, Yongbin Li",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2505.23474"
+    }
+  },
+  {
+    "id": "conf-acl-ChenCLZ25",
+    "dblpKey": "conf/acl/ChenCLZ25",
+    "title": "The Knowledge Microscope: Features as Better Analytical Lenses than Neurons",
+    "authors": "Yuheng Chen, Pengfei Cao, Kang Liu, Jun Zhao",
+    "venue": "ACL 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.acl-long.516/",
+      "arxiv": "https://arxiv.org/abs/2502.12483"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2510-19176",
+    "dblpKey": "journals/corr/abs-2510-19176",
+    "title": "The Zero-Step Thinking: An Empirical Study of Mode Selection as Harder Early Exit in Reasoning Models",
+    "authors": "Yuqiao Tan, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2510.19176"
+    }
+  },
+  {
+    "id": "conf-coling-HuangZL25",
+    "dblpKey": "conf/coling/HuangZL25",
+    "title": "Towards Adaptive Mechanism Activation in Language Agent",
+    "authors": "Ziyang Huang, Jun Zhao, Kang Liu",
+    "venue": "COLING 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.coling-main.194/",
+      "arxiv": "https://arxiv.org/abs/2412.00722"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2510-14253",
+    "dblpKey": "journals/corr/abs-2510-14253",
+    "title": "Towards Agentic Self-Learning LLMs in Search Environment",
+    "authors": "Wangtao Sun, Xiang Cheng, Jialin Fan, Yao Xu, Xing Yu, Shizhu He, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2510.14253"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2509-20784",
+    "dblpKey": "journals/corr/abs-2509-20784",
+    "title": "Towards Atoms of Large Language Models",
+    "authors": "Chenhui Hu, Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2509.20784"
+    }
+  },
+  {
+    "id": "conf-acl-LiC0XLJLZ25",
+    "dblpKey": "conf/acl/LiC0XLJLZ25",
+    "title": "Towards Better Chain-of-Thought: A Reflection on Effectiveness and Faithfulness",
+    "authors": "Jiachun Li, Pengfei Cao, Yubo Chen, Jiexin Xu, Huaijun Li, Xiaojian Jiang, Kang Liu, Jun Zhao",
+    "venue": "ACL (Findings) 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.findings-acl.560/"
+    }
+  },
+  {
+    "id": "conf-aaai-YuanJC0LZ25",
+    "dblpKey": "conf/aaai/YuanJC0LZ25",
+    "title": "Towards Robust Knowledge Unlearning: An Adversarial Framework for Assessing and Improving Unlearning Robustness in Large Language Models",
+    "authors": "Hongbang Yuan, Zhuoran Jin, Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "AAAI 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://doi.org/10.1609/aaai.v39i24.34769",
+      "arxiv": "https://arxiv.org/abs/2408.10682"
+    }
+  },
+  {
+    "id": "conf-acl-ShenZCQLLZ25",
+    "dblpKey": "conf/acl/ShenZCQLLZ25",
+    "title": "Transparentize the Internal and External Knowledge Utilization in LLMs with Trustworthy Citation",
+    "authors": "Jiajun Shen, Tong Zhou, Yubo Chen, Delai Qiu, Shengping Liu, Kang Liu, Jun Zhao",
+    "venue": "ACL (Findings) 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://aclanthology.org/2025.findings-acl.919/",
+      "arxiv": "https://arxiv.org/abs/2504.14856"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2502-02315",
+    "dblpKey": "journals/corr/abs-2502-02315",
+    "title": "VaiBot: Shuttle Between the Instructions and Parameters of Large Language Models",
+    "authors": "Wangtao Sun, Haotian Xu, Huanxuan Liao, Xuanqing Yu, Zhongtao Jiang, Shizhu He, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2025",
+    "year": 2025,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2502.02315"
+    }
+  },
+  {
+    "id": "conf-emnlp-ZhaoHJDZL25",
+    "dblpKey": "conf/emnlp/ZhaoHJDZL25",
+    "title": "Why and How LLMs Benefit from Knowledge Introspection in Commonsense Reasoning",
+    "authors": "Chengfeng Zhao, Shizhu He, Shanshan Jiang, Bin Dong, Jun Zhao, Kang Liu",
+    "venue": "EMNLP 2025",
+    "year": 2025,
+    "links": {
+      "paper": "https://doi.org/10.18653/v1/2025.emnlp-main.352"
+    }
+  },
+  {
+    "id": "conf-emnlp-LiangZ0024",
+    "dblpKey": "conf/emnlp/LiangZ0024",
+    "title": "ABSEval: An Agent-based Framework for Script Evaluation",
+    "authors": "Sirui Liang, Baoli Zhang, Jun Zhao, Kang Liu",
+    "venue": "EMNLP 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.emnlp-main.691"
+    }
+  },
+  {
+    "id": "conf-emnlp-HeCWJ0XL0024",
+    "dblpKey": "conf/emnlp/HeCWJ0XL0024",
+    "title": "AgentsCourt: Building Judicial Decision-Making Agents with Court Debate Simulation and Legal Knowledge Augmentation",
+    "authors": "Zhitao He, Pengfei Cao, Chenhao Wang, Zhuoran Jin, Yubo Chen, Jiexin Xu, Huaijun Li, Kang Liu, Jun Zhao",
+    "venue": "EMNLP (Findings) 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.findings-emnlp.549"
+    }
+  },
+  {
+    "id": "conf-emnlp-FuQYWZLC0RZ24",
+    "dblpKey": "conf/emnlp/FuQYWZLC0RZ24",
+    "title": "AutoRAG-HP: Automatic Online Hyper-Parameter Tuning for Retrieval-Augmented Generation",
+    "authors": "Jia Fu, Xiaoting Qin, Fangkai Yang, Lu Wang, Jue Zhang, Qingwei Lin, Yubo Chen, Dongmei Zhang, Saravan Rajmohan, Qi Zhang",
+    "venue": "EMNLP (Findings) 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.findings-emnlp.223",
+      "arxiv": "https://arxiv.org/abs/2406.19251"
+    }
+  },
+  {
+    "id": "journals-dint-ZhaoZJY00L24",
+    "dblpKey": "journals/dint/ZhaoZJY00L24",
+    "title": "AWeCita: Generating Answer with Appropriate and Well-grained Citations Using LLMs",
+    "authors": "Suifeng Zhao, Tong Zhou, Zhuoran Jin, Hongbang Yuan, Yubo Chen, Kang Liu, Sujian Li",
+    "venue": "Data Intell. 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://doi.org/10.3724/2096-7004.di.2024.0035"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2407-08440",
+    "dblpKey": "journals/corr/abs-2407-08440",
+    "title": "Beyond Instruction Following: Evaluating Rule Following of Large Language Models",
+    "authors": "Wangtao Sun, Chenxiang Zhang, Xueyou Zhang, Ziyang Huang, Haotian Xu, Pei Chen, Shizhu He, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2407.08440"
+    }
+  },
+  {
+    "id": "conf-coling-HeZHW24",
+    "dblpKey": "conf/coling/HeZHW24",
+    "title": "BP4ER: Bootstrap Prompting for Explicit Reasoning in Medical Dialogue Generation",
+    "authors": "Yuhong He, Yongqi Zhang, Shizhu He, Jun Wan",
+    "venue": "LREC/COLING 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.lrec-main.223",
+      "arxiv": "https://arxiv.org/abs/2403.19414"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2408-04662",
+    "dblpKey": "journals/corr/abs-2408-04662",
+    "title": "Citekit: A Modular Toolkit for Large Language Model Citation Generation",
+    "authors": "Jiajun Shen, Tong Zhou, Suifeng Zhao, Yubo Chen, Kang Liu",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2408.04662"
+    }
+  },
+  {
+    "id": "conf-acl-001400024",
+    "dblpKey": "conf/acl/001400024",
+    "title": "CogMG: Collaborative Augmentation Between Large Language Model and Knowledge Graph",
+    "authors": "Tong Zhou, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "ACL 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://doi.org/10.18653/v1/2024.acl-demos.35",
+      "arxiv": "https://arxiv.org/abs/2406.17231"
+    }
+  },
+  {
+    "id": "conf-emnlp-HuangW0024",
+    "dblpKey": "conf/emnlp/HuangW0024",
+    "title": "Commonsense Knowledge Editing Based on Free-Text in LLMs",
+    "authors": "Xiusheng Huang, Yequan Wang, Jun Zhao, Kang Liu",
+    "venue": "EMNLP 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.emnlp-main.826",
+      "arxiv": "https://arxiv.org/abs/2410.23844"
+    }
+  },
+  {
+    "id": "conf-coling-ZhangC0LZSZ24",
+    "dblpKey": "conf/coling/ZhangC0LZSZ24",
+    "title": "Continual Few-shot Event Detection via Hierarchical Augmentation Networks",
+    "authors": "Chenlong Zhang, Pengfei Cao, Yubo Chen, Kang Liu, Zhiqiang Zhang, Mengshu Sun, Jun Zhao",
+    "venue": "LREC/COLING 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.lrec-main.342",
+      "arxiv": "https://arxiv.org/abs/2403.17733"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2402-10151",
+    "dblpKey": "journals/corr/abs-2402-10151",
+    "title": "ControlLM: Crafting Diverse Personalities for Language Models",
+    "authors": "Yixuan Weng, Shizhu He, Kang Liu, Shengping Liu, Jun Zhao",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2402.10151"
+    }
+  },
+  {
+    "id": "conf-acl-JinCY0XLJ0024",
+    "dblpKey": "conf/acl/JinCY0XLJ0024",
+    "title": "Cutting Off the Head Ends the Conflict: A Mechanism for Interpreting and Mitigating Knowledge Conflicts in Language Models",
+    "authors": "Zhuoran Jin, Pengfei Cao, Hongbang Yuan, Yubo Chen, Jiexin Xu, Huaijun Li, Xiaojian Jiang, Kang Liu, Jun Zhao",
+    "venue": "ACL (Findings) 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.findings-acl.70",
+      "arxiv": "https://arxiv.org/abs/2402.18154"
+    }
+  },
+  {
+    "id": "conf-emnlp-HuangLYZLWHHLZL24",
+    "dblpKey": "conf/emnlp/HuangLYZLWHHLZL24",
+    "title": "DA-Code: Agent Data Science Code Generation Benchmark for Large Language Models",
+    "authors": "Yiming Huang, Jianwen Luo, Yan Yu, Yitong Zhang, Fangyu Lei, Yifan Wei, Shizhu He, Lifu Huang, Xiao Liu, Jun Zhao, Kang Liu",
+    "venue": "EMNLP 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.emnlp-main.748",
+      "arxiv": "https://arxiv.org/abs/2410.07331"
+    }
+  },
+  {
+    "id": "conf-acl-YuanYWLZL24",
+    "dblpKey": "conf/acl/YuanYWLZL24",
+    "title": "Discerning and Resolving Knowledge Conflicts through Adaptive Decoding with Contextual Information-Entropy Constraint",
+    "authors": "Xiaowei Yuan, Zhao Yang, Yequan Wang, Shengping Liu, Jun Zhao, Kang Liu",
+    "venue": "ACL (Findings) 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.findings-acl.234",
+      "arxiv": "https://arxiv.org/abs/2402.11893"
+    }
+  },
+  {
+    "id": "conf-cikm-WeiYWMZ0024",
+    "dblpKey": "conf/cikm/WeiYWMZ0024",
+    "title": "Does Knowledge Localization Hold True? Surprising Differences Between Entity and Relation Perspectives in Language Models",
+    "authors": "Yifan Wei, Xiaoyan Yu, Yixuan Weng, Huanhuan Ma, Yuanzhe Zhang, Jun Zhao, Kang Liu",
+    "venue": "CIKM 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://doi.org/10.1145/3627673.3679900",
+      "arxiv": "https://arxiv.org/abs/2409.00617"
+    }
+  },
+  {
+    "id": "conf-emnlp-SongHJXG0024",
+    "dblpKey": "conf/emnlp/SongHJXG0024",
+    "title": "Does Large Language Model Contain Task-Specific Neurons?",
+    "authors": "Ran Song, Shizhu He, Shuting Jiang, Yantuan Xian, Shengxiang Gao, Kang Liu, Zhengtao Yu",
+    "venue": "EMNLP 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.emnlp-main.403"
+    }
+  },
+  {
+    "id": "journals-talip-YangZSJZL24",
+    "dblpKey": "journals/talip/YangZSJZL24",
+    "title": "Explanation Guided Knowledge Distillation for Pre-trained Language Model Compression",
+    "authors": "Zhao Yang, Yuanzhe Zhang, Dianbo Sui, Yiming Ju, Jun Zhao, Kang Liu",
+    "venue": "ACM Trans. Asian Low Resour. Lang. Inf. Process. 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://doi.org/10.1145/3639364"
+    }
+  },
+  {
+    "id": "conf-acl-LiCWJ0Z0024",
+    "dblpKey": "conf/acl/LiCWJ0Z0024",
+    "title": "Focus on Your Question! Interpreting and Mitigating Toxic CoT Problems in Commonsense Reasoning",
+    "authors": "Jiachun Li, Pengfei Cao, Chenhao Wang, Zhuoran Jin, Yubo Chen, Daojian Zeng, Kang Liu, Jun Zhao",
+    "venue": "ACL 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.acl-long.499",
+      "arxiv": "https://arxiv.org/abs/2402.18344"
+    }
+  },
+  {
+    "id": "conf-nips-LiaoHXZHLLZ24",
+    "dblpKey": "conf/nips/LiaoHXZHLLZ24",
+    "title": "From Instance Training to Instruction Learning: Task Adapters Generation from Instructions",
+    "authors": "Huanxuan Liao, Shizhu He, Yao Xu, Yuanzhe Zhang, Yanchao Hao, Shengping Liu, Kang Liu, Jun Zhao",
+    "venue": "NeurIPS 2024",
+    "year": 2024,
+    "links": {
+      "paper": "http://papers.nips.cc/paper_files/paper/2024/hash/50ea4dbd1cff6bd3daef939eff10c092-Abstract-Conference.html",
+      "arxiv": "https://arxiv.org/abs/2406.12382"
+    }
+  },
+  {
+    "id": "conf-emnlp-XuHC0STL0024",
+    "dblpKey": "conf/emnlp/XuHC0STL0024",
+    "title": "Generate-on-Graph: Treat LLM as both Agent and KG for Incomplete Knowledge Graph Question Answering",
+    "authors": "Yao Xu, Shizhu He, Jiabei Chen, Zihao Wang, Yangqiu Song, Hanghang Tong, Guang Liu, Jun Zhao, Kang Liu",
+    "venue": "EMNLP 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.emnlp-main.1023"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2404-14741",
+    "dblpKey": "journals/corr/abs-2404-14741",
+    "title": "Generate-on-Graph: Treat LLM as both Agent and KG in Incomplete Knowledge Graph Question Answering",
+    "authors": "Yao Xu, Shizhu He, Jiabei Chen, Zihao Wang, Yangqiu Song, Hanghang Tong, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2404.14741"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2403-15268",
+    "dblpKey": "journals/corr/abs-2403-15268",
+    "title": "Imagination Augmented Generation: Learning to Imagine Richer Context for Question Answering over Large Language Models",
+    "authors": "Huanxuan Liao, Shizhu He, Yao Xu, Yuanzhe Zhang, Kang Liu, Shengping Liu, Jun Zhao",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2403.15268"
+    }
+  },
+  {
+    "id": "conf-emnlp-YuanYWZL24",
+    "dblpKey": "conf/emnlp/YuanYWZL24",
+    "title": "Improving Zero-shot LLM Re-Ranker with Risk Minimization",
+    "authors": "Xiaowei Yuan, Zhao Yang, Yequan Wang, Jun Zhao, Kang Liu",
+    "venue": "EMNLP 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.emnlp-main.997",
+      "arxiv": "https://arxiv.org/abs/2406.13331"
+    }
+  },
+  {
+    "id": "journals-isci-YangZCLCZL24",
+    "dblpKey": "journals/isci/YangZCLCZL24",
+    "title": "Information bottleneck based knowledge selection for commonsense reasoning",
+    "authors": "Zhao Yang, Yuanzhe Zhang, Pengfei Cao, Cao Liu, Jiansong Chen, Jun Zhao, Kang Liu",
+    "venue": "Inf. Sci. 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://doi.org/10.1016/j.ins.2024.120134"
+    }
+  },
+  {
+    "id": "conf-emnlp-WangHLZ24",
+    "dblpKey": "conf/emnlp/WangHLZ24",
+    "title": "Instance-Level Dynamic LoRAs Composition for Cross-Task Generalization",
+    "authors": "Zhiqi Wang, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "EMNLP (Findings) 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.findings-emnlp.326"
+    }
+  },
+  {
+    "id": "conf-acl-SunXYCH0024",
+    "dblpKey": "conf/acl/SunXYCH0024",
+    "title": "ItD: Large Language Models Can Teach Themselves Induction through Deduction",
+    "authors": "Wangtao Sun, Haotian Xu, Xuanqing Yu, Pei Chen, Shizhu He, Jun Zhao, Kang Liu",
+    "venue": "ACL 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.acl-long.150",
+      "arxiv": "https://arxiv.org/abs/2403.05789"
+    }
+  },
+  {
+    "id": "journals-tnn-SuiZCLZ24",
+    "dblpKey": "journals/tnn/SuiZCLZ24",
+    "title": "Joint Entity and Relation Extraction With Set Prediction Networks",
+    "authors": "Dianbo Sui, Xiangrong Zeng, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "IEEE Trans. Neural Networks Learn. Syst. 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://doi.org/10.1109/TNNLS.2023.3264735",
+      "arxiv": "https://arxiv.org/abs/2011.01675"
+    }
+  },
+  {
+    "id": "conf-aaai-ChenCCLZ24",
+    "dblpKey": "conf/aaai/ChenCCLZ24",
+    "title": "Journey to the Center of the Knowledge Neurons: Discoveries of Language-Independent Knowledge Neurons and Degenerate Knowledge Neurons",
+    "authors": "Yuheng Chen, Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "AAAI 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://doi.org/10.1609/aaai.v38i16.29735",
+      "arxiv": "https://arxiv.org/abs/2308.13198"
+    }
+  },
+  {
+    "id": "conf-emnlp-WuWLZ0024",
+    "dblpKey": "conf/emnlp/WuWLZ0024",
+    "title": "KMatrix: A Flexible Heterogeneous Knowledge Enhancement Toolkit for Large Language Model",
+    "authors": "Shun Wu, Di Wu, Kun Luo, Xueyou Zhang, Jun Zhao, Kang Liu",
+    "venue": "EMNLP (System Demonstrations) 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://doi.org/10.18653/v1/2024.emnlp-demo.29"
+    }
+  },
+  {
+    "id": "conf-acl-LuoLXZ00L24",
+    "dblpKey": "conf/acl/LuoLXZ00L24",
+    "title": "Landmark Embedding: A Chunking-Free Embedding Method For Retrieval Augmented Long-Context Large Language Models",
+    "authors": "Kun Luo, Zheng Liu, Shitao Xiao, Tong Zhou, Yubo Chen, Jun Zhao, Kang Liu",
+    "venue": "ACL 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.acl-long.180"
+    }
+  },
+  {
+    "id": "conf-emnlp-LuoQ0X0024",
+    "dblpKey": "conf/emnlp/LuoQ0X0024",
+    "title": "Large Language Models as Foundations for Next-Gen Dense Retrieval: A Comprehensive Empirical Assessment",
+    "authors": "Kun Luo, Minghao Qin, Zheng Liu, Shitao Xiao, Jun Zhao, Kang Liu",
+    "venue": "EMNLP 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.emnlp-main.80",
+      "arxiv": "https://arxiv.org/abs/2408.12194"
+    }
+  },
+  {
+    "id": "conf-nlpcc-WengLXZSHLLLZ24",
+    "dblpKey": "conf/nlpcc/WengLXZSHLLLZ24",
+    "title": "Large Language Models With Holistically Thought Could Be Better Doctors",
+    "authors": "Yixuan Weng, Bin Li, Fei Xia, Minjun Zhu, Bin Sun, Shizhu He, Shengping Liu, Kang Liu, Shutao Li, Jun Zhao",
+    "venue": "NLPCC 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-981-97-9434-8_25"
+    }
+  },
+  {
+    "id": "conf-coling-WangCL00JXLZ24",
+    "dblpKey": "conf/coling/WangCL00JXLZ24",
+    "title": "Leros: Learning Explicit Reasoning on Synthesized Data for Commonsense Question Answering",
+    "authors": "Chenhao Wang, Pengfei Cao, Jiachun Li, Yubo Chen, Kang Liu, Xiaojian Jiang, Jiexin Xu, Qiuxia Li, Jun Zhao",
+    "venue": "LREC/COLING 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.lrec-main.900"
+    }
+  },
+  {
+    "id": "conf-emnlp-LiCWJ00JX024",
+    "dblpKey": "conf/emnlp/LiCWJ00JX024",
+    "title": "LINKED: Eliciting, Filtering and Integrating Knowledge in Large Language Model for Commonsense Reasoning",
+    "authors": "Jiachun Li, Pengfei Cao, Chenhao Wang, Zhuoran Jin, Yubo Chen, Kang Liu, Xiaojian Jiang, Jiexin Xu, Jun Zhao",
+    "venue": "EMNLP (Findings) 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.findings-emnlp.519",
+      "arxiv": "https://arxiv.org/abs/2410.09541"
+    }
+  },
+  {
+    "id": "conf-iclr-WengZX0H0024",
+    "dblpKey": "conf/iclr/WengZX0H0024",
+    "title": "Mastering Symbolic Operations: Augmenting Language Models with Compiled Neural Networks",
+    "authors": "Yixuan Weng, Minjun Zhu, Fei Xia, Bin Li, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "ICLR 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://openreview.net/forum?id=9nsNyN0vox"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2406-11566",
+    "dblpKey": "journals/corr/abs-2406-11566",
+    "title": "MEMLA: Enhancing Multilingual Knowledge Editing with Neuron-Masked Low-Rank Adaptation",
+    "authors": "Jiakuan Xie, Pengfei Cao, Yuheng Chen, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2406.11566"
+    }
+  },
+  {
+    "id": "conf-coling-LiHWYXJLLZ24",
+    "dblpKey": "conf/coling/LiHWYXJLLZ24",
+    "title": "MoDE-CoTD: Chain-of-Thought Distillation for Complex Reasoning Tasks with Mixture of Decoupled LoRA-Experts",
+    "authors": "Xiang Li, Shizhu He, Jiayu Wu, Zhao Yang, Yao Xu, Yang jun Jun, Haifeng Liu, Kang Liu, Jun Zhao",
+    "venue": "LREC/COLING 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.lrec-main.1003"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2402-12851",
+    "dblpKey": "journals/corr/abs-2402-12851",
+    "title": "MoELoRA: Contrastive Learning Guided Mixture of Experts on Parameter-Efficient Fine-Tuning for Large Language Models",
+    "authors": "Tongxu Luo, Jiahe Lei, Fangyu Lei, Weihao Liu, Shizhu He, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2402.12851"
+    }
+  },
+  {
+    "id": "conf-acl-WangCJ0ZL024",
+    "dblpKey": "conf/acl/WangCJ0ZL024",
+    "title": "MULFE: A Multi-Level Benchmark for Free Text Model Editing",
+    "authors": "Chenhao Wang, Pengfei Cao, Zhuoran Jin, Yubo Chen, Daojian Zeng, Kang Liu, Jun Zhao",
+    "venue": "ACL 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.acl-long.732"
+    }
+  },
+  {
+    "id": "conf-coling-Guo000024",
+    "dblpKey": "conf/coling/Guo000024",
+    "title": "NutFrame: Frame-based Conceptual Structure Induction with LLMs",
+    "authors": "Shaoru Guo, Yubo Chen, Kang Liu, Ru Li, Jun Zhao",
+    "venue": "LREC/COLING 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.lrec-main.1079"
+    }
+  },
+  {
+    "id": "conf-ijcai-Zhou0C0L024",
+    "dblpKey": "conf/ijcai/Zhou0C0L024",
+    "title": "Oasis: Data Curation and Assessment System for Pretraining of Large Language Models",
+    "authors": "Tong Zhou, Yubo Chen, Pengfei Cao, Kang Liu, Shengping Liu, Jun Zhao",
+    "venue": "IJCAI 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://www.ijcai.org/proceedings/2024/1048",
+      "arxiv": "https://arxiv.org/abs/2311.12537"
+    }
+  },
+  {
+    "id": "conf-emnlp-JiangZLYZL24",
+    "dblpKey": "conf/emnlp/JiangZLYZL24",
+    "title": "On the In-context Generation of Language Models",
+    "authors": "Zhongtao Jiang, Yuanzhe Zhang, Kun Luo, Xiaowei Yuan, Jun Zhao, Kang Liu",
+    "venue": "EMNLP 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.emnlp-main.568"
+    }
+  },
+  {
+    "id": "conf-acl-YuSLLLT24",
+    "dblpKey": "conf/acl/YuSLLLT24",
+    "title": "ONSEP: A Novel Online Neural-Symbolic Framework for Event Prediction Based on Large Language Model",
+    "authors": "Xuanqing Yu, Wangtao Sun, Jingwei Li, Kang Liu, Chengbao Liu, Jie Tan",
+    "venue": "ACL (Findings) 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.findings-acl.378",
+      "arxiv": "https://arxiv.org/abs/2408.07840"
+    }
+  },
+  {
+    "id": "conf-nips-JinCWHYL00024",
+    "dblpKey": "conf/nips/JinCWHYL00024",
+    "title": "RWKU: Benchmarking Real-World Knowledge Unlearning for Large Language Models",
+    "authors": "Zhuoran Jin, Pengfei Cao, Chenhao Wang, Zhitao He, Hongbang Yuan, Jiachun Li, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "NeurIPS 2024",
+    "year": 2024,
+    "links": {
+      "paper": "http://papers.nips.cc/paper_files/paper/2024/hash/b1f78dfc9ca0156498241012aec4efa0-Abstract-Datasets_and_Benchmarks_Track.html",
+      "arxiv": "https://arxiv.org/abs/2406.10890"
+    }
+  },
+  {
+    "id": "conf-naacl-LeiLHHZ024",
+    "dblpKey": "conf/naacl/LeiLHHZ024",
+    "title": "S3Eval: A Synthetic, Scalable, Systematic Evaluation Suite for Large Language Model",
+    "authors": "Fangyu Lei, Qian Liu, Yiming Huang, Shizhu He, Jun Zhao, Kang Liu",
+    "venue": "NAACL-HLT 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://doi.org/10.18653/v1/2024.naacl-long.69"
+    }
+  },
+  {
+    "id": "journals-talip-LiuLHWLLWZ24",
+    "dblpKey": "journals/talip/LiuLHWLLWZ24",
+    "title": "Seq2Set2Seq: A Two-stage Disentangled Method for Reply Keyword Generation in Social Media",
+    "authors": "Jie Liu, Yaguang Li, Shizhu He, Shun Wu, Kang Liu, Shenping Liu, Jiong Wang, Qing Zhang",
+    "venue": "ACM Trans. Asian Low Resour. Lang. Inf. Process. 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://doi.org/10.1145/3644074"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2403-02959",
+    "dblpKey": "journals/corr/abs-2403-02959",
+    "title": "SimuCourt: Building Judicial Decision-Making Agents with Real-world Judgement Documents",
+    "authors": "Zhitao He, Pengfei Cao, Chenhao Wang, Zhuoran Jin, Yubo Chen, Jiexin Xu, Huaijun Li, Xiaojian Jiang, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2403.02959"
+    }
+  },
+  {
+    "id": "conf-acl-LiHLJSL024",
+    "dblpKey": "conf/acl/LiHLJSL024",
+    "title": "Teaching Small Language Models to Reason for Knowledge-Intensive Multi-Hop Question Answering",
+    "authors": "Xiang Li, Shizhu He, Fangyu Lei, JunYang JunYang, Tianhuang Su, Kang Liu, Jun Zhao",
+    "venue": "ACL (Findings) 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.findings-acl.464"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2402-13731",
+    "dblpKey": "journals/corr/abs-2402-13731",
+    "title": "The Da Vinci Code of Large Pre-trained Language Models: Deciphering Degenerate Knowledge Neurons",
+    "authors": "Yuheng Chen, Pengfei Cao, Yubo Chen, Yining Wang, Shengping Liu, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2402.13731"
+    }
+  },
+  {
+    "id": "journals-talip-SunHZL24",
+    "dblpKey": "journals/talip/SunHZL24",
+    "title": "Towards Better Quantity Representations for Solving Math Word Problems",
+    "authors": "Runxin Sun, Shizhu He, Jun Zhao, Kang Liu",
+    "venue": "ACM Trans. Asian Low Resour. Lang. Inf. Process. 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://doi.org/10.1145/3665644"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2405-18915",
+    "dblpKey": "journals/corr/abs-2405-18915",
+    "title": "Towards Faithful Chain-of-Thought: Large Language Models are Bridging Reasoners",
+    "authors": "Jiachun Li, Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2024",
+    "year": 2024,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2405.18915"
+    }
+  },
+  {
+    "id": "conf-coling-ZhuWHLLJZ24",
+    "dblpKey": "conf/coling/ZhuWHLLJZ24",
+    "title": "Towards Graph-hop Retrieval and Reasoning in Complex Question Answering over Textual Database",
+    "authors": "Minjun Zhu, Yixuan Weng, Shizhu He, Kang Liu, Haifeng Liu, Yang jun Jun, Jun Zhao",
+    "venue": "LREC/COLING 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.lrec-main.1437",
+      "arxiv": "https://arxiv.org/abs/2305.14211"
+    }
+  },
+  {
+    "id": "conf-coling-JinC0LJXLZ24",
+    "dblpKey": "conf/coling/JinC0LJXLZ24",
+    "title": "Tug-of-War between Knowledge: Exploring and Resolving Knowledge Conflicts in Retrieval-Augmented Language Models",
+    "authors": "Zhuoran Jin, Pengfei Cao, Yubo Chen, Kang Liu, Xiaojian Jiang, Jiexin Xu, Qiuxia Li, Jun Zhao",
+    "venue": "LREC/COLING 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.lrec-main.1466",
+      "arxiv": "https://arxiv.org/abs/2402.14409"
+    }
+  },
+  {
+    "id": "conf-emnlp-MenCJ00024",
+    "dblpKey": "conf/emnlp/MenCJ00024",
+    "title": "Unlocking the Future: Exploring Look-Ahead Planning Mechanistic Interpretability in Large Language Models",
+    "authors": "Tianyi Men, Pengfei Cao, Zhuoran Jin, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "EMNLP 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.emnlp-main.440",
+      "arxiv": "https://arxiv.org/abs/2406.16033"
+    }
+  },
+  {
+    "id": "conf-icassp-ZhangHLZ24",
+    "dblpKey": "conf/icassp/ZhangHLZ24",
+    "title": "Unsupervised Learning of Neural Semantic Mappings with the Hungarian Algorithm for Compositional Semantics",
+    "authors": "Xiang Zhang, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "ICASSP 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://doi.org/10.1109/ICASSP48485.2024.10448029"
+    }
+  },
+  {
+    "id": "conf-emnlp-YuanCJ0Z0024",
+    "dblpKey": "conf/emnlp/YuanCJ0Z0024",
+    "title": "Whispers that Shake Foundations: Analyzing and Mitigating False Premise Hallucinations in Large Language Models",
+    "authors": "Hongbang Yuan, Pengfei Cao, Zhuoran Jin, Yubo Chen, Daojian Zeng, Kang Liu, Jun Zhao",
+    "venue": "EMNLP 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.emnlp-main.155",
+      "arxiv": "https://arxiv.org/abs/2402.19103"
+    }
+  },
+  {
+    "id": "conf-acl-HuC00024",
+    "dblpKey": "conf/acl/HuC00024",
+    "title": "WilKE: Wise-Layer Knowledge Editor for Lifelong Knowledge Editing",
+    "authors": "Chenhui Hu, Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "ACL (Findings) 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.findings-acl.207",
+      "arxiv": "https://arxiv.org/abs/2402.10987"
+    }
+  },
+  {
+    "id": "conf-coling-HeCJ00ZS024",
+    "dblpKey": "conf/coling/HeCJ00ZS024",
+    "title": "Zero-Shot Cross-Lingual Document-Level Event Causality Identification with Heterogeneous Graph Contrastive Transfer Learning",
+    "authors": "Zhitao He, Pengfei Cao, Zhuoran Jin, Yubo Chen, Kang Liu, Zhiqiang Zhang, Mengshu Sun, Jun Zhao",
+    "venue": "LREC/COLING 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://aclanthology.org/2024.lrec-main.1551",
+      "arxiv": "https://arxiv.org/abs/2403.02893"
+    }
+  },
+  {
+    "id": "conf-naacl-DuLZCCLZ24",
+    "dblpKey": "conf/naacl/DuLZCCLZ24",
+    "title": "ZhuJiu-Knowledge: A Fairer Platform for Evaluating Multiple Knowledge Types in Large Language Models",
+    "authors": "Pengfan Du, Sirui Liang, Baoli Zhang, Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "NAACL (Demonstrations) 2024",
+    "year": 2024,
+    "links": {
+      "paper": "https://doi.org/10.18653/v1/2024.naacl-demo.20"
+    }
+  },
+  {
+    "id": "journals-ieeejas-WuHLSLHT23",
+    "dblpKey": "journals/ieeejas/WuHLSLHT23",
+    "title": "A Brief Overview of ChatGPT: The History, Status Quo and Potential Future Development",
+    "authors": "Tianyu Wu, Shizhu He, Jingping Liu, Siqi Sun, Kang Liu, Qing-Long Han, Yang Tang",
+    "venue": "IEEE CAA J. Autom. Sinica 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://doi.org/10.1109/JAS.2023.123618"
+    }
+  },
+  {
+    "id": "conf-acl-JuZLZ23",
+    "dblpKey": "conf/acl/JuZLZ23",
+    "title": "A Hierarchical Explanation Generation Method Based on Feature Interaction Detection",
+    "authors": "Yiming Ju, Yuanzhe Zhang, Kang Liu, Jun Zhao",
+    "venue": "ACL (Findings) 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.findings-acl.798"
+    }
+  },
+  {
+    "id": "conf-emnlp-JinCH00023",
+    "dblpKey": "conf/emnlp/JinCH00023",
+    "title": "Alignment Precedes Fusion: Open-Vocabulary Named Entity Recognition as Context-Type Semantic Matching",
+    "authors": "Zhuoran Jin, Pengfei Cao, Zhitao He, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "EMNLP (Findings) 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.findings-emnlp.974"
+    }
+  },
+  {
+    "id": "journals-talip-BaiHLZ23",
+    "dblpKey": "journals/talip/BaiHLZ23",
+    "title": "Bidirectional Sentence Ordering with Interactive Decoding",
+    "authors": "Guirong Bai, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "ACM Trans. Asian Low Resour. Lang. Inf. Process. 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://doi.org/10.1145/3561510"
+    }
+  },
+  {
+    "id": "conf-emnlp-MaoZLGHLL23",
+    "dblpKey": "conf/emnlp/MaoZLGHLL23",
+    "title": "Bipartite Graph Pre-training for Unsupervised Extractive Summarization with Graph Convolutional Auto-Encoders",
+    "authors": "Qianren Mao, Shaobo Zhao, Jiarui Li, Xiaolei Gu, Shizhu He, Bo Li, Jianxin Li",
+    "venue": "EMNLP (Findings) 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.findings-emnlp.328",
+      "arxiv": "https://arxiv.org/abs/2310.18992"
+    }
+  },
+  {
+    "id": "conf-acl-LiuHLLSHLZC0C23",
+    "dblpKey": "conf/acl/LiuHLLSHLZC0C23",
+    "title": "Class Lifelong Learning for Intent Detection via Structure Consolidation Networks",
+    "authors": "Qingbin Liu, Yanchao Hao, Xiaolong Liu, Bo Li, Dianbo Sui, Shizhu He, Kang Liu, Jun Zhao, Xi Chen, Ningyu Zhang, Jiaoyan Chen",
+    "venue": "ACL (Findings) 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.findings-acl.20"
+    }
+  },
+  {
+    "id": "conf-semweb-WangGHX0LZ23",
+    "dblpKey": "conf/semweb/WangGHX0LZ23",
+    "title": "CogNet2: A Multi-Level Frame Organized Knowledge Base Integrating Linguistic, World and Commonsense Knowledge",
+    "authors": "Chenhao Wang, Shaoru Guo, Zhitao He, Zhipeng Xue, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "ISWC (Posters/Demos/Industry) 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://ceur-ws.org/Vol-3632/ISWC2023_paper_478.pdf"
+    }
+  },
+  {
+    "id": "conf-emnlp-HaoC0LXLJZ23",
+    "dblpKey": "conf/emnlp/HaoC0LXLJZ23",
+    "title": "Complex Event Schema Induction with Knowledge-Enriched Diffusion Model",
+    "authors": "Yupu Hao, Pengfei Cao, Yubo Chen, Kang Liu, Jiexin Xu, Huaijun Li, Xiaojian Jiang, Jun Zhao",
+    "venue": "EMNLP (Findings) 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.findings-emnlp.319"
+    }
+  },
+  {
+    "id": "conf-emnlp-HuangCZL23",
+    "dblpKey": "conf/emnlp/HuangCZL23",
+    "title": "DiffusionSL: Sequence Labeling via Tag Diffusion Process",
+    "authors": "Ziyang Huang, Pengfei Cao, Jun Zhao, Kang Liu",
+    "venue": "EMNLP (Findings) 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.findings-emnlp.860"
+    }
+  },
+  {
+    "id": "conf-emnlp-FanH23",
+    "dblpKey": "conf/emnlp/FanH23",
+    "title": "Efficient Data Learning for Open Information Extraction with Pre-trained Language Models",
+    "authors": "Zhiyuan Fan, Shizhu He",
+    "venue": "EMNLP (Findings) 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.findings-emnlp.869",
+      "arxiv": "https://arxiv.org/abs/2310.15021"
+    }
+  },
+  {
+    "id": "conf-emnlp-CaoH0LXLJZ23",
+    "dblpKey": "conf/emnlp/CaoH0LXLJZ23",
+    "title": "Event Ontology Completion with Hierarchical Structure Evolution Networks",
+    "authors": "Pengfei Cao, Yupu Hao, Yubo Chen, Kang Liu, Jiexin Xu, Huaijun Li, Xiaojian Jiang, Jun Zhao",
+    "venue": "EMNLP 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.emnlp-main.21"
+    }
+  },
+  {
+    "id": "conf-aaai-Zhou00023",
+    "dblpKey": "conf/aaai/Zhou00023",
+    "title": "Event Process Typing via Hierarchical Optimal Transport",
+    "authors": "Bo Zhou, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "AAAI 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://doi.org/10.1609/aaai.v37i11.26643"
+    }
+  },
+  {
+    "id": "conf-acl-GuoW0LLZ23",
+    "dblpKey": "conf/acl/GuoW0LLZ23",
+    "title": "EventOA: An Event Ontology Alignment Benchmark Based on FrameNet and Wikidata",
+    "authors": "Shaoru Guo, Chenhao Wang, Yubo Chen, Kang Liu, Ru Li, Jun Zhao",
+    "venue": "ACL (Findings) 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.findings-acl.637"
+    }
+  },
+  {
+    "id": "conf-emnlp-SunYHZL23",
+    "dblpKey": "conf/emnlp/SunYHZL23",
+    "title": "ExpNote: Black-box Large Language Models are better Task Solvers with Experience Notebook",
+    "authors": "Wangtao Sun, Xuanqing Yu, Shizhu He, Jun Zhao, Kang Liu",
+    "venue": "EMNLP (Findings) 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.findings-emnlp.1034",
+      "arxiv": "https://arxiv.org/abs/2311.07032"
+    }
+  },
+  {
+    "id": "conf-eacl-XiaWHLZ23",
+    "dblpKey": "conf/eacl/XiaWHLZ23",
+    "title": "Find Parent then Label Children: A Two-stage Taxonomy Completion Method with Pre-trained Language Model",
+    "authors": "Fei Xia, Yixuan Weng, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "EACL 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.eacl-main.73",
+      "arxiv": "https://arxiv.org/abs/2406.17739"
+    }
+  },
+  {
+    "id": "conf-emnlp-JiangZLZL23",
+    "dblpKey": "conf/emnlp/JiangZLZL23",
+    "title": "Generative Calibration for In-context Learning",
+    "authors": "Zhongtao Jiang, Yuanzhe Zhang, Cao Liu, Jun Zhao, Kang Liu",
+    "venue": "EMNLP (Findings) 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.findings-emnlp.152",
+      "arxiv": "https://arxiv.org/abs/2310.10266"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2309-12669",
+    "dblpKey": "journals/corr/abs-2309-12669",
+    "title": "HRoT: Hybrid prompt strategy and Retrieval of Thought for Table-Text Hybrid Question Answering",
+    "authors": "Tongxu Luo, Fangyu Lei, Jiahe Lei, Weihao Liu, Shizhu He, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2023",
+    "year": 2023,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2309.12669"
+    }
+  },
+  {
+    "id": "conf-emnlp-JinC0LZ23",
+    "dblpKey": "conf/emnlp/JinC0LZ23",
+    "title": "InstructoR: Instructing Unsupervised Conversational Dense Retrieval with Large Language Models",
+    "authors": "Zhuoran Jin, Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "EMNLP (Findings) 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.findings-emnlp.443"
+    }
+  },
+  {
+    "id": "conf-acl-JiangZLCZL23",
+    "dblpKey": "conf/acl/JiangZLCZL23",
+    "title": "Interpreting Sentiment Composition with Latent Semantic Tree",
+    "authors": "Zhongtao Jiang, Yuanzhe Zhang, Cao Liu, Jiansong Chen, Jun Zhao, Kang Liu",
+    "venue": "ACL (Findings) 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.findings-acl.471",
+      "arxiv": "https://arxiv.org/abs/2308.16588"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2301-02781",
+    "dblpKey": "journals/corr/abs-2301-02781",
+    "title": "Knowledge Reasoning via Jointly Modeling Knowledge Graphs and Soft Rules",
+    "authors": "Yinyu Lan, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2023",
+    "year": 2023,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2301.02781"
+    }
+  },
+  {
+    "id": "conf-emnlp-WengZX0HLSLZ23",
+    "dblpKey": "conf/emnlp/WengZX0HLSLZ23",
+    "title": "Large Language Models are Better Reasoners with Self-Verification",
+    "authors": "Yixuan Weng, Minjun Zhu, Fei Xia, Bin Li, Shizhu He, Shengping Liu, Bin Sun, Kang Liu, Jun Zhao",
+    "venue": "EMNLP (Findings) 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.findings-emnlp.167"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2305-05410",
+    "dblpKey": "journals/corr/abs-2305-05410",
+    "title": "Large Language Models Need Holistically Thought in Medical Conversational QA",
+    "authors": "Yixuan Weng, Bin Li, Fei Xia, Minjun Zhu, Bin Sun, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2023",
+    "year": 2023,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2305.05410"
+    }
+  },
+  {
+    "id": "conf-icassp-ZhuWHWLCZ23",
+    "dblpKey": "conf/icassp/ZhuWHWLCZ23",
+    "title": "Learning to Build Reasoning Chains by Reliable Path Retrieval",
+    "authors": "Minjun Zhu, Yixuan Weng, Shizhu He, Cunguang Wang, Kang Liu, Li Cai, Jun Zhao",
+    "venue": "ICASSP 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://doi.org/10.1109/ICASSP49357.2023.10097146"
+    }
+  },
+  {
+    "id": "conf-acl-LiuS0L023",
+    "dblpKey": "conf/acl/LiuS0L023",
+    "title": "Learning with Partial Annotations for Event Detection",
+    "authors": "Jian Liu, Dianbo Sui, Kang Liu, Haoyan Liu, Zhe Zhao",
+    "venue": "ACL 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.acl-long.30"
+    }
+  },
+  {
+    "id": "conf-emnlp-HeC0LLSZ23",
+    "dblpKey": "conf/emnlp/HeC0LLSZ23",
+    "title": "LEGO: A Multi-agent Collaborative Framework with Role-playing and Iterative Feedback for Causality Explanation Generation",
+    "authors": "Zhitao He, Pengfei Cao, Yubo Chen, Kang Liu, Ruopeng Li, Mengshu Sun, Jun Zhao",
+    "venue": "EMNLP (Findings) 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.findings-emnlp.613"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2308-10252",
+    "dblpKey": "journals/corr/abs-2308-10252",
+    "title": "LMTuner: An user-friendly and highly-integrable Training Framework for fine-tuning Large Language Models",
+    "authors": "Yixuan Weng, Zhiqi Wang, Huanxuan Liao, Shizhu He, Shengping Liu, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2023",
+    "year": 2023,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2308.10252"
+    }
+  },
+  {
+    "id": "conf-emnlp-WeiSMYLZZL23",
+    "dblpKey": "conf/emnlp/WeiSMYLZZL23",
+    "title": "MenatQA: A New Dataset for Testing the Temporal Comprehension and Reasoning Abilities of Large Language Models",
+    "authors": "Yifan Wei, Yisong Su, Huanhuan Ma, Xiaoyan Yu, Fangyu Lei, Yuanzhe Zhang, Jun Zhao, Kang Liu",
+    "venue": "EMNLP (Findings) 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.findings-emnlp.100",
+      "arxiv": "https://arxiv.org/abs/2310.05157"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2309-04790",
+    "dblpKey": "journals/corr/abs-2309-04790",
+    "title": "MMHQA-ICL: Multimodal In-context Learning for Hybrid Question Answering over Text, Tables and Images",
+    "authors": "Weihao Liu, Fangyu Lei, Tongxu Luo, Jiahe Lei, Shizhu He, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2023",
+    "year": 2023,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2309.04790"
+    }
+  },
+  {
+    "id": "conf-ijcnlp-LiLHLZ23",
+    "dblpKey": "conf/ijcnlp/LiLHLZ23",
+    "title": "Multi-Target Semantic Parsing with Collaborative Deliberation Network",
+    "authors": "Xiang Li, Fangyu Lei, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "IJCNLP (Findings) 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.findings-ijcnlp.19"
+    }
+  },
+  {
+    "id": "journals-talip-YangCLZZS23",
+    "dblpKey": "journals/talip/YangCLZZS23",
+    "title": "Multi-Turn and Multi-Granularity Reader for Document-Level Event Extraction",
+    "authors": "Hang Yang, Yubo Chen, Kang Liu, Jun Zhao, Zuyu Zhao, Weijian Sun",
+    "venue": "ACM Trans. Asian Low Resour. Lang. Inf. Process. 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://doi.org/10.1145/3542925"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2305-03458",
+    "dblpKey": "journals/corr/abs-2305-03458",
+    "title": "Multi-View Graph Representation Learning for Answering Hybrid Numerical Reasoning Question",
+    "authors": "Yifan Wei, Fangyu Lei, Yuanzhe Zhang, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2023",
+    "year": 2023,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2305.03458"
+    }
+  },
+  {
+    "id": "conf-acl-SongHGCL0Z23",
+    "dblpKey": "conf/acl/SongHGCL0Z23",
+    "title": "Multilingual Knowledge Graph Completion from Pretrained Language Models with Knowledge Constraints",
+    "authors": "Ran Song, Shizhu He, Shengxiang Gao, Li Cai, Kang Liu, Zhengtao Yu, Jun Zhao",
+    "venue": "ACL (Findings) 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.findings-acl.488",
+      "arxiv": "https://arxiv.org/abs/2406.18085"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2304-01665",
+    "dblpKey": "journals/corr/abs-2304-01665",
+    "title": "Neural Comprehension: Language Models with Compiled Neural Networks",
+    "authors": "Yixuan Weng, Minjun Zhu, Fei Xia, Bin Li, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2023",
+    "year": 2023,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2304.01665"
+    }
+  },
+  {
+    "id": "conf-conll-ZhangH0Z23",
+    "dblpKey": "conf/conll/ZhangH0Z23",
+    "title": "On the Effects of Structural Modeling for Neural Semantic Parsing",
+    "authors": "Xiang Zhang, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "CoNLL 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.conll-1.4"
+    }
+  },
+  {
+    "id": "conf-acl-XuHCLZ23",
+    "dblpKey": "conf/acl/XuHCLZ23",
+    "title": "Prediction and Calibration: Complex Reasoning over Knowledge Graph with Bi-directional Directed Acyclic Graph Neural Network",
+    "authors": "Yao Xu, Shizhu He, Li Cai, Kang Liu, Jun Zhao",
+    "venue": "ACL (Findings) 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.findings-acl.450"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2308-15851",
+    "dblpKey": "journals/corr/abs-2308-15851",
+    "title": "Prompting Vision Language Model with Knowledge from Large Language Model for Knowledge-Based VQA",
+    "authors": "Yang Zhou, Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2023",
+    "year": 2023,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2308.15851"
+    }
+  },
+  {
+    "id": "conf-emnlp-XuHWCLZ23",
+    "dblpKey": "conf/emnlp/XuHWCLZ23",
+    "title": "Query2Triple: Unified Query Encoding for Answering Diverse Complex Queries over Knowledge Graphs",
+    "authors": "Yao Xu, Shizhu He, Cunguang Wang, Li Cai, Kang Liu, Jun Zhao",
+    "venue": "EMNLP (Findings) 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.findings-emnlp.761",
+      "arxiv": "https://arxiv.org/abs/2310.11246"
+    }
+  },
+  {
+    "id": "conf-emnlp-YangZSLZL23",
+    "dblpKey": "conf/emnlp/YangZSLZL23",
+    "title": "Representative Demonstration Selection for In-Context Learning with Two-Stage Determinantal Point Process",
+    "authors": "Zhao Yang, Yuanzhe Zhang, Dianbo Sui, Cao Liu, Jun Zhao, Kang Liu",
+    "venue": "EMNLP 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.emnlp-main.331"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2310-15147",
+    "dblpKey": "journals/corr/abs-2310-15147",
+    "title": "S3Eval: A Synthetic, Scalable, Systematic Evaluation Suite for Large Language Models",
+    "authors": "Fangyu Lei, Qian Liu, Yiming Huang, Shizhu He, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2023",
+    "year": 2023,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2310.15147"
+    }
+  },
+  {
+    "id": "conf-acl-LeiLWHHZL23",
+    "dblpKey": "conf/acl/LeiLWHHZL23",
+    "title": "S3HQA: A Three-Stage Approach for Multi-hop Text-Table Hybrid Question Answering",
+    "authors": "Fangyu Lei, Xiang Li, Yifan Wei, Shizhu He, Yiming Huang, Jun Zhao, Kang Liu",
+    "venue": "ACL 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.acl-short.147",
+      "arxiv": "https://arxiv.org/abs/2305.11725"
+    }
+  },
+  {
+    "id": "journals-talip-ZhouCLZ23",
+    "dblpKey": "journals/talip/ZhouCLZ23",
+    "title": "Script Event Prediction via Multilingual Event Graph Networks",
+    "authors": "Bo Zhou, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "ACM Trans. Asian Low Resour. Lang. Inf. Process. 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://doi.org/10.1145/3557893"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2310-15075",
+    "dblpKey": "journals/corr/abs-2310-15075",
+    "title": "TableQAKit: A Comprehensive and Practical Toolkit for Table-based Question Answering",
+    "authors": "Fangyu Lei, Tongxu Luo, Pengqi Yang, Weihao Liu, Hanwen Liu, Jiahe Lei, Yiming Huang, Yifan Wei, Shizhu He, Jun Zhao, Kang Liu",
+    "venue": "arXiv 2023",
+    "year": 2023,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2310.15075"
+    }
+  },
+  {
+    "id": "journals-jcst-LiuHLLZ23",
+    "dblpKey": "journals/jcst/LiuHLLZ23",
+    "title": "Unsupervised Dialogue State Tracking for End-to-End Task-Oriented Dialogue with a Multi-Span Prediction Network",
+    "authors": "Qingbin Liu, Shizhu He, Cao Liu, Kang Liu, Jun Zhao",
+    "venue": "J. Comput. Sci. Technol. 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://doi.org/10.1007/s11390-021-1064-y"
+    }
+  },
+  {
+    "id": "journals-jcst-BaiLHLZ23",
+    "dblpKey": "journals/jcst/BaiLHLZ23",
+    "title": "Unsupervised Domain Adaptation on Sentence Matching Through Self-Supervision",
+    "authors": "Guirong Bai, Qingbin Liu, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "J. Comput. Sci. Technol. 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://doi.org/10.1007/s11390-022-1479-0"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2308-16584",
+    "dblpKey": "journals/corr/abs-2308-16584",
+    "title": "Unsupervised Text Style Transfer with Deep Generative Models",
+    "authors": "Zhongtao Jiang, Yuanzhe Zhang, Yiming Ju, Kang Liu",
+    "venue": "arXiv 2023",
+    "year": 2023,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2308.16584"
+    }
+  },
+  {
+    "id": "conf-nlpcc-LiWCLZ23",
+    "dblpKey": "conf/nlpcc/LiWCLZ23",
+    "title": "What Events Do Pre-trained Language Models Learn from Text? Probing Event-Based Commonsense Knowledge by Confidence Sorting",
+    "authors": "Jiachun Li, Chenhao Wang, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "NLPCC 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-031-44693-1_52"
+    }
+  },
+  {
+    "id": "conf-aaai-CaoJ00023",
+    "dblpKey": "conf/aaai/CaoJ00023",
+    "title": "Zero-Shot Cross-Lingual Event Argument Extraction with Language-Oriented Prefix-Tuning",
+    "authors": "Pengfei Cao, Zhuoran Jin, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "AAAI 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://doi.org/10.1609/aaai.v37i11.26482"
+    }
+  },
+  {
+    "id": "conf-emnlp-ZhangXDCC0LLZ23",
+    "dblpKey": "conf/emnlp/ZhangXDCC0LLZ23",
+    "title": "ZhuJiu: A Multi-dimensional, Multi-faceted Chinese Benchmark for Large Language Models",
+    "authors": "Baoli Zhang, Haining Xie, Pengfan Du, Junhao Chen, Pengfei Cao, Yubo Chen, Shengping Liu, Kang Liu, Jun Zhao",
+    "venue": "EMNLP (Demos) 2023",
+    "year": 2023,
+    "links": {
+      "paper": "https://aclanthology.org/2023.emnlp-demo.44",
+      "arxiv": "https://arxiv.org/abs/2308.14353"
+    }
+  },
+  {
+    "id": "conf-emnlp-JinC00022",
+    "dblpKey": "conf/emnlp/JinC00022",
+    "title": "A Good Neighbor, A Found Treasure: Mining Treasured Neighbors for Knowledge Graph Entity Typing",
+    "authors": "Zhuoran Jin, Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "EMNLP 2022",
+    "year": 2022,
+    "links": {
+      "paper": "https://aclanthology.org/2022.emnlp-main.31"
+    }
+  },
+  {
+    "id": "conf-coling-LeiHLZ022",
+    "dblpKey": "conf/coling/LeiHLZ022",
+    "title": "Answering Numerical Reasoning Questions in Table-Text Hybrid Contents with Graph-based Encoder and Tree-based Decoder",
+    "authors": "Fangyu Lei, Shizhu He, Xiang Li, Jun Zhao, Kang Liu",
+    "venue": "COLING 2022",
+    "year": 2022,
+    "links": {
+      "paper": "https://aclanthology.org/2022.coling-1.118",
+      "arxiv": "https://arxiv.org/abs/2209.07692"
+    }
+  },
+  {
+    "id": "conf-coling-ZhouW000XJL22",
+    "dblpKey": "conf/coling/ZhouW000XJL22",
+    "title": "Augmentation, Retrieval, Generation: Event Sequence Prediction with a Three-Stage Sequence-to-Sequence Approach",
+    "authors": "Bo Zhou, Chenhao Wang, Yubo Chen, Kang Liu, Jun Zhao, Jiexin Xu, Xiaojian Jiang, Qiuxia Li",
+    "venue": "COLING 2022",
+    "year": 2022,
+    "links": {
+      "paper": "https://aclanthology.org/2022.coling-1.161"
+    }
+  },
+  {
+    "id": "conf-cncl-YangZJJZL22",
+    "dblpKey": "conf/cncl/YangZJJZL22",
+    "title": "Can We Really Trust Explanations? Evaluating the Stability of Feature Attribution Explanation Methods via Adversarial Attack",
+    "authors": "Zhao Yang, Yuanzhe Zhang, Zhongtao Jiang, Yiming Ju, Jun Zhao, Kang Liu",
+    "venue": "CCL 2022",
+    "year": 2022,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-031-18315-7_18"
+    }
+  },
+  {
+    "id": "conf-semeval-FuGLLS00022",
+    "dblpKey": "conf/semeval/FuGLLS00022",
+    "title": "CASIA at SemEval-2022 Task 11: Chinese Named Entity Recognition for Complex and Ambiguous Entities",
+    "authors": "Jia Fu, Zhen Gan, Zhucong Li, Sirui Li, Dianbo Sui, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "SemEval@NAACL 2022",
+    "year": 2022,
+    "links": {
+      "paper": "https://aclanthology.org/2022.semeval-1.208"
+    }
+  },
+  {
+    "id": "conf-coling-FuLYLG000L22",
+    "dblpKey": "conf/coling/FuLYLG000L22",
+    "title": "CASIA@SMM4H'22: A Uniform Health Information Mining System for Multilingual Social Media Texts",
+    "authors": "Jia Fu, Sirui Li, Hui Ming Yuan, Zhucong Li, Zhen Gan, Yubo Chen, Kang Liu, Jun Zhao, Shengping Liu",
+    "venue": "SMM4H@COLING 2022",
+    "year": 2022,
+    "links": {
+      "paper": "https://aclanthology.org/2022.smm4h-1.39"
+    }
+  },
+  {
+    "id": "conf-coling-JuWZZ0022",
+    "dblpKey": "conf/coling/JuWZZ0022",
+    "title": "CMQA: A Dataset of Conditional Question Answering with Multiple-Span Answers",
+    "authors": "Yiming Ju, Weikang Wang, Yuanzhe Zhang, Suncong Zheng, Kang Liu, Jun Zhao",
+    "venue": "COLING 2022",
+    "year": 2022,
+    "links": {
+      "paper": "https://aclanthology.org/2022.coling-1.146"
+    }
+  },
+  {
+    "id": "conf-emnlp-WangL00Z22",
+    "dblpKey": "conf/emnlp/WangL00Z22",
+    "title": "CN-AutoMIC: Distilling Chinese Commonsense Knowledge from Pretrained Language Models",
+    "authors": "Chenhao Wang, Jiachun Li, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "EMNLP 2022",
+    "year": 2022,
+    "links": {
+      "paper": "https://aclanthology.org/2022.emnlp-main.628"
+    }
+  },
+  {
+    "id": "conf-acl-JinMYHSWXCZ22",
+    "dblpKey": "conf/acl/JinMYHSWXCZ22",
+    "title": "CogKGE: A Knowledge Graph Embedding Toolkit and Benchmark for Representing Multi-source and Heterogeneous Knowledge",
+    "authors": "Zhuoran Jin, Tianyi Men, Hongbang Yuan, Zhitao He, Dianbo Sui, Chenhao Wang, Zhipeng Xue, Yubo Chen, Jun Zhao",
+    "venue": "ACL (demo) 2022",
+    "year": 2022,
+    "links": {
+      "paper": "https://aclanthology.org/2022.acl-demo.16"
+    }
+  },
+  {
+    "id": "conf-emnlp-JinMYZCCXLZ22",
+    "dblpKey": "conf/emnlp/JinMYZCCXLZ22",
+    "title": "CogKTR: A Knowledge-Enhanced Text Representation Toolkit for Natural Language Understanding",
+    "authors": "Zhuoran Jin, Tianyi Men, Hongbang Yuan, Yuyang Zhou, Pengfei Cao, Yubo Chen, Zhipeng Xue, Kang Liu, Jun Zhao",
+    "venue": "EMNLP (Demos) 2022",
+    "year": 2022,
+    "links": {
+      "paper": "https://aclanthology.org/2022.emnlp-demos.1"
+    }
+  },
+  {
+    "id": "conf-coling-SongHZG00022",
+    "dblpKey": "conf/coling/SongHZG00022",
+    "title": "Decoupling Mixture-of-Graphs: Unseen Relational Learning for Knowledge Graph Completion by Fusing Ontology and Textual Experts",
+    "authors": "Ran Song, Shizhu He, Suncong Zheng, Shengxiang Gao, Kang Liu, Zhengtao Yu, Jun Zhao",
+    "venue": "COLING 2022",
+    "year": 2022,
+    "links": {
+      "paper": "https://aclanthology.org/2022.coling-1.196"
+    }
+  },
+  {
+    "id": "conf-coling-HuangY000SZ22",
+    "dblpKey": "conf/coling/HuangY000SZ22",
+    "title": "Document-Level Relation Extraction via Pair-Aware and Entity-Enhanced Representation Learning",
+    "authors": "Xiusheng Huang, Hang Yang, Yubo Chen, Jun Zhao, Kang Liu, Weijian Sun, Zuyu Zhao",
+    "venue": "COLING 2022",
+    "year": 2022,
+    "links": {
+      "paper": "https://aclanthology.org/2022.coling-1.213"
+    }
+  },
+  {
+    "id": "journals-chinaf-BaiHLZ22",
+    "dblpKey": "journals/chinaf/BaiHLZ22",
+    "title": "Example-guided stylized response generation in zero-shot setting",
+    "authors": "Guirong Bai, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "Sci. China Inf. Sci. 2022",
+    "year": 2022,
+    "links": {
+      "paper": "https://doi.org/10.1007/s11432-020-3212-x"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2210-13270",
+    "dblpKey": "journals/corr/abs-2210-13270",
+    "title": "Generating Hierarchical Explanations on Text Classification Without Connecting Rules",
+    "authors": "Yiming Ju, Yuanzhe Zhang, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2022",
+    "year": 2022,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2210.13270"
+    }
+  },
+  {
+    "id": "conf-coling-Zhou000XJL22",
+    "dblpKey": "conf/coling/Zhou000XJL22",
+    "title": "Generating Temporally-ordered Event Sequences via Event Optimal Transport",
+    "authors": "Bo Zhou, Yubo Chen, Kang Liu, Jun Zhao, Jiexin Xu, Xiaojian Jiang, Qiuxia Li",
+    "venue": "COLING 2022",
+    "year": 2022,
+    "links": {
+      "paper": "https://aclanthology.org/2022.coling-1.162"
+    }
+  },
+  {
+    "id": "conf-acl-BaiH0022",
+    "dblpKey": "conf/acl/BaiH0022",
+    "title": "Incremental Intent Detection for Medical Domain with Contrast Replay Networks",
+    "authors": "Guirong Bai, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "ACL (Findings) 2022",
+    "year": 2022,
+    "links": {
+      "paper": "https://aclanthology.org/2022.findings-acl.280"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2212-09561",
+    "dblpKey": "journals/corr/abs-2212-09561",
+    "title": "Large Language Models are reasoners with Self-Verification",
+    "authors": "Yixuan Weng, Minjun Zhu, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2022",
+    "year": 2022,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2212.09561"
+    }
+  },
+  {
+    "id": "conf-ccks-ZhuWHLZ22",
+    "dblpKey": "conf/ccks/ZhuWHLZ22",
+    "title": "Learning to Answer Complex Visual Questions from Multi-View Analysis",
+    "authors": "Minjun Zhu, Yixuan Weng, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "CCKS (Evaluation Track) 2022",
+    "year": 2022,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-981-19-8300-9_17"
+    }
+  },
+  {
+    "id": "conf-acl-SunHZHL0022",
+    "dblpKey": "conf/acl/SunHZHL0022",
+    "title": "Leveraging Explicit Lexico-logical Alignments in Text-to-SQL Parsing",
+    "authors": "Runxin Sun, Shizhu He, Chong Zhu, Yaohan He, Jinlong Li, Jun Zhao, Kang Liu",
+    "venue": "ACL 2022",
+    "year": 2022,
+    "links": {
+      "paper": "https://aclanthology.org/2022.acl-short.31"
+    }
+  },
+  {
+    "id": "conf-semeval-LiWXH0L22",
+    "dblpKey": "conf/semeval/LiWXH0L22",
+    "title": "LingJing at SemEval-2022 Task 1: Multi-task Self-supervised Pre-training for Multilingual Reverse Dictionary",
+    "authors": "Bin Li, Yixuan Weng, Fei Xia, Shizhu He, Bin Sun, Shutao Li",
+    "venue": "SemEval@NAACL 2022",
+    "year": 2022,
+    "links": {
+      "paper": "https://aclanthology.org/2022.semeval-1.4"
+    }
+  },
+  {
+    "id": "conf-semeval-XiaLWH0L0022",
+    "dblpKey": "conf/semeval/XiaLWH0L0022",
+    "title": "LingJing at SemEval-2022 Task 3: Applying DeBERTa to Lexical-level Presupposed Relation Taxonomy with Knowledge Transfer",
+    "authors": "Fei Xia, Bin Li, Yixuan Weng, Shizhu He, Bin Sun, Shutao Li, Kang Liu, Jun Zhao",
+    "venue": "SemEval@NAACL 2022",
+    "year": 2022,
+    "links": {
+      "paper": "https://aclanthology.org/2022.semeval-1.30"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2204-09220",
+    "dblpKey": "journals/corr/abs-2204-09220",
+    "title": "LingYi: Medical Conversational Question Answering System based on Multi-modal Knowledge Graphs",
+    "authors": "Fei Xia, Bin Li, Yixuan Weng, Shizhu He, Kang Liu, Bin Sun, Shutao Li, Jun Zhao",
+    "venue": "arXiv 2022",
+    "year": 2022,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2204.09220"
+    }
+  },
+  {
+    "id": "conf-acl-JuZYJ0022",
+    "dblpKey": "conf/acl/JuZYJ0022",
+    "title": "Logic Traps in Evaluating Attribution Scores",
+    "authors": "Yiming Ju, Yuanzhe Zhang, Zhao Yang, Zhongtao Jiang, Kang Liu, Jun Zhao",
+    "venue": "ACL 2022",
+    "year": 2022,
+    "links": {
+      "paper": "https://aclanthology.org/2022.acl-long.407"
+    }
+  },
+  {
+    "id": "conf-emnlp-XiaLWHLSLZ22",
+    "dblpKey": "conf/emnlp/XiaLWHLSLZ22",
+    "title": "MedConQA: Medical Conversational Question Answering System based on Knowledge Graphs",
+    "authors": "Fei Xia, Bin Li, Yixuan Weng, Shizhu He, Kang Liu, Bin Sun, Shutao Li, Jun Zhao",
+    "venue": "EMNLP (Demos) 2022",
+    "year": 2022,
+    "links": {
+      "paper": "https://aclanthology.org/2022.emnlp-demos.15"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2210-08763",
+    "dblpKey": "journals/corr/abs-2210-08763",
+    "title": "ReasonChainQA: Text-based Complex Question Answering with Explainable Evidence Chains",
+    "authors": "Minjun Zhu, Yixuan Weng, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2022",
+    "year": 2022,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2210.08763"
+    }
+  },
+  {
+    "id": "journals-talip-BaiHLZ22",
+    "dblpKey": "journals/talip/BaiHLZ22",
+    "title": "Using Pre-trained Language Model to Enhance Active Learning for Sentence Matching",
+    "authors": "Guirong Bai, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "ACM Trans. Asian Low Resour. Lang. Inf. Process. 2022",
+    "year": 2022,
+    "links": {
+      "paper": "https://doi.org/10.1145/3480937"
+    }
+  },
+  {
+    "id": "conf-acl-SuiT00020",
+    "dblpKey": "conf/acl/SuiT00020",
+    "title": "A Large-Scale Chinese Multimodal NER Dataset with Speech Clues",
+    "authors": "Dianbo Sui, Zhengkun Tian, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "ACL/IJCNLP 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://aclanthology.org/2021.acl-long.218"
+    }
+  },
+  {
+    "id": "journals-jcst-LiuHLLZ21",
+    "dblpKey": "journals/jcst/LiuHLLZ21",
+    "title": "A Unified Shared-Private Network with Denoising for Dialogue State Tracking",
+    "authors": "Qingbin Liu, Shizhu He, Kang Liu, Shengping Liu, Jun Zhao",
+    "venue": "J. Comput. Sci. Technol. 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://doi.org/10.1007/s11390-020-0338-0"
+    }
+  },
+  {
+    "id": "conf-acl-JiangZY0020",
+    "dblpKey": "conf/acl/JiangZY0020",
+    "title": "Alignment Rationale for Natural Language Inference",
+    "authors": "Zhongtao Jiang, Yuanzhe Zhang, Zhao Yang, Jun Zhao, Kang Liu",
+    "venue": "ACL/IJCNLP 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://aclanthology.org/2021.acl-long.417"
+    }
+  },
+  {
+    "id": "conf-acl-ZhouC000NCL20",
+    "dblpKey": "conf/acl/ZhouC000NCL20",
+    "title": "Automatic ICD Coding via Interactive Shared Representation Networks with Self-distillation Mechanism",
+    "authors": "Tong Zhou, Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao, Kun Niu, Weifeng Chong, Shengping Liu",
+    "venue": "ACL/IJCNLP 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://aclanthology.org/2021.acl-long.463"
+    }
+  },
+  {
+    "id": "conf-emnlp-YanZ00SL21",
+    "dblpKey": "conf/emnlp/YanZ00SL21",
+    "title": "Biomedical Concept Normalization by Leveraging Hypernyms",
+    "authors": "Cheng Yan, Yuanzhe Zhang, Kang Liu, Jun Zhao, Yafei Shi, Shengping Liu",
+    "venue": "EMNLP 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://aclanthology.org/2021.emnlp-main.284"
+    }
+  },
+  {
+    "id": "conf-smm4h-ZhouLGZCNWLZSCL21",
+    "dblpKey": "conf/smm4h/ZhouLGZCNWLZSCL21",
+    "title": "Classification, Extraction, and Normalization : CASIA_Unisound Team at the Social Media Mining for Health 2021 Shared Tasks",
+    "authors": "Tong Zhou, Zhucong Li, Zhen Gan, Baoli Zhang, Yubo Chen, Kun Niu, Jing Wan, Kang Liu, Jun Zhao, Yafei Shi, Weifeng Chong, Shengping Liu",
+    "venue": "SMM4H@NAACL-HLT 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://doi.org/10.18653/v1/2021.smm4h-1.13"
+    }
+  },
+  {
+    "id": "conf-acl-JinCSWXZ21",
+    "dblpKey": "conf/acl/JinCSWXZ21",
+    "title": "CogIE: An Information Extraction Toolkit for Bridging Texts and CogNet",
+    "authors": "Zhuoran Jin, Yubo Chen, Dianbo Sui, Chenhao Wang, Zhipeng Xue, Jun Zhao",
+    "venue": "ACL (demo) 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://aclanthology.org/2021.acl-demo.11"
+    }
+  },
+  {
+    "id": "conf-aaai-Wang0XZ021",
+    "dblpKey": "conf/aaai/Wang0XZ021",
+    "title": "CogNet: Bridging Linguistic Knowledge, World Knowledge and Commonsense Knowledge",
+    "authors": "Chenhao Wang, Yubo Chen, Zhipeng Xue, Yang Zhou, Jun Zhao",
+    "venue": "AAAI 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://doi.org/10.1609/aaai.v35i18.18029",
+      "arxiv": "https://arxiv.org/abs/2103.02141"
+    }
+  },
+  {
+    "id": "conf-emnlp-ZhangLGCW0ZLS21",
+    "dblpKey": "conf/emnlp/ZhangLGCW0ZLS21",
+    "title": "CroAno : A Crowd Annotation Platform for Improving Label Consistency of Chinese NER Dataset",
+    "authors": "Baoli Zhang, Zhucong Li, Zhen Gan, Yubo Chen, Jing Wan, Kang Liu, Jun Zhao, Shengping Liu, Yafei Shi",
+    "venue": "EMNLP (Demos) 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://aclanthology.org/2021.emnlp-demo.32"
+    }
+  },
+  {
+    "id": "conf-emnlp-Sui00021",
+    "dblpKey": "conf/emnlp/Sui00021",
+    "title": "Distantly Supervised Relation Extraction in Federated Settings",
+    "authors": "Dianbo Sui, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "EMNLP (Findings) 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://aclanthology.org/2021.findings-emnlp.52",
+      "arxiv": "https://arxiv.org/abs/2008.05049"
+    }
+  },
+  {
+    "id": "conf-acl-YangS000W20",
+    "dblpKey": "conf/acl/YangS000W20",
+    "title": "Document-level Event Extraction via Parallel Prediction Networks",
+    "authors": "Hang Yang, Dianbo Sui, Yubo Chen, Kang Liu, Jun Zhao, Taifeng Wang",
+    "venue": "ACL/IJCNLP 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://aclanthology.org/2021.acl-long.492"
+    }
+  },
+  {
+    "id": "conf-ccks-XiaWXYHLL021",
+    "dblpKey": "conf/ccks/XiaWXYHLL021",
+    "title": "Does BERT Know Which Answer Beyond the Question?",
+    "authors": "Fei Xia, Yixuan Weng, Maojin Xia, Qiang Yu, Shizhu He, Kang Liu, Shengping Liu, Jun Zhao",
+    "venue": "CCKS (Evaluation Track) 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-981-19-0713-5_9"
+    }
+  },
+  {
+    "id": "conf-emnlp-LiuCLCCYH0021",
+    "dblpKey": "conf/emnlp/LiuCLCCYH0021",
+    "title": "Domain-Lifelong Learning for Dialogue State Tracking via Knowledge Preservation Networks",
+    "authors": "Qingbin Liu, Pengfei Cao, Cao Liu, Jiansong Chen, Xunliang Cai, Fan Yang, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "EMNLP 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://aclanthology.org/2021.emnlp-main.176"
+    }
+  },
+  {
+    "id": "conf-ccks-GanLZW0LZSL21",
+    "dblpKey": "conf/ccks/GanLZW0LZSL21",
+    "title": "Enhance Both Text and Label: Combination Strategies for Improving the Generalization Ability of Medical Entity Extraction",
+    "authors": "Zhen Gan, Zhucong Li, Baoli Zhang, Jing Wan, Yubo Chen, Kang Liu, Jun Zhao, Yafei Shi, Shengping Liu",
+    "venue": "CCKS (Evaluation Track) 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-981-19-0713-5_11"
+    }
+  },
+  {
+    "id": "conf-emnlp-JuZT0CZLZ21",
+    "dblpKey": "conf/emnlp/JuZT0CZLZ21",
+    "title": "Enhancing Multiple-choice Machine Reading Comprehension by Punishing Illogical Interpretations",
+    "authors": "Yiming Ju, Yuanzhe Zhang, Zhixing Tian, Kang Liu, Xiaohuan Cao, Wenting Zhao, Jinlong Li, Jun Zhao",
+    "venue": "EMNLP 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://aclanthology.org/2021.emnlp-main.295"
+    }
+  },
+  {
+    "id": "journals-midm-YanZLZSL21",
+    "dblpKey": "journals/midm/YanZLZSL21",
+    "title": "Enhancing unsupervised medical entity linking with multi-instance learning",
+    "authors": "Cheng Yan, Yuanzhe Zhang, Kang Liu, Jun Zhao, Yafei Shi, Shengping Liu",
+    "venue": "BMC Medical Informatics Decis. Mak. 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://doi.org/10.1186/s12911-021-01654-z"
+    }
+  },
+  {
+    "id": "conf-emnlp-GuanGLLT21",
+    "dblpKey": "conf/emnlp/GuanGLLT21",
+    "title": "Frame Semantic-Enhanced Sentence Modeling for Sentence-level Extractive Text Summarization",
+    "authors": "Yong Guan, Shaoru Guo, Ru Li, Xiaoli Li, Hongye Tan",
+    "venue": "EMNLP 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://aclanthology.org/2021.emnlp-main.331"
+    }
+  },
+  {
+    "id": "journals-kbs-LiuBHLLZ21",
+    "dblpKey": "journals/kbs/LiuBHLLZ21",
+    "title": "Heterogeneous Relational Graph Neural Networks with Adaptive Objective for End-to-End Task-Oriented Dialogue",
+    "authors": "Qingbin Liu, Guirong Bai, Shizhu He, Cao Liu, Kang Liu, Jun Zhao",
+    "venue": "Knowl. Based Syst. 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://doi.org/10.1016/j.knosys.2021.107186"
+    }
+  },
+  {
+    "id": "conf-acl-ZuoCCLZPC21",
+    "dblpKey": "conf/acl/ZuoCCLZPC21",
+    "title": "Improving Event Causality Identification via Self-Supervised Representation Learning on External Causal Statement",
+    "authors": "Xinyu Zuo, Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao, Weihua Peng, Yuguang Chen",
+    "venue": "ACL/IJCNLP (Findings) 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://aclanthology.org/2021.findings-acl.190",
+      "arxiv": "https://arxiv.org/abs/2106.01654"
+    }
+  },
+  {
+    "id": "conf-nlpcc-GanLZWCLZSL21",
+    "dblpKey": "conf/nlpcc/GanLZWCLZSL21",
+    "title": "Incorporate Lexicon into Self-training: A Distantly Supervised Chinese Medical NER",
+    "authors": "Zhen Gan, Zhucong Li, Baoli Zhang, Jing Wan, Yubo Chen, Kang Liu, Jun Zhao, Yafei Shi, Shengping Liu",
+    "venue": "NLPCC 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-030-88480-2_27"
+    }
+  },
+  {
+    "id": "conf-emnlp-GuanGLLZ21",
+    "dblpKey": "conf/emnlp/GuanGLLZ21",
+    "title": "Integrating Semantic Scenario and Word Relations for Abstractive Sentence Summarization",
+    "authors": "Yong Guan, Shaoru Guo, Ru Li, Xiaoli Li, Hu Zhang",
+    "venue": "EMNLP 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://aclanthology.org/2021.emnlp-main.196"
+    }
+  },
+  {
+    "id": "conf-naacl-SuiCMQLZ21",
+    "dblpKey": "conf/naacl/SuiCMQLZ21",
+    "title": "Knowledge Guided Metric Learning for Few-Shot Text Classification",
+    "authors": "Dianbo Sui, Yubo Chen, Binjie Mao, Delai Qiu, Kang Liu, Jun Zhao",
+    "venue": "NAACL-HLT 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://aclanthology.org/2021.naacl-main.261/",
+      "arxiv": "https://arxiv.org/abs/2004.01907"
+    }
+  },
+  {
+    "id": "conf-acl-CaoZ000CP20",
+    "dblpKey": "conf/acl/CaoZ000CP20",
+    "title": "Knowledge-Enriched Event Causality Identification via Latent Structure Induction Networks",
+    "authors": "Pengfei Cao, Xinyu Zuo, Yubo Chen, Kang Liu, Jun Zhao, Yuguang Chen, Weihua Peng",
+    "venue": "ACL/IJCNLP 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://aclanthology.org/2021.acl-long.376"
+    }
+  },
+  {
+    "id": "conf-acl-ZuoC000PC20",
+    "dblpKey": "conf/acl/ZuoC000PC20",
+    "title": "LearnDA: Learnable Knowledge-Guided Data Augmentation for Event Causality Identification",
+    "authors": "Xinyu Zuo, Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao, Weihua Peng, Yuguang Chen",
+    "venue": "ACL/IJCNLP 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://aclanthology.org/2021.acl-long.276",
+      "arxiv": "https://arxiv.org/abs/2106.01649"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2108-04445",
+    "dblpKey": "journals/corr/abs-2108-04445",
+    "title": "Lifelong Intent Detection via Multi-Strategy Rebalancing",
+    "authors": "Qingbin Liu, Xiaoyan Yu, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2021",
+    "year": 2021,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2108.04445"
+    }
+  },
+  {
+    "id": "conf-cikm-Yang000W21",
+    "dblpKey": "conf/cikm/Yang000W21",
+    "title": "Multi-Sentence Argument Linking via An Event-Aware Hierarchical Encoder",
+    "authors": "Hang Yang, Yubo Chen, Kang Liu, Jun Zhao, Taifeng Wang",
+    "venue": "CIKM 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://doi.org/10.1145/3459637.3482148"
+    }
+  },
+  {
+    "id": "conf-cncl-YuLHLLZZ21",
+    "dblpKey": "conf/cncl/YuLHLLZZ21",
+    "title": "Multi-strategy Knowledge Distillation Based Teacher-Student Framework for Machine Reading Comprehension",
+    "authors": "Xiaoyan Yu, Qingbin Liu, Shizhu He, Kang Liu, Shengping Liu, Jun Zhao, Yongbin Zhou",
+    "venue": "CCL 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-030-84186-7_14"
+    }
+  },
+  {
+    "id": "conf-cikm-Zhou00ZXJL21",
+    "dblpKey": "conf/cikm/Zhou00ZXJL21",
+    "title": "Multi-Task Self-Supervised Learning for Script Event Prediction",
+    "authors": "Bo Zhou, Yubo Chen, Kang Liu, Jun Zhao, Jiexin Xu, Xiaojian Jiang, Jinlong Li",
+    "venue": "CIKM 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://doi.org/10.1145/3459637.3482150"
+    }
+  },
+  {
+    "id": "conf-acl-HuangCWZXS21",
+    "dblpKey": "conf/acl/HuangCWZXS21",
+    "title": "Named Entity Recognition via Noise Aware Training Mechanism with Data Filter",
+    "authors": "Xiusheng Huang, Yubo Chen, Shun Wu, Jun Zhao, Yuantao Xie, Weijian Sun",
+    "venue": "ACL/IJCNLP (Findings) 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://aclanthology.org/2021.findings-acl.423"
+    }
+  },
+  {
+    "id": "conf-ccks-Huang00XS021",
+    "dblpKey": "conf/ccks/Huang00XS021",
+    "title": "NSRL: Named Entity Recognition with Noisy Labels via Selective Review Learning",
+    "authors": "Xiusheng Huang, Yubo Chen, Kang Liu, Yuantao Xie, Weijian Sun, Jun Zhao",
+    "venue": "CCKS 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-981-16-6471-7_12"
+    }
+  },
+  {
+    "id": "journals-midm-LanHLZLZ21a",
+    "dblpKey": "journals/midm/LanHLZLZ21a",
+    "title": "Path-based knowledge reasoning with textual semantic information for medical knowledge graph completion",
+    "authors": "Yinyu Lan, Shizhu He, Kang Liu, Xiangrong Zeng, Shengping Liu, Jun Zhao",
+    "venue": "BMC Medical Informatics Decis. Mak. 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://doi.org/10.1186/s12911-021-01622-7",
+      "arxiv": "https://arxiv.org/abs/2105.13074"
+    }
+  },
+  {
+    "id": "conf-eacl-ChenLCWZ21",
+    "dblpKey": "conf/eacl/ChenLCWZ21",
+    "title": "Probing into the Root: A Dataset for Reason Extraction of Structural Events from Financial Documents",
+    "authors": "Pei Chen, Kang Liu, Yubo Chen, Taifeng Wang, Jun Zhao",
+    "venue": "EACL 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://aclanthology.org/2021.eacl-main.175/"
+    }
+  },
+  {
+    "id": "journals-dint-LiGZCWLZL21",
+    "dblpKey": "journals/dint/LiGZCWLZL21",
+    "title": "Semi-Supervised Noisy Label Learning for Chinese Clinical Named Entity Recognition",
+    "authors": "Zhucong Li, Zhen Gan, Baoli Zhang, Yubo Chen, Jing Wan, Kang Liu, Jun Zhao, Shengping Liu",
+    "venue": "Data Intell. 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://doi.org/10.1162/dint_a_00099"
+    }
+  },
+  {
+    "id": "conf-emnlp-SuiW000B21",
+    "dblpKey": "conf/emnlp/SuiW000B21",
+    "title": "Set Generation Networks for End-to-End Knowledge Base Population",
+    "authors": "Dianbo Sui, Chenhao Wang, Yubo Chen, Kang Liu, Jun Zhao, Wei Bi",
+    "venue": "EMNLP 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://aclanthology.org/2021.emnlp-main.760"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2109-05463",
+    "dblpKey": "journals/corr/abs-2109-05463",
+    "title": "The Logic Traps in Evaluating Post-hoc Interpretations",
+    "authors": "Yiming Ju, Yuanzhe Zhang, Zhao Yang, Zhongtao Jiang, Kang Liu, Jun Zhao",
+    "venue": "arXiv 2021",
+    "year": 2021,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2109.05463"
+    }
+  },
+  {
+    "id": "conf-cncl-TianZLZ21",
+    "dblpKey": "conf/cncl/TianZLZ21",
+    "title": "Topic Knowledge Acquisition and Utilization for Machine Reading Comprehension in Social Media Domain",
+    "authors": "Zhixing Tian, Yuanzhe Zhang, Kang Liu, Jun Zhao",
+    "venue": "CCL 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-030-84186-7_11"
+    }
+  },
+  {
+    "id": "conf-ccks-XiaHLLZ21",
+    "dblpKey": "conf/ccks/XiaHLLZ21",
+    "title": "Toward a Better Text Data Augmentation via Filtering and Transforming Augmented Instances",
+    "authors": "Fei Xia, Shizhu He, Kang Liu, Shengping Liu, Jun Zhao",
+    "venue": "CCKS 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-981-16-6471-7_15"
+    }
+  },
+  {
+    "id": "conf-emnlp-Cao0Y0021",
+    "dblpKey": "conf/emnlp/Cao0Y0021",
+    "title": "Uncertain Local-to-Global Networks for Document-Level Event Factuality Identification",
+    "authors": "Pengfei Cao, Yubo Chen, Yuqing Yang, Kang Liu, Jun Zhao",
+    "venue": "EMNLP 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://aclanthology.org/2021.emnlp-main.207"
+    }
+  },
+  {
+    "id": "conf-cikm-CaoZ00ZB21",
+    "dblpKey": "conf/cikm/CaoZ00ZB21",
+    "title": "Uncertainty-Aware Self-Training for Semi-Supervised Event Temporal Relation Extraction",
+    "authors": "Pengfei Cao, Xinyu Zuo, Yubo Chen, Kang Liu, Jun Zhao, Wei Bi",
+    "venue": "CIKM 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://doi.org/10.1145/3459637.3482207"
+    }
+  },
+  {
+    "id": "conf-aaai-Zhou0ZWXL21",
+    "dblpKey": "conf/aaai/Zhou0ZWXL21",
+    "title": "What the Role is vs. What Plays the Role: Semi-Supervised Event Argument Extraction via Dual Question Answering",
+    "authors": "Yang Zhou, Yubo Chen, Jun Zhao, Yin Wu, Jiexin Xu, Jinlong Li",
+    "venue": "AAAI 2021",
+    "year": 2021,
+    "links": {
+      "paper": "https://doi.org/10.1609/aaai.v35i16.17720"
+    }
+  },
+  {
+    "id": "conf-acl-GuoLTLGZZ20",
+    "dblpKey": "conf/acl/GuoLTLGZZ20",
+    "title": "A Frame-based Sentence Representation for Machine Reading Comprehension",
+    "authors": "Shaoru Guo, Ru Li, Hongye Tan, Xiaoli Li, Yong Guan, Hongyan Zhao, Yueping Zhang",
+    "venue": "ACL 2020",
+    "year": 2020,
+    "links": {
+      "paper": "https://aclanthology.org/2020.acl-main.83/"
+    }
+  },
+  {
+    "id": "conf-aaai-TianZFJLL020",
+    "dblpKey": "conf/aaai/TianZFJLL020",
+    "title": "Capturing Sentence Relations for Answer Sentence Selection with Multi-Perspective Graph Encoding",
+    "authors": "Zhixing Tian, Yuanzhe Zhang, Xinwei Feng, Wenbin Jiang, Yajuan Lyu, Kang Liu, Jun Zhao",
+    "venue": "AAAI 2020",
+    "year": 2020,
+    "links": {
+      "paper": "https://doi.org/10.1609/aaai.v34i05.6436"
+    }
+  },
+  {
+    "id": "conf-cncl-CaoCLZ20",
+    "dblpKey": "conf/cncl/CaoCLZ20",
+    "title": "Chinese Named Entity Recognition via Adaptive Multi-pass Memory Network with Hierarchical Tagging Mechanism",
+    "authors": "Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "CNCL 2020",
+    "year": 2020,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-030-63031-7_11"
+    }
+  },
+  {
+    "id": "conf-acl-CaoYFCLZLC20",
+    "dblpKey": "conf/acl/CaoYFCLZLC20",
+    "title": "Clinical-Coder: Assigning Interpretable ICD-10 Codes to Chinese Clinical Notes",
+    "authors": "Pengfei Cao, Chenwei Yan, Xiangling Fu, Yubo Chen, Kang Liu, Jun Zhao, Shengping Liu, Weifeng Chong",
+    "venue": "ACL (demo) 2020",
+    "year": 2020,
+    "links": {
+      "paper": "https://aclanthology.org/2020.acl-demos.33/"
+    }
+  },
+  {
+    "id": "conf-emnlp-LiuCLBL20",
+    "dblpKey": "conf/emnlp/LiuCLBL20",
+    "title": "Event Extraction as Machine Reading Comprehension",
+    "authors": "Jian Liu, Yubo Chen, Kang Liu, Wei Bi, Xiaojiang Liu",
+    "venue": "EMNLP 2020",
+    "year": 2020,
+    "links": {
+      "paper": "https://aclanthology.org/2020.emnlp-main.128/"
+    }
+  },
+  {
+    "id": "journals-aiopen-LiuCLZZ20",
+    "dblpKey": "journals/aiopen/LiuCLZZ20",
+    "title": "Extracting Events and Their Relations from Texts: A Survey on Recent Research Progress and Challenges",
+    "authors": "Kang Liu, Yubo Chen, Jian Liu, Xinyu Zuo, Jun Zhao",
+    "venue": "AI Open 2020",
+    "year": 2020,
+    "links": {
+      "paper": "https://doi.org/10.1016/j.aiopen.2021.02.004"
+    }
+  },
+  {
+    "id": "conf-emnlp-SuiCZJXS20",
+    "dblpKey": "conf/emnlp/SuiCZJXS20",
+    "title": "FedED: Federated Learning via Ensemble Distillation for Medical Relation Extraction",
+    "authors": "Dianbo Sui, Yubo Chen, Jun Zhao, Yantao Jia, Yuantao Xie, Weijian Sun",
+    "venue": "EMNLP 2020",
+    "year": 2020,
+    "links": {
+      "paper": "https://aclanthology.org/2020.emnlp-main.165/"
+    }
+  },
+  {
+    "id": "conf-coling-LiuSLZ20",
+    "dblpKey": "conf/coling/LiuSLZ20",
+    "title": "Graph-Based Knowledge Integration for Question Answering over Dialogue",
+    "authors": "Jian Liu, Dianbo Sui, Kang Liu, Jun Zhao",
+    "venue": "COLING 2020",
+    "year": 2020,
+    "links": {
+      "paper": "https://aclanthology.org/2020.coling-main.219/"
+    }
+  },
+  {
+    "id": "conf-emnlp-Liu00JS20",
+    "dblpKey": "conf/emnlp/Liu00JS20",
+    "title": "How Does Context Matter? On the Robustness of Event Detection with Context-Selective Mask Generalization",
+    "authors": "Jian Liu, Yubo Chen, Kang Liu, Yantao Jia, Zhicheng Sheng",
+    "venue": "EMNLP (Findings) 2020",
+    "year": 2020,
+    "links": {
+      "paper": "https://aclanthology.org/2020.findings-emnlp.229/"
+    }
+  },
+  {
+    "id": "conf-acl-CaoCLZLC20",
+    "dblpKey": "conf/acl/CaoCLZLC20",
+    "title": "HyperCore: Hyperbolic and Co-graph Representation for Automatic ICD Coding",
+    "authors": "Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao, Shengping Liu, Weifeng Chong",
+    "venue": "ACL 2020",
+    "year": 2020,
+    "links": {
+      "paper": "https://aclanthology.org/2020.acl-main.282/"
+    }
+  },
+  {
+    "id": "conf-coling-GuoGLLT20",
+    "dblpKey": "conf/coling/GuoGLLT20",
+    "title": "Incorporating Syntax and Frame Semantics in Neural Network for Machine Reading Comprehension",
+    "authors": "Shaoru Guo, Yong Guan, Ru Li, Xiaoli Li, Hongye Tan",
+    "venue": "COLING 2020",
+    "year": 2020,
+    "links": {
+      "paper": "https://aclanthology.org/2020.coling-main.237/"
+    }
+  },
+  {
+    "id": "conf-emnlp-CaoCZW20",
+    "dblpKey": "conf/emnlp/CaoCZW20",
+    "title": "Incremental Event Detection via Knowledge Consolidation Networks",
+    "authors": "Pengfei Cao, Yubo Chen, Jun Zhao, Taifeng Wang",
+    "venue": "EMNLP 2020",
+    "year": 2020,
+    "links": {
+      "paper": "https://aclanthology.org/2020.emnlp-main.52/"
+    }
+  },
+  {
+    "id": "conf-coling-ZuoCLZ20",
+    "dblpKey": "conf/coling/ZuoCLZ20",
+    "title": "KnowDis: Knowledge Enhanced Data Augmentation for Event Causality Detection via Distant Supervision",
+    "authors": "Xinyu Zuo, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "COLING 2020",
+    "year": 2020,
+    "links": {
+      "paper": "https://aclanthology.org/2020.coling-main.135/",
+      "arxiv": "https://arxiv.org/abs/2010.10833"
+    }
+  },
+  {
+    "id": "conf-ijcai-Liu0020",
+    "dblpKey": "conf/ijcai/Liu0020",
+    "title": "Knowledge Enhanced Event Causality Identification with Mention Masking Generalizations",
+    "authors": "Jian Liu, Yubo Chen, Jun Zhao",
+    "venue": "IJCAI 2020",
+    "year": 2020,
+    "links": {
+      "paper": "https://doi.org/10.24963/ijcai.2020/499"
+    }
+  },
+  {
+    "id": "conf-ccks-Yang00020",
+    "dblpKey": "conf/ccks/Yang00020",
+    "title": "Meta Learning for Event Argument Extraction via Domain-Specific Information Enhanced",
+    "authors": "Hang Yang, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "CCKS 2020",
+    "year": 2020,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-981-16-1964-9_13"
+    }
+  },
+  {
+    "id": "conf-acl-ZhangJZLCLLZ20",
+    "dblpKey": "conf/acl/ZhangJZLCLLZ20",
+    "title": "MIE: A Medical Information Extractor towards Medical Dialogues",
+    "authors": "Yuanzhe Zhang, Zhongtao Jiang, Tao Zhang, Shiwan Liu, Jiarun Cao, Kang Liu, Shengping Liu, Jun Zhao",
+    "venue": "ACL 2020",
+    "year": 2020,
+    "links": {
+      "paper": "https://aclanthology.org/2020.acl-main.576/"
+    }
+  },
+  {
+    "id": "journals-corr-abs-2003-03875",
+    "dblpKey": "journals/corr/abs-2003-03875",
+    "title": "Overview of the CCKS 2019 Knowledge Graph Evaluation Track: Entity, Relation, Event and QA",
+    "authors": "Xianpei Han, Zhichun Wang, Jiangtao Zhang, Qinghua Wen, Wenqi Li, Buzhou Tang, Qi Wang, Zhifan Feng, Yang Zhang, Yajuan Lu, Haitao Wang, Wenliang Chen, Hao Shao, Yubo Chen, Kang Liu, Jun Zhao, Taifeng Wang, Kezun Zhang, Meng Wang, Yinlin Jiang, Guilin Qi, Lei Zou, Sen Hu, Minhao Zhang, Yinnian Lin",
+    "venue": "arXiv 2020",
+    "year": 2020,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2003.03875"
+    }
+  },
+  {
+    "id": "conf-coling-BaiHLZN20",
+    "dblpKey": "conf/coling/BaiHLZN20",
+    "title": "Pre-trained Language Model Based Active Learning for Sentence Matching",
+    "authors": "Guirong Bai, Shizhu He, Kang Liu, Jun Zhao, Zaiqing Nie",
+    "venue": "COLING 2020",
+    "year": 2020,
+    "links": {
+      "paper": "https://aclanthology.org/2020.coling-main.130/",
+      "arxiv": "https://arxiv.org/abs/2010.05522"
+    }
+  },
+  {
+    "id": "conf-ijcnlp-ChenYLHCWZ20",
+    "dblpKey": "conf/ijcnlp/ChenYLHCWZ20",
+    "title": "Reconstructing Event Regions for Event Extraction via Graph Attention Networks",
+    "authors": "Pei Chen, Hang Yang, Kang Liu, Ruihong Huang, Yubo Chen, Taifeng Wang, Jun Zhao",
+    "venue": "AACL/IJCNLP 2020",
+    "year": 2020,
+    "links": {
+      "paper": "https://aclanthology.org/2020.aacl-main.81/"
+    }
+  },
+  {
+    "id": "conf-emnlp-TianZLZJS20",
+    "dblpKey": "conf/emnlp/TianZLZJS20",
+    "title": "Scene Restoring for Narrative Machine Reading Comprehension",
+    "authors": "Zhixing Tian, Yuanzhe Zhang, Kang Liu, Jun Zhao, Yantao Jia, Zhicheng Sheng",
+    "venue": "EMNLP 2020",
+    "year": 2020,
+    "links": {
+      "paper": "https://aclanthology.org/2020.emnlp-main.247/"
+    }
+  },
+  {
+    "id": "conf-cncl-ZuoCLZ20",
+    "dblpKey": "conf/cncl/ZuoCLZ20",
+    "title": "Towards Causal Explanation Detection with Pyramid Salient-Aware Network",
+    "authors": "Xinyu Zuo, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "CNCL 2020",
+    "year": 2020,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-030-63031-7_9",
+      "arxiv": "https://arxiv.org/abs/2009.10288"
+    }
+  },
+  {
+    "id": "conf-acl-ZhangHLZ19",
+    "dblpKey": "conf/acl/ZhangHLZ19",
+    "title": "AdaNSP: Uncertainty-driven Adaptive Decoding in Neural Semantic Parsing",
+    "authors": "Xiang Zhang, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "ACL 2019",
+    "year": 2019,
+    "links": {
+      "paper": "https://aclanthology.org/P19-1418/"
+    }
+  },
+  {
+    "id": "conf-ccks-WangCLZ19",
+    "dblpKey": "conf/ccks/WangCLZ19",
+    "title": "Adaptive Multilingual Representations for Cross-Lingual Entity Linking with Attention on Entity Descriptions",
+    "authors": "Chenhao Wang, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "CCKS 2019",
+    "year": 2019,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-981-15-1956-7_1"
+    }
+  },
+  {
+    "id": "conf-jist-ZhouCLZ19",
+    "dblpKey": "conf/jist/ZhouCLZ19",
+    "title": "Attention-Based Direct Interaction Model for Knowledge Graph Embedding",
+    "authors": "Bo Zhou, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "JIST 2019",
+    "year": 2019,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-981-15-3412-6_10"
+    }
+  },
+  {
+    "id": "journals-corr-abs-1908-07705",
+    "dblpKey": "journals/corr/abs-1908-07705",
+    "title": "Copy-Enhanced Heterogeneous Information Learning for Dialogue State Tracking",
+    "authors": "Qingbin Liu, Shizhu He, Kang Liu, Shengping Liu, Jun Zhao",
+    "venue": "arXiv 2019",
+    "year": 2019,
+    "links": {
+      "arxiv": "http://arxiv.org/abs/1908.07705"
+    }
+  },
+  {
+    "id": "conf-sigir-WangYZXT0019",
+    "dblpKey": "conf/sigir/WangYZXT0019",
+    "title": "Document Gated Reader for Open-Domain Question Answering",
+    "authors": "Bingning Wang, Ting Yao, Qi Zhang, Jingfang Xu, Zhixing Tian, Kang Liu, Jun Zhao",
+    "venue": "SIGIR 2019",
+    "year": 2019,
+    "links": {
+      "paper": "https://doi.org/10.1145/3331184.3331190"
+    }
+  },
+  {
+    "id": "journals-chinaf-ZuoCLZ19",
+    "dblpKey": "journals/chinaf/ZuoCLZ19",
+    "title": "Event co-reference resolution via a multi-loss neural network without using argument information",
+    "authors": "Xinyu Zuo, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "Sci. China Inf. Sci. 2019",
+    "year": 2019,
+    "links": {
+      "paper": "https://doi.org/10.1007/s11432-018-9833-1",
+      "arxiv": "https://arxiv.org/abs/2009.10290"
+    }
+  },
+  {
+    "id": "conf-aaai-Liu0019",
+    "dblpKey": "conf/aaai/Liu0019",
+    "title": "Exploiting the Ground-Truth: An Adversarial Imitation Based Knowledge Distillation Approach for Event Detection",
+    "authors": "Jian Liu, Yubo Chen, Kang Liu",
+    "venue": "AAAI 2019",
+    "year": 2019,
+    "links": {
+      "paper": "https://doi.org/10.1609/aaai.v33i01.33016754"
+    }
+  },
+  {
+    "id": "conf-emnlp-LiuLHNZ19",
+    "dblpKey": "conf/emnlp/LiuLHNZ19",
+    "title": "Generating Questions for Knowledge Bases via Incorporating Diversified Contexts and Answer-Aware Loss",
+    "authors": "Cao Liu, Kang Liu, Shizhu He, Zaiqing Nie, Jun Zhao",
+    "venue": "EMNLP/IJCNLP 2019",
+    "year": 2019,
+    "links": {
+      "paper": "https://doi.org/10.18653/v1/D19-1247",
+      "arxiv": "http://arxiv.org/abs/1910.13108"
+    }
+  },
+  {
+    "id": "conf-conll-LiuLHNZ19",
+    "dblpKey": "conf/conll/LiuLHNZ19",
+    "title": "Incorporating Interlocutor-Aware Context into Response Generation on Multi-Party Chatbots",
+    "authors": "Cao Liu, Kang Liu, Shizhu He, Zaiqing Nie, Jun Zhao",
+    "venue": "CoNLL 2019",
+    "year": 2019,
+    "links": {
+      "paper": "https://doi.org/10.18653/v1/K19-1067",
+      "arxiv": "http://arxiv.org/abs/1910.13106"
+    }
+  },
+  {
+    "id": "conf-emnlp-ZengHZLLZ19",
+    "dblpKey": "conf/emnlp/ZengHZLLZ19",
+    "title": "Learning the Extraction Order of Multiple Relational Facts in a Sentence with Reinforcement Learning",
+    "authors": "Xiangrong Zeng, Shizhu He, Daojian Zeng, Kang Liu, Shengping Liu, Jun Zhao",
+    "venue": "EMNLP/IJCNLP 2019",
+    "year": 2019,
+    "links": {
+      "paper": "https://doi.org/10.18653/v1/D19-1035"
+    }
+  },
+  {
+    "id": "conf-aaai-He0A19",
+    "dblpKey": "conf/aaai/He0A19",
+    "title": "Learning to Align Question and Answer Utterances in Customer Service Conversation with Recurrent Pointer Networks",
+    "authors": "Shizhu He, Kang Liu, Weiting An",
+    "venue": "AAAI 2019",
+    "year": 2019,
+    "links": {
+      "paper": "https://doi.org/10.1609/aaai.v33i01.3301134"
+    }
+  },
+  {
+    "id": "conf-emnlp-SuiCLZL19",
+    "dblpKey": "conf/emnlp/SuiCLZL19",
+    "title": "Leverage Lexical Knowledge for Chinese Named Entity Recognition via Collaborative Graph Network",
+    "authors": "Dianbo Sui, Yubo Chen, Kang Liu, Jun Zhao, Shengping Liu",
+    "venue": "EMNLP/IJCNLP 2019",
+    "year": 2019,
+    "links": {
+      "paper": "https://doi.org/10.18653/v1/D19-1396"
+    }
+  },
+  {
+    "id": "conf-emnlp-QiuZFLJLLZ19",
+    "dblpKey": "conf/emnlp/QiuZFLJLLZ19",
+    "title": "Machine Reading Comprehension Using Structural Knowledge Graph-aware Network",
+    "authors": "Delai Qiu, Yuanzhe Zhang, Xinwei Feng, Xiangwen Liao, Wenbin Jiang, Yajuan Lyu, Kang Liu, Jun Zhao",
+    "venue": "EMNLP/IJCNLP 2019",
+    "year": 2019,
+    "links": {
+      "paper": "https://doi.org/10.18653/v1/D19-1602"
+    }
+  },
+  {
+    "id": "conf-emnlp-LiuCLZ19",
+    "dblpKey": "conf/emnlp/LiuCLZ19",
+    "title": "Neural Cross-Lingual Event Detection with Minimal Parallel Resources",
+    "authors": "Jian Liu, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "EMNLP/IJCNLP 2019",
+    "year": 2019,
+    "links": {
+      "paper": "https://doi.org/10.18653/v1/D19-1068"
+    }
+  },
+  {
+    "id": "conf-cncl-QiuBTZ00L19",
+    "dblpKey": "conf/cncl/QiuBTZ00L19",
+    "title": "Reconstructed Option Rereading Network for Opinion Questions Reading Comprehension",
+    "authors": "Delai Qiu, Liang Bao, Zhixing Tian, Yuanzhe Zhang, Kang Liu, Jun Zhao, Xiangwen Liao",
+    "venue": "CCL 2019",
+    "year": 2019,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-030-32381-3_8"
+    }
+  },
+  {
+    "id": "conf-cncl-ZhouCLZ19",
+    "dblpKey": "conf/cncl/ZhouCLZ19",
+    "title": "Relation and Fact Type Supervised Knowledge Graph Embedding via Weighted Scores",
+    "authors": "Bo Zhou, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "CCL 2019",
+    "year": 2019,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-030-32381-3_21"
+    }
+  },
+  {
+    "id": "conf-ictir-WangYZX0T019",
+    "dblpKey": "conf/ictir/WangYZX0T019",
+    "title": "Unsupervised Story Comprehension with Hierarchical Encoder-Decoder",
+    "authors": "Bingning Wang, Ting Yao, Qi Zhang, Jingfang Xu, Kang Liu, Zhixing Tian, Jun Zhao",
+    "venue": "ICTIR 2019",
+    "year": 2019,
+    "links": {
+      "paper": "https://doi.org/10.1145/3341981.3344227"
+    }
+  },
+  {
+    "id": "conf-cncl-BaiH0019",
+    "dblpKey": "conf/cncl/BaiH0019",
+    "title": "Utterance Alignment in Custom Service by Integer Programming",
+    "authors": "Guirong Bai, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "CCL 2019",
+    "year": 2019,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-030-32381-3_56"
+    }
+  },
+  {
+    "id": "conf-nlpcc-BaiH0019",
+    "dblpKey": "conf/nlpcc/BaiH0019",
+    "title": "Variational Attention for Commonsense Knowledge Aware Conversation Generation",
+    "authors": "Guirong Bai, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "NLPCC 2019",
+    "year": 2019,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-030-32233-5_1"
+    }
+  },
+  {
+    "id": "conf-acl-LiuHLZ19",
+    "dblpKey": "conf/acl/LiuHLZ19",
+    "title": "Vocabulary Pyramid Network: Multi-Pass Encoding and Decoding with Multi-Level Vocabularies for Response Generation",
+    "authors": "Cao Liu, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "ACL 2019",
+    "year": 2019,
+    "links": {
+      "paper": "https://aclanthology.org/P19-1367/"
+    }
+  },
+  {
+    "id": "conf-ccks-Cao00018",
+    "dblpKey": "conf/ccks/Cao00018",
+    "title": "Adversarial Training for Relation Classification with Attention Based Gate Mechanism",
+    "authors": "Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "CCKS 2018",
+    "year": 2018,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-981-13-3146-6_8"
+    }
+  },
+  {
+    "id": "conf-emnlp-Cao000L18",
+    "dblpKey": "conf/emnlp/Cao000L18",
+    "title": "Adversarial Transfer Learning for Chinese Named Entity Recognition with Self-Attention Mechanism",
+    "authors": "Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao, Shengping Liu",
+    "venue": "EMNLP 2018",
+    "year": 2018,
+    "links": {
+      "paper": "https://aclanthology.org/D18-1017/"
+    }
+  },
+  {
+    "id": "conf-emnlp-0001Y00J18",
+    "dblpKey": "conf/emnlp/0001Y00J18",
+    "title": "Collective Event Detection via a Hierarchical and Bias Tagging Networks with Gated Multi-level Attention Mechanisms",
+    "authors": "Yubo Chen, Hang Yang, Kang Liu, Jun Zhao, Yantao Jia",
+    "venue": "EMNLP 2018",
+    "year": 2018,
+    "links": {
+      "paper": "https://aclanthology.org/D18-1158/"
+    }
+  },
+  {
+    "id": "conf-ijcai-LiuH0018",
+    "dblpKey": "conf/ijcai/LiuH0018",
+    "title": "Curriculum Learning for Natural Answer Generation",
+    "authors": "Cao Liu, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "IJCAI 2018",
+    "year": 2018,
+    "links": {
+      "paper": "https://doi.org/10.24963/ijcai.2018/587"
+    }
+  },
+  {
+    "id": "conf-acl-YangCLXZ18",
+    "dblpKey": "conf/acl/YangCLXZ18",
+    "title": "DCFEE: A Document-level Chinese Financial Event Extraction System based on Automatically Labeled Training Data",
+    "authors": "Hang Yang, Yubo Chen, Kang Liu, Yang Xiao, Jun Zhao",
+    "venue": "ACL 2018",
+    "year": 2018,
+    "links": {
+      "paper": "https://aclanthology.org/P18-4009/"
+    }
+  },
+  {
+    "id": "conf-cikm-Wang0018",
+    "dblpKey": "conf/cikm/Wang0018",
+    "title": "Deep Semantic Hashing with Multi-Adversarial Training",
+    "authors": "Bingning Wang, Kang Liu, Jun Zhao",
+    "venue": "CIKM 2018",
+    "year": 2018,
+    "links": {
+      "paper": "https://doi.org/10.1145/3269206.3271735"
+    }
+  },
+  {
+    "id": "conf-aaai-Liu00018",
+    "dblpKey": "conf/aaai/Liu00018",
+    "title": "Event Detection via Gated Multilingual Attention Mechanism",
+    "authors": "Jian Liu, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "AAAI 2018",
+    "year": 2018,
+    "links": {
+      "paper": "https://doi.org/10.1609/aaai.v32i1.11919"
+    }
+  },
+  {
+    "id": "conf-acl-LiuZZHZ18",
+    "dblpKey": "conf/acl/LiuZZHZ18",
+    "title": "Extracting Relational Facts by an End-to-End Neural Model with Copy Mechanism",
+    "authors": "Xiangrong Zeng, Daojian Zeng, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "ACL 2018",
+    "year": 2018,
+    "links": {
+      "paper": "https://aclanthology.org/P18-1047/"
+    }
+  },
+  {
+    "id": "conf-aaai-ZengHL018",
+    "dblpKey": "conf/aaai/ZengHL018",
+    "title": "Large Scaled Relation Extraction With Reinforcement Learning",
+    "authors": "Xiangrong Zeng, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "AAAI 2018",
+    "year": 2018,
+    "links": {
+      "paper": "https://doi.org/10.1609/aaai.v32i1.11950"
+    }
+  },
+  {
+    "id": "conf-cncl-LiuHLL018",
+    "dblpKey": "conf/cncl/LiuHLL018",
+    "title": "Learning to Detect Verbose Expressions in Spoken Texts",
+    "authors": "Qingbin Liu, Shizhu He, Kang Liu, Shengping Liu, Jun Zhao",
+    "venue": "CCL 2018",
+    "year": 2018,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-030-01716-3_30"
+    }
+  },
+  {
+    "id": "conf-coling-HaoLHLZ18",
+    "dblpKey": "conf/coling/HaoLHLZ18",
+    "title": "Pattern-revising Enhanced Simple Question Answering over Knowledge Bases",
+    "authors": "Yanchao Hao, Hao Liu, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "COLING 2018",
+    "year": 2018,
+    "links": {
+      "paper": "https://aclanthology.org/C18-1277/"
+    }
+  },
+  {
+    "id": "conf-acl-HaoZLHLWZ17",
+    "dblpKey": "conf/acl/HaoZLHLWZ17",
+    "title": "An End-to-End Model for Question Answering over Knowledge Base with Cross-Attention Combining Global Knowledge",
+    "authors": "Yanchao Hao, Yuanzhe Zhang, Kang Liu, Shizhu He, Zhanyi Liu, Hua Wu, Jun Zhao",
+    "venue": "ACL 2017",
+    "year": 2017,
+    "links": {
+      "paper": "https://doi.org/10.18653/v1/P17-1021"
+    }
+  },
+  {
+    "id": "conf-ccks-LiuC0Z17",
+    "dblpKey": "conf/ccks/LiuC0Z17",
+    "title": "Attention-Based Event Relevance Model for Stock Price Movement Prediction",
+    "authors": "Jian Liu, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "CCKS 2017",
+    "year": 2017,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-981-10-7359-5_5"
+    }
+  },
+  {
+    "id": "conf-acl-ChenLZLZ17",
+    "dblpKey": "conf/acl/ChenLZLZ17",
+    "title": "Automatically Labeled Data Generation for Large Scale Event Extraction",
+    "authors": "Yubo Chen, Shulin Liu, Xiang Zhang, Kang Liu, Jun Zhao",
+    "venue": "ACL 2017",
+    "year": 2017,
+    "links": {
+      "paper": "https://doi.org/10.18653/v1/P17-1038"
+    }
+  },
+  {
+    "id": "conf-ijcai-Wang0017",
+    "dblpKey": "conf/ijcai/Wang0017",
+    "title": "Conditional Generative Adversarial Networks for Commonsense Machine Comprehension",
+    "authors": "Bingning Wang, Kang Liu, Jun Zhao",
+    "venue": "IJCAI 2017",
+    "year": 2017,
+    "links": {
+      "paper": "https://doi.org/10.24963/ijcai.2017/576"
+    }
+  },
+  {
+    "id": "conf-nlpcc-Wang0017",
+    "dblpKey": "conf/nlpcc/Wang0017",
+    "title": "Detecting Deceptive Review Spam via Attention-Based Neural Networks",
+    "authors": "Xuepeng Wang, Kang Liu, Jun Zhao",
+    "venue": "NLPCC 2017",
+    "year": 2017,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-319-73618-1_76"
+    }
+  },
+  {
+    "id": "conf-aaai-Ji0H017",
+    "dblpKey": "conf/aaai/Ji0H017",
+    "title": "Distant Supervision for Relation Extraction with Sentence-Level Attention and Entity Descriptions",
+    "authors": "Guoliang Ji, Kang Liu, Shizhu He, Jun Zhao",
+    "venue": "AAAI 2017",
+    "year": 2017,
+    "links": {
+      "paper": "https://doi.org/10.1609/aaai.v31i1.10953"
+    }
+  },
+  {
+    "id": "conf-acl-LiuCLZ17",
+    "dblpKey": "conf/acl/LiuCLZ17",
+    "title": "Exploiting Argument Information to Improve Event Detection via Supervised Attention Mechanisms",
+    "authors": "Shulin Liu, Yubo Chen, Kang Liu, Jun Zhao",
+    "venue": "ACL 2017",
+    "year": 2017,
+    "links": {
+      "paper": "https://doi.org/10.18653/v1/P17-1164"
+    }
+  },
+  {
+    "id": "conf-acl-HeLLZ17",
+    "dblpKey": "conf/acl/HeLLZ17",
+    "title": "Generating Natural Answers by Incorporating Copying and Retrieving Mechanisms in Sequence-to-Sequence Learning",
+    "authors": "Shizhu He, Cao Liu, Kang Liu, Jun Zhao",
+    "venue": "ACL 2017",
+    "year": 2017,
+    "links": {
+      "paper": "https://doi.org/10.18653/v1/P17-1019"
+    }
+  },
+  {
+    "id": "conf-acl-WangLZ17",
+    "dblpKey": "conf/acl/WangLZ17",
+    "title": "Handling Cold-Start Problem in Review Spam Detection by Jointly Embedding Texts and Behaviors",
+    "authors": "Xuepeng Wang, Kang Liu, Jun Zhao",
+    "venue": "ACL 2017",
+    "year": 2017,
+    "links": {
+      "paper": "https://doi.org/10.18653/v1/P17-1034"
+    }
+  },
+  {
+    "id": "conf-ijcnlp-GuoLHLZW17",
+    "dblpKey": "conf/ijcnlp/GuoLHLZW17",
+    "title": "IJCNLP-2017 Task 5: Multi-choice Question Answering in Examinations",
+    "authors": "Shangmin Guo, Kang Liu, Shizhu He, Cao Liu, Jun Zhao, Zhuoyu Wei",
+    "venue": "IJCNLP (Shared Tasks) 2017",
+    "year": 2017,
+    "links": {
+      "paper": "https://aclanthology.org/I17-4005/"
+    }
+  },
+  {
+    "id": "conf-cncl-LiuCLZLL17",
+    "dblpKey": "conf/cncl/LiuCLZLL17",
+    "title": "Improving Event Detection via Information Sharing Among Related Event Types",
+    "authors": "Shulin Liu, Yubo Chen, Kang Liu, Jun Zhao, Zhunchen Luo, Wei Luo",
+    "venue": "CCL 2017",
+    "year": 2017,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-319-69005-6_11"
+    }
+  },
+  {
+    "id": "conf-cncl-LiuHYLZ17",
+    "dblpKey": "conf/cncl/LiuHYLZ17",
+    "title": "Unsupervised Joint Entity Linking over Question Answering Pair with Global Knowledge",
+    "authors": "Cao Liu, Shizhu He, Hang Yang, Kang Liu, Jun Zhao",
+    "venue": "CCL 2017",
+    "year": 2017,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-319-69005-6_23"
+    }
+  },
+  {
+    "id": "conf-eacl-LiuZHGZ17",
+    "dblpKey": "conf/eacl/LiuZHGZ17",
+    "title": "Which is the Effective Way for Gaokao: Information Retrieval or Neural Networks?",
+    "authors": "Shangmin Guo, Xiangrong Zeng, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "EACL 2017",
+    "year": 2017,
+    "links": {
+      "paper": "https://aclanthology.org/E17-1011/"
+    }
+  },
+  {
+    "id": "conf-ccks-HaoZHL016",
+    "dblpKey": "conf/ccks/HaoZHL016",
+    "title": "A Joint Embedding Method for Entity Alignment of Knowledge Bases",
+    "authors": "Yanchao Hao, Yuanzhe Zhang, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "CCKS 2016",
+    "year": 2016,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-981-10-3168-7_1"
+    }
+  },
+  {
+    "id": "conf-aaai-ZhangHL016",
+    "dblpKey": "conf/aaai/ZhangHL016",
+    "title": "A Joint Model for Question Answering over Multiple Knowledge Bases",
+    "authors": "Yuanzhe Zhang, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "AAAI 2016",
+    "year": 2016,
+    "links": {
+      "paper": "https://doi.org/10.1609/aaai.v30i1.10381"
+    }
+  },
+  {
+    "id": "conf-aaai-LiuLH016",
+    "dblpKey": "conf/aaai/LiuLH016",
+    "title": "A Probabilistic Soft Logic Based Approach to Exploiting Latent and Global Information in Event Classification",
+    "authors": "Shulin Liu, Kang Liu, Shizhu He, Jun Zhao",
+    "venue": "AAAI 2016",
+    "year": 2016,
+    "links": {
+      "paper": "https://doi.org/10.1609/aaai.v30i1.10375"
+    }
+  },
+  {
+    "id": "conf-ijcai-WangGLH016",
+    "dblpKey": "conf/ijcai/WangGLH016",
+    "title": "Employing External Rich Knowledge for Machine Comprehension",
+    "authors": "Bingning Wang, Shangmin Guo, Kang Liu, Shizhu He, Jun Zhao",
+    "venue": "IJCAI 2016",
+    "year": 2016,
+    "links": {
+      "paper": "http://www.ijcai.org/Abstract/16/416"
+    }
+  },
+  {
+    "id": "conf-cncl-ChenLHL016",
+    "dblpKey": "conf/cncl/ChenLHL016",
+    "title": "Event Extraction via Bidirectional Long Short-Term Memory Tensor Neural Networks",
+    "authors": "Yubo Chen, Shulin Liu, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "CCL 2016",
+    "year": 2016,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-319-47674-2_17"
+    }
+  },
+  {
+    "id": "journals-expert-LaiLHZ16",
+    "dblpKey": "journals/expert/LaiLHZ16",
+    "title": "How to Generate a Good Word Embedding",
+    "authors": "Siwei Lai, Kang Liu, Shizhu He, Jun Zhao",
+    "venue": "IEEE Intell. Syst. 2016",
+    "year": 2016,
+    "links": {
+      "paper": "https://doi.org/10.1109/MIS.2016.45",
+      "arxiv": "http://arxiv.org/abs/1507.05523"
+    }
+  },
+  {
+    "id": "conf-acl-WangL016",
+    "dblpKey": "conf/acl/WangL016",
+    "title": "Inner Attention based Recurrent Neural Networks for Answer Selection",
+    "authors": "Bingning Wang, Kang Liu, Jun Zhao",
+    "venue": "ACL 2016",
+    "year": 2016,
+    "links": {
+      "paper": "https://aclanthology.org/P16-1122/"
+    }
+  },
+  {
+    "id": "conf-aaai-JiLH016",
+    "dblpKey": "conf/aaai/JiLH016",
+    "title": "Knowledge Graph Completion with Adaptive Sparse Transfer Matrix",
+    "authors": "Guoliang Ji, Kang Liu, Shizhu He, Jun Zhao",
+    "venue": "AAAI 2016",
+    "year": 2016,
+    "links": {
+      "paper": "https://doi.org/10.1609/aaai.v30i1.10089"
+    }
+  },
+  {
+    "id": "conf-emnlp-WangLH016",
+    "dblpKey": "conf/emnlp/WangLH016",
+    "title": "Learning to Represent Review with Tensor Decomposition for Spam Detection",
+    "authors": "Xuepeng Wang, Kang Liu, Shizhu He, Jun Zhao",
+    "venue": "EMNLP 2016",
+    "year": 2016,
+    "links": {
+      "paper": "https://aclanthology.org/D16-1083/"
+    }
+  },
+  {
+    "id": "conf-acl-LiuCHL016",
+    "dblpKey": "conf/acl/LiuCHL016",
+    "title": "Leveraging FrameNet to Improve Automatic Event Detection",
+    "authors": "Shulin Liu, Yubo Chen, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "ACL 2016",
+    "year": 2016,
+    "links": {
+      "paper": "https://aclanthology.org/P16-1201/"
+    }
+  },
+  {
+    "id": "conf-ccks-Wei0LH16",
+    "dblpKey": "conf/ccks/Wei0LH16",
+    "title": "Link Prediction via Mining Markov Logic Formulas to Improve Social Recommendation",
+    "authors": "Zhuoyu Wei, Jun Zhao, Kang Liu, Shizhu He",
+    "venue": "CCKS 2016",
+    "year": 2016,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-981-10-3168-7_14"
+    }
+  },
+  {
+    "id": "conf-emnlp-Wei0L16",
+    "dblpKey": "conf/emnlp/Wei0L16",
+    "title": "Mining Inference Formulas by Goal-Directed Random Walks",
+    "authors": "Zhuoyu Wei, Jun Zhao, Kang Liu",
+    "venue": "EMNLP 2016",
+    "year": 2016,
+    "links": {
+      "paper": "https://aclanthology.org/D16-1145/"
+    }
+  },
+  {
+    "id": "journals-corr-ZhangLHJLW016",
+    "dblpKey": "journals/corr/ZhangLHJLW016",
+    "title": "Question Answering over Knowledge Base with Neural Attention Combining Global Knowledge Information",
+    "authors": "Yuanzhe Zhang, Kang Liu, Shizhu He, Guoliang Ji, Zhanyi Liu, Hua Wu, Jun Zhao",
+    "venue": "arXiv 2016",
+    "year": 2016,
+    "links": {
+      "arxiv": "http://arxiv.org/abs/1606.00979"
+    }
+  },
+  {
+    "id": "journals-coling-ZhaoLX16",
+    "dblpKey": "journals/coling/ZhaoLX16",
+    "title": "Sentiment Analysis: Mining Opinions, Sentiments, and Emotions",
+    "authors": "Jun Zhao, Kang Liu, Liheng Xu",
+    "venue": "Comput. Linguistics 2016",
+    "year": 2016,
+    "links": {
+      "paper": "https://doi.org/10.1162/COLI_r_00259"
+    }
+  },
+  {
+    "id": "journals-tkde-LiuXZ15",
+    "dblpKey": "journals/tkde/LiuXZ15",
+    "title": "Co-Extracting Opinion Targets and Opinion Words from Online Reviews Based on the Word Alignment Model",
+    "authors": "Kang Liu, Liheng Xu, Jun Zhao",
+    "venue": "IEEE Trans. Knowl. Data Eng. 2015",
+    "year": 2015,
+    "links": {
+      "paper": "https://doi.org/10.1109/TKDE.2014.2339850"
+    }
+  },
+  {
+    "id": "conf-emnlp-ZengLC015",
+    "dblpKey": "conf/emnlp/ZengLC015",
+    "title": "Distant Supervision for Relation Extraction via Piecewise Convolutional Neural Networks",
+    "authors": "Daojian Zeng, Kang Liu, Yubo Chen, Jun Zhao",
+    "venue": "EMNLP 2015",
+    "year": 2015,
+    "links": {
+      "paper": "https://aclanthology.org/D15-1203/"
+    }
+  },
+  {
+    "id": "conf-acl-ChenXLZ015",
+    "dblpKey": "conf/acl/ChenXLZ015",
+    "title": "Event Extraction via Dynamic Multi-Pooling Convolutional Neural Networks",
+    "authors": "Yubo Chen, Liheng Xu, Kang Liu, Daojian Zeng, Jun Zhao",
+    "venue": "ACL 2015",
+    "year": 2015,
+    "links": {
+      "paper": "https://aclanthology.org/P15-1017/"
+    }
+  },
+  {
+    "id": "conf-acl-JiHXL015",
+    "dblpKey": "conf/acl/JiHXL015",
+    "title": "Knowledge Graph Embedding via Dynamic Mapping Matrix",
+    "authors": "Guoliang Ji, Shizhu He, Liheng Xu, Kang Liu, Jun Zhao",
+    "venue": "ACL 2015",
+    "year": 2015,
+    "links": {
+      "paper": "https://aclanthology.org/P15-1067/"
+    }
+  },
+  {
+    "id": "conf-cikm-Wei0LQST15",
+    "dblpKey": "conf/cikm/Wei0LQST15",
+    "title": "Large-scale Knowledge Base Completion: Inferring via Grounding Network Sampling over Selected Instances",
+    "authors": "Zhuoyu Wei, Jun Zhao, Kang Liu, Zhenyu Qi, Zhengya Sun, Guanhua Tian",
+    "venue": "CIKM 2015",
+    "year": 2015,
+    "links": {
+      "paper": "https://doi.org/10.1145/2806416.2806513"
+    }
+  },
+  {
+    "id": "conf-acl-ZhouHZH15",
+    "dblpKey": "conf/acl/ZhouHZH15",
+    "title": "Learning Continuous Word Embedding with Metadata for Question Retrieval in Community Question Answering",
+    "authors": "Guangyou Zhou, Tingting He, Jun Zhao, Po Hu",
+    "venue": "ACL 2015",
+    "year": 2015,
+    "links": {
+      "paper": "https://aclanthology.org/P15-1025/"
+    }
+  },
+  {
+    "id": "conf-cikm-HeLJ015",
+    "dblpKey": "conf/cikm/HeLJ015",
+    "title": "Learning to Represent Knowledge Graphs with Gaussian Embedding",
+    "authors": "Shizhu He, Kang Liu, Guoliang Ji, Jun Zhao",
+    "venue": "CIKM 2015",
+    "year": 2015,
+    "links": {
+      "paper": "https://doi.org/10.1145/2806416.2806502"
+    }
+  },
+  {
+    "id": "journals-expert-Liu0HZ15",
+    "dblpKey": "journals/expert/Liu0HZ15",
+    "title": "Question Answering over Knowledge Bases",
+    "authors": "Kang Liu, Jun Zhao, Shizhu He, Yuanzhe Zhang",
+    "venue": "IEEE Intell. Syst. 2015",
+    "year": 2015,
+    "links": {
+      "paper": "https://doi.org/10.1109/MIS.2015.70"
+    }
+  },
+  {
+    "id": "conf-aaai-LaiXLZ15",
+    "dblpKey": "conf/aaai/LaiXLZ15",
+    "title": "Recurrent Convolutional Neural Networks for Text Classification",
+    "authors": "Siwei Lai, Liheng Xu, Kang Liu, Jun Zhao",
+    "venue": "AAAI 2015",
+    "year": 2015,
+    "links": {
+      "paper": "https://doi.org/10.1609/aaai.v29i1.9513"
+    }
+  },
+  {
+    "id": "conf-acl-WangLC0M15",
+    "dblpKey": "conf/acl/WangLC0M15",
+    "title": "Sentiment-Aspect Extraction based on Restricted Boltzmann Machines",
+    "authors": "Linlin Wang, Kang Liu, Zhu Cao, Jun Zhao, Gerard de Melo",
+    "venue": "ACL 2015",
+    "year": 2015,
+    "links": {
+      "paper": "https://aclanthology.org/P15-1060/"
+    }
+  },
+  {
+    "id": "conf-naacl-XuWTXZWH15",
+    "dblpKey": "conf/naacl/XuWTXZWH15",
+    "title": "Short Text Clustering via Convolutional Neural Networks",
+    "authors": "Jiaming Xu, Peng Wang, Guanhua Tian, Bo Xu, Jun Zhao, Fangyuan Wang, Hongwei Hao",
+    "venue": "VS@HLT-NAACL 2015",
+    "year": 2015,
+    "links": {
+      "paper": "https://aclanthology.org/W15-1509/"
+    }
+  },
+  {
+    "id": "conf-clef-HeZL014",
+    "dblpKey": "conf/clef/HeZL014",
+    "title": "CASIA@V2: A MLN-based Question Answering System over Linked Data",
+    "authors": "Shizhu He, Yuanzhe Zhang, Kang Liu, Jun Zhao",
+    "venue": "CLEF (Working Notes) 2014",
+    "year": 2014,
+    "links": {
+      "paper": "https://ceur-ws.org/Vol-1180/CLEF2014wn-QA-ShizhuEt2014.pdf"
+    }
+  },
+  {
+    "id": "conf-cncl-ZengLWL0L14",
+    "dblpKey": "conf/cncl/ZengLWL0L14",
+    "title": "Distant Supervision for Relation Extraction via Sparse Representation",
+    "authors": "Daojian Zeng, Siwei Lai, Xuepeng Wang, Kang Liu, Jun Zhao, Xueqiang Lv",
+    "venue": "CCL 2014",
+    "year": 2014,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-319-12277-9_14"
+    }
+  },
+  {
+    "id": "conf-coling-LiuLXZ14",
+    "dblpKey": "conf/coling/LiuLXZ14",
+    "title": "Exploring Fine-grained Entity Type Constraints for Distantly Supervised Relation Extraction",
+    "authors": "Yang Liu, Kang Liu, Liheng Xu, Jun Zhao",
+    "venue": "COLING 2014",
+    "year": 2014,
+    "links": {
+      "paper": "https://aclanthology.org/C14-1199/"
+    }
+  },
+  {
+    "id": "conf-acl-LiuXZ14",
+    "dblpKey": "conf/acl/LiuXZ14",
+    "title": "Extracting Opinion Targets and Opinion Words from Online Reviews with Graph Co-ranking",
+    "authors": "Kang Liu, Liheng Xu, Jun Zhao",
+    "venue": "ACL 2014",
+    "year": 2014,
+    "links": {
+      "paper": "https://aclanthology.org/P14-1030/"
+    }
+  },
+  {
+    "id": "conf-coling-ZhouCZ014",
+    "dblpKey": "conf/coling/ZhouCZ014",
+    "title": "Group Non-negative Matrix Factorization with Natural Categories for Question Retrieval in Community Question Answer Archives",
+    "authors": "Guangyou Zhou, Yubo Chen, Daojian Zeng, Jun Zhao",
+    "venue": "COLING 2014",
+    "year": 2014,
+    "links": {
+      "paper": "https://aclanthology.org/C14-1010/"
+    }
+  },
+  {
+    "id": "conf-coling-XuLZ14",
+    "dblpKey": "conf/coling/XuLZ14",
+    "title": "Joint Opinion Relation Detection Using One-Class Deep Neural Network",
+    "authors": "Liheng Xu, Kang Liu, Jun Zhao",
+    "venue": "COLING 2014",
+    "year": 2014,
+    "links": {
+      "paper": "https://aclanthology.org/C14-1064/"
+    }
+  },
+  {
+    "id": "books-crc-p-ZhaoLZQLH14",
+    "dblpKey": "books/crc/p/ZhaoLZQLH14",
+    "title": "Knowledge Extraction from Wikis/BBS/Blogs/News Web Sites",
+    "authors": "Jun Zhao, Kang Liu, Guangyou Zhou, Zhenyu Qi, Yang Liu, Xianpei Han",
+    "venue": "Mining User Generated Content 2014",
+    "year": 2014,
+    "links": {
+      "paper": "http://www.crcnetbase.com/doi/abs/10.1201/b16413-10"
+    }
+  },
+  {
+    "id": "conf-cncl-ZengCLZL14",
+    "dblpKey": "conf/cncl/ZengCLZL14",
+    "title": "Learning the Distinctive Pattern Space Features for Relation Extraction",
+    "authors": "Daojian Zeng, Yubo Chen, Kang Liu, Jun Zhao, Xueqiang Lv",
+    "venue": "CCL 2014",
+    "year": 2014,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-319-12277-9_15"
+    }
+  },
+  {
+    "id": "conf-cncl-ZhangWLHL0L14",
+    "dblpKey": "conf/cncl/ZhangWLHL0L14",
+    "title": "Ontology Matching with Word Embeddings",
+    "authors": "Yuanzhe Zhang, Xuepeng Wang, Siwei Lai, Shizhu He, Kang Liu, Jun Zhao, Xueqiang Lv",
+    "venue": "CCL 2014",
+    "year": 2014,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-319-12277-9_4"
+    }
+  },
+  {
+    "id": "conf-acl-XuLLZ14",
+    "dblpKey": "conf/acl/XuLLZ14",
+    "title": "Product Feature Mining: Semantic Clues versus Syntactic Constituents",
+    "authors": "Liheng Xu, Kang Liu, Siwei Lai, Jun Zhao",
+    "venue": "ACL 2014",
+    "year": 2014,
+    "links": {
+      "paper": "https://aclanthology.org/P14-1032/"
+    }
+  },
+  {
+    "id": "conf-emnlp-HeLZX014",
+    "dblpKey": "conf/emnlp/HeLZX014",
+    "title": "Question Answering over Linked Data Using First-order Logic",
+    "authors": "Shizhu He, Kang Liu, Yuanzhe Zhang, Liheng Xu, Jun Zhao",
+    "venue": "EMNLP 2014",
+    "year": 2014,
+    "links": {
+      "paper": "https://aclanthology.org/D14-1116/"
+    }
+  },
+  {
+    "id": "conf-coling-ZengLLZZ14",
+    "dblpKey": "conf/coling/ZengLLZZ14",
+    "title": "Relation Classification via Convolutional Deep Neural Network",
+    "authors": "Daojian Zeng, Kang Liu, Siwei Lai, Guangyou Zhou, Jun Zhao",
+    "venue": "COLING 2014",
+    "year": 2014,
+    "links": {
+      "paper": "https://aclanthology.org/C14-1220/"
+    }
+  },
+  {
+    "id": "conf-coling-Zhou0Z14",
+    "dblpKey": "conf/coling/Zhou0Z14",
+    "title": "Sentiment Classification with Graph Co-Regularization",
+    "authors": "Guangyou Zhou, Jun Zhao, Daojian Zeng",
+    "venue": "COLING 2014",
+    "year": 2014,
+    "links": {
+      "paper": "https://aclanthology.org/C14-1126/"
+    }
+  },
+  {
+    "id": "conf-ijcnlp-BasaveHLZ13",
+    "dblpKey": "conf/ijcnlp/BasaveHLZ13",
+    "title": "A Weakly Supervised Bayesian Model for Violence Detection in Social Media",
+    "authors": "Amparo Elizabeth Cano Basave, Yulan He, Kang Liu, Jun Zhao",
+    "venue": "IJCNLP 2013",
+    "year": 2013,
+    "links": {
+      "paper": "https://aclanthology.org/I13-1013/"
+    }
+  },
+  {
+    "id": "conf-ijcnlp-LiuLLLZZ13",
+    "dblpKey": "conf/ijcnlp/LiuLLLZZ13",
+    "title": "Attribute Relation Extraction from Template-inconsistent Semi-structured Text by Leveraging Site-level Knowledge",
+    "authors": "Yang Liu, Fang Liu, Siwei Lai, Kang Liu, Guangyou Zhou, Jun Zhao",
+    "venue": "IJCNLP 2013",
+    "year": 2013,
+    "links": {
+      "paper": "https://aclanthology.org/I13-1154/"
+    }
+  },
+  {
+    "id": "conf-clef-HeLCZL013",
+    "dblpKey": "conf/clef/HeLCZL013",
+    "title": "CASIA@QALD-3: A Question Answering System over Linked Data",
+    "authors": "Shizhu He, Shulin Liu, Yubo Chen, Guangyou Zhou, Kang Liu, Jun Zhao",
+    "venue": "CLEF (Working Notes) 2013",
+    "year": 2013,
+    "links": {
+      "paper": "https://ceur-ws.org/Vol-1179/CLEF2013wn-QALD3-HeEt2013.pdf"
+    }
+  },
+  {
+    "id": "conf-ijcai-ZhangLZ13",
+    "dblpKey": "conf/ijcai/ZhangLZ13",
+    "title": "Cross Lingual Entity Linking with Bilingual Topic Model",
+    "authors": "Tao Zhang, Kang Liu, Jun Zhao",
+    "venue": "IJCAI 2013",
+    "year": 2013,
+    "links": {
+      "paper": "http://www.aaai.org/ocs/index.php/IJCAI/IJCAI13/paper/view/6268"
+    }
+  },
+  {
+    "id": "conf-acpr-LiuLZLZ13",
+    "dblpKey": "conf/acpr/LiuLZLZ13",
+    "title": "Determining Relation Semantics by Mapping Relation Phrases to Knowledge Base",
+    "authors": "Fang Liu, Yang Liu, Guangyou Zhou, Kang Liu, Jun Zhao",
+    "venue": "ACPR 2013",
+    "year": 2013,
+    "links": {
+      "paper": "https://doi.org/10.1109/ACPR.2013.55"
+    }
+  },
+  {
+    "id": "conf-airs-LiuLLZZ13",
+    "dblpKey": "conf/airs/LiuLLZZ13",
+    "title": "Exploring Distinctive Features in Distant Supervision for Relation Extraction",
+    "authors": "Yang Liu, Shulin Liu, Kang Liu, Guangyou Zhou, Jun Zhao",
+    "venue": "AIRS 2013",
+    "year": 2013,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-642-45068-6_30"
+    }
+  },
+  {
+    "id": "conf-semweb-ZhangWHLZL13",
+    "dblpKey": "conf/semweb/ZhangWHLZL13",
+    "title": "IAMA results for OAEI 2013",
+    "authors": "Yuanzhe Zhang, Xuepeng Wang, Shizhu He, Kang Liu, Jun Zhao, Xueqiang Lv",
+    "venue": "OM 2013",
+    "year": 2013,
+    "links": {
+      "paper": "https://ceur-ws.org/Vol-1111/oaei13_paper4.pdf"
+    }
+  },
+  {
+    "id": "conf-acl-ZhouZ13",
+    "dblpKey": "conf/acl/ZhouZ13",
+    "title": "Joint Inference for Heterogeneous Dependency Parsing",
+    "authors": "Guangyou Zhou, Jun Zhao",
+    "venue": "ACL 2013",
+    "year": 2013,
+    "links": {
+      "paper": "https://aclanthology.org/P13-2019/"
+    }
+  },
+  {
+    "id": "conf-acl-XuLLCZ13",
+    "dblpKey": "conf/acl/XuLLCZ13",
+    "title": "Mining Opinion Words and Opinion Targets in a Two-Stage Framework",
+    "authors": "Liheng Xu, Kang Liu, Siwei Lai, Yubo Chen, Jun Zhao",
+    "venue": "ACL 2013",
+    "year": 2013,
+    "links": {
+      "paper": "https://aclanthology.org/P13-1173/"
+    }
+  },
+  {
+    "id": "conf-airs-LiuHLZLZ13",
+    "dblpKey": "conf/airs/LiuHLZLZ13",
+    "title": "Open Relation Mapping Based on Instances and Semantics Expansion",
+    "authors": "Fang Liu, Shizhu He, Shulin Liu, Guangyou Zhou, Kang Liu, Jun Zhao",
+    "venue": "AIRS 2013",
+    "year": 2013,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-642-45068-6_28"
+    }
+  },
+  {
+    "id": "conf-ijcai-LiuXLZ13",
+    "dblpKey": "conf/ijcai/LiuXLZ13",
+    "title": "Opinion Target Extraction Using Partially-Supervised Word Alignment Model",
+    "authors": "Kang Liu, Heng Li Xu, Yang Liu, Jun Zhao",
+    "venue": "IJCAI 2013",
+    "year": 2013,
+    "links": {
+      "paper": "http://www.aaai.org/ocs/index.php/IJCAI/IJCAI13/paper/view/6795"
+    }
+  },
+  {
+    "id": "conf-acl-ZhouLLHZ13",
+    "dblpKey": "conf/acl/ZhouLLHZ13",
+    "title": "Statistical Machine Translation Improves Question Retrieval in Community Question Answering via Matrix Factorization",
+    "authors": "Guangyou Zhou, Fang Liu, Yang Liu, Shizhu He, Jun Zhao",
+    "venue": "ACL 2013",
+    "year": 2013,
+    "links": {
+      "paper": "https://aclanthology.org/P13-1084/"
+    }
+  },
+  {
+    "id": "conf-acl-LiuXZ13",
+    "dblpKey": "conf/acl/LiuXZ13",
+    "title": "Syntactic Patterns versus Word Alignment: Extracting Opinion Targets from Online Reviews",
+    "authors": "Kang Liu, Liheng Xu, Jun Zhao",
+    "venue": "ACL 2013",
+    "year": 2013,
+    "links": {
+      "paper": "https://aclanthology.org/P13-1172/"
+    }
+  },
+  {
+    "id": "conf-tac-ChenZXHL013",
+    "dblpKey": "conf/tac/ChenZXHL013",
+    "title": "The CASIA Entity linking System at TAC 2013",
+    "authors": "Yubo Chen, Guangyou Zhou, Liheng Xu, Shizhu He, Kang Liu, Jun Zhao",
+    "venue": "TAC 2013",
+    "year": 2013,
+    "links": {
+      "paper": "https://tac.nist.gov/publications/2013/participant.papers/CASIA.TAC2013.proceedings.pdf"
+    }
+  },
+  {
+    "id": "conf-cikm-ZhouCZZ13",
+    "dblpKey": "conf/cikm/ZhouCZZ13",
+    "title": "Towards faster and better retrieval models for question search",
+    "authors": "Guangyou Zhou, Yubo Chen, Daojian Zeng, Jun Zhao",
+    "venue": "CIKM 2013",
+    "year": 2013,
+    "links": {
+      "paper": "https://doi.org/10.1145/2505515.2505550"
+    }
+  },
+  {
+    "id": "conf-www-XuLLCZ13",
+    "dblpKey": "conf/www/XuLLCZ13",
+    "title": "Walk and learn: a two-stage approach for opinion words and opinion targets co-extraction",
+    "authors": "Liheng Xu, Kang Liu, Siwei Lai, Yubo Chen, Jun Zhao",
+    "venue": "WWW (Companion Volume) 2013",
+    "year": 2013,
+    "links": {
+      "paper": "https://doi.org/10.1145/2487788.2487831"
+    }
+  },
+  {
+    "id": "conf-airs-QiLZ12",
+    "dblpKey": "conf/airs/QiLZ12",
+    "title": "Are Human-Input Seeds Good Enough for Entity Set Expansion? Seeds Rewriting by Leveraging Wikipedia Semantic Knowledge",
+    "authors": "Zhenyu Qi, Kang Liu, Jun Zhao",
+    "venue": "AIRS 2012",
+    "year": 2012,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-642-35341-3_9"
+    }
+  },
+  {
+    "id": "conf-ccpr-QiLZ12",
+    "dblpKey": "conf/ccpr/QiLZ12",
+    "title": "Choosing Better Seeds for Entity Set Expansion by Leveraging Wikipedia Semantic Knowledge",
+    "authors": "Zhenyu Qi, Kang Liu, Jun Zhao",
+    "venue": "CCPR 2012",
+    "year": 2012,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-642-33506-8_80"
+    }
+  },
+  {
+    "id": "conf-coling-ZhouLZ12",
+    "dblpKey": "conf/coling/ZhouLZ12",
+    "title": "Exploiting Bilingual Translation for Question Retrieval in Community-Based Question Answering",
+    "authors": "Guangyou Zhou, Kang Liu, Jun Zhao",
+    "venue": "COLING 2012",
+    "year": 2012,
+    "links": {
+      "paper": "https://aclanthology.org/C12-1193/"
+    }
+  },
+  {
+    "id": "conf-cikm-ZhouCLZ12",
+    "dblpKey": "conf/cikm/ZhouCLZ12",
+    "title": "Exploring the existing category hierarchy to automatically label the newly-arising topics in cQA",
+    "authors": "Guangyou Zhou, Li Cai, Kang Liu, Jun Zhao",
+    "venue": "CIKM 2012",
+    "year": 2012,
+    "links": {
+      "paper": "https://doi.org/10.1145/2396761.2398490"
+    }
+  },
+  {
+    "id": "journals-jmlr-LaiLGXLXZDXLW12",
+    "dblpKey": "journals/jmlr/LaiLGXLXZDXLW12",
+    "title": "Hybrid Recommendation Models for Binary User Preference Prediction Problem",
+    "authors": "Siwei Lai, Yang Liu, Huxiang Gu, Liheng Xu, Kang Liu, Shiming Xiang, Jun Zhao, Rui Diao, Liang Xiang, Hang Li, Dong Wang",
+    "venue": "KDD Cup 2012",
+    "year": 2012,
+    "links": {
+      "paper": "http://proceedings.mlr.press/v18/lai12a.html"
+    }
+  },
+  {
+    "id": "conf-cikm-ZhouLZ12",
+    "dblpKey": "conf/cikm/ZhouLZ12",
+    "title": "Joint relevance and answer quality learning for question routing in community QA",
+    "authors": "Guangyou Zhou, Kang Liu, Jun Zhao",
+    "venue": "CIKM 2012",
+    "year": 2012,
+    "links": {
+      "paper": "https://doi.org/10.1145/2396761.2398459"
+    }
+  },
+  {
+    "id": "conf-ccpr-ZhouLZ12b",
+    "dblpKey": "conf/ccpr/ZhouLZ12b",
+    "title": "Monolingual-Based Translation Model for Question Routing",
+    "authors": "Guangyou Zhou, Kang Liu, Jun Zhao",
+    "venue": "CCPR 2012",
+    "year": 2012,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-642-33506-8_77"
+    }
+  },
+  {
+    "id": "conf-emnlp-LiuXZ12",
+    "dblpKey": "conf/emnlp/LiuXZ12",
+    "title": "Opinion Target Extraction Using Word-Based Translation Model",
+    "authors": "Kang Liu, Liheng Xu, Jun Zhao",
+    "venue": "EMNLP-CoNLL 2012",
+    "year": 2012,
+    "links": {
+      "paper": "https://aclanthology.org/D12-1123/"
+    }
+  },
+  {
+    "id": "conf-tac-ZhangL012",
+    "dblpKey": "conf/tac/ZhangL012",
+    "title": "The NLPRIR Entity Linking System at TAC 2012",
+    "authors": "Tao Zhang, Kang Liu, Jun Zhao",
+    "venue": "TAC 2012",
+    "year": 2012,
+    "links": {
+      "paper": "https://tac.nist.gov/publications/2012/participant.papers/nlprir.proceedings.pdf"
+    }
+  },
+  {
+    "id": "conf-cikm-ZhouLLZ12",
+    "dblpKey": "conf/cikm/ZhouLLZ12",
+    "title": "Topic-sensitive probabilistic model for expert finding in question answer communities",
+    "authors": "Guangyou Zhou, Siwei Lai, Kang Liu, Jun Zhao",
+    "venue": "CIKM 2012",
+    "year": 2012,
+    "links": {
+      "paper": "https://doi.org/10.1145/2396761.2398493"
+    }
+  },
+  {
+    "id": "conf-ccpr-ZhouLZ12a",
+    "dblpKey": "conf/ccpr/ZhouLZ12a",
+    "title": "Topical Authority Identification in Community Question Answering",
+    "authors": "Guangyou Zhou, Kang Liu, Jun Zhao",
+    "venue": "CCPR 2012",
+    "year": 2012,
+    "links": {
+      "paper": "https://doi.org/10.1007/978-3-642-33506-8_76"
+    }
+  },
+  {
+    "id": "conf-acl-ZhouZLC11",
+    "dblpKey": "conf/acl/ZhouZLC11",
+    "title": "Exploiting Web-Derived Selectional Preference to Improve Statistical Dependency Parsing",
+    "authors": "Guangyou Zhou, Jun Zhao, Kang Liu, Li Cai",
+    "venue": "ACL 2011",
+    "year": 2011,
+    "links": {
+      "paper": "https://aclanthology.org/P11-1156/"
+    }
+  },
+  {
+    "id": "conf-ijcnlp-ZhouCLZ11",
+    "dblpKey": "conf/ijcnlp/ZhouCLZ11",
+    "title": "Improving Dependency Parsing with Fined-Grained Features",
+    "authors": "Guangyou Zhou, Li Cai, Kang Liu, Jun Zhao",
+    "venue": "IJCNLP 2011",
+    "year": 2011,
+    "links": {
+      "paper": "https://aclanthology.org/I11-1026/"
+    }
+  },
+  {
+    "id": "conf-cikm-CaiZLZ11",
+    "dblpKey": "conf/cikm/CaiZLZ11",
+    "title": "Large-scale question classification in cQA by leveraging Wikipedia semantic knowledge",
+    "authors": "Li Cai, Guangyou Zhou, Kang Liu, Jun Zhao",
+    "venue": "CIKM 2011",
+    "year": 2011,
+    "links": {
+      "paper": "https://doi.org/10.1145/2063576.2063768"
+    }
+  },
+  {
+    "id": "conf-ijcnlp-CaiZLZ11",
+    "dblpKey": "conf/ijcnlp/CaiZLZ11",
+    "title": "Learning the Latent Topics for Question Retrieval in Community QA",
+    "authors": "Li Cai, Guangyou Zhou, Kang Liu, Jun Zhao",
+    "venue": "IJCNLP 2011",
+    "year": 2011,
+    "links": {
+      "paper": "https://aclanthology.org/I11-1031/"
+    }
+  },
+  {
+    "id": "conf-acl-ZhouCZL11",
+    "dblpKey": "conf/acl/ZhouCZL11",
+    "title": "Phrase-Based Translation Model for Question Retrieval in Community Question Answer Archives",
+    "authors": "Guangyou Zhou, Li Cai, Jun Zhao, Kang Liu",
+    "venue": "ACL 2011",
+    "year": 2011,
+    "links": {
+      "paper": "https://aclanthology.org/P11-1066/"
+    }
+  },
+  {
+    "id": "conf-tac-ZhangL011",
+    "dblpKey": "conf/tac/ZhangL011",
+    "title": "The NLPR_TAC Entity Linking System at TAC 2011",
+    "authors": "Tao Zhang, Kang Liu, Jun Zhao",
+    "venue": "TAC 2011",
+    "year": 2011,
+    "links": {
+      "paper": "https://tac.nist.gov/publications/2011/participant.papers/NLPR_TAC.proceedings.pdf"
+    }
+  },
+  {
+    "id": "conf-acl-HanZ10",
+    "dblpKey": "conf/acl/HanZ10",
+    "title": "Structural Semantic Relatedness: A Knowledge-Based Method to Named Entity Disambiguation",
+    "authors": "Xianpei Han, Jun Zhao",
+    "venue": "ACL 2010",
+    "year": 2010,
+    "links": {
+      "paper": "https://aclanthology.org/P10-1006/"
+    }
+  },
+  {
+    "id": "conf-acl-YangZL09",
+    "dblpKey": "conf/acl/YangZL09",
+    "title": "A Chinese-English Organization Name Translation System Using Heuristic Web Mining and Asymmetric Alignment",
+    "authors": "Fan Yang, Jun Zhao, Kang Liu",
+    "venue": "ACL/IJCNLP 2009",
+    "year": 2009,
+    "links": {
+      "paper": "https://aclanthology.org/P09-1044/"
+    }
+  },
+  {
+    "id": "conf-cikm-LiuZ09",
+    "dblpKey": "conf/cikm/LiuZ09",
+    "title": "Cross-domain sentiment classification using a two-stage method",
+    "authors": "Kang Liu, Jun Zhao",
+    "venue": "CIKM 2009",
+    "year": 2009,
+    "links": {
+      "paper": "https://doi.org/10.1145/1645953.1646212"
+    }
+  },
+  {
+    "id": "conf-emnlp-ZhaoLW08",
+    "dblpKey": "conf/emnlp/ZhaoLW08",
+    "title": "Adding Redundant Features for CRFs-based Sentence Sentiment Classification",
+    "authors": "Jun Zhao, Kang Liu, Gen Wang",
+    "venue": "EMNLP 2008",
+    "year": 2008,
+    "links": {
+      "paper": "https://aclanthology.org/D08-1013/"
+    }
+  },
+  {
+    "id": "conf-acl-YangZZLL08",
+    "dblpKey": "conf/acl/YangZZLL08",
+    "title": "Chinese-English Backward Transliteration Assisted with Mining Monolingual Web Pages",
+    "authors": "Fan Yang, Jun Zhao, Bo Zou, Kang Liu, Feifan Liu",
+    "venue": "ACL 2008",
+    "year": 2008,
+    "links": {
+      "paper": "https://aclanthology.org/P08-1062/"
+    }
+  },
+  {
+    "id": "conf-ntcir-LiuZ08",
+    "dblpKey": "conf/ntcir/LiuZ08",
+    "title": "NLPR at Multilingual Opinion Analysis Task in NTCIR7",
+    "authors": "Kang Liu, Jun Zhao",
+    "venue": "NTCIR 2008",
+    "year": 2008,
+    "links": {
+      "paper": "http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings7/pdf/NTCIR7/C2/MOAT/05-NTCIR7-MOAT-LiuK.pdf"
+    }
+  },
+  {
+    "id": "conf-trec-LiuWHZ07",
+    "dblpKey": "conf/trec/LiuWHZ07",
+    "title": "NLPR in TREC 2007 Blog Track",
+    "authors": "Kang Liu, Gen Wang, Xianpei Han, Jun Zhao",
+    "venue": "TREC 2007",
+    "year": 2007,
+    "links": {
+      "paper": "http://trec.nist.gov/pubs/trec16/papers/cas.blog.final.pdf"
+    }
+  },
+  {
+    "id": "conf-emnlp-DuanZX07",
+    "dblpKey": "conf/emnlp/DuanZX07",
+    "title": "Probabilistic Parsing Action Models for Multi-Lingual Dependency Parsing",
+    "authors": "Xiangyu Duan, Jun Zhao, Bo Xu",
+    "venue": "EMNLP-CoNLL 2007",
+    "year": 2007,
+    "links": {
+      "paper": "https://aclanthology.org/D07-1098/"
+    }
+  },
+  {
+    "id": "conf-acl-sighan-WuZX06",
+    "dblpKey": "conf/acl-sighan/WuZX06",
+    "title": "Cluster-Based Language Model for Sentence Retrieval in Chinese Question Answering",
+    "authors": "Youzheng Wu, Jun Zhao, Bo Xu",
+    "venue": "SIGHAN@COLING/ACL 2006",
+    "year": 2006,
+    "links": {
+      "paper": "https://aclanthology.org/W06-0108/"
+    }
+  },
+  {
+    "id": "conf-naacl-WuZXY05",
+    "dblpKey": "conf/naacl/WuZXY05",
+    "title": "Chinese Named Entity Recognition with Multiple Features",
+    "authors": "Youzheng Wu, Jun Zhao, Bo Xu, Hao Yu",
+    "venue": "HLT/EMNLP 2005",
+    "year": 2005,
+    "links": {
+      "paper": "https://aclanthology.org/H05-1054/"
+    }
+  },
+  {
+    "id": "conf-acl-WuZX03",
+    "dblpKey": "conf/acl/WuZX03",
+    "title": "Chinese Named Entity Recognition Combining Statistical Model wih Human Knowledge",
+    "authors": "Youzheng Wu, Jun Zhao, Bo Xu",
+    "venue": "NER@ACL 2003",
+    "year": 2003,
+    "links": {
+      "paper": "https://aclanthology.org/W03-1509/"
+    }
+  },
+  {
+    "id": "conf-acl-SuiZW00",
+    "dblpKey": "conf/acl/SuiZW00",
+    "title": "An Information-Theory-Based Feature Type Analysis for the Modeling of Statistical Parsing",
+    "authors": "Zhifang Sui, Jun Zhao, Dekai Wu",
+    "venue": "ACL 2000",
+    "year": 2000,
+    "links": {
+      "paper": "https://aclanthology.org/P00-1060/"
+    }
+  },
+  {
+    "id": "conf-emnlp-WuZS99",
+    "dblpKey": "conf/emnlp/WuZS99",
+    "title": "An Information-Theoretic Empirical Analysis of Dependency-Based Feature Types for Word Prediction Models",
+    "authors": "Dekai Wu, Jun Zhao, Zhifang Sui",
+    "venue": "EMNLP 1999",
+    "year": 1999,
+    "links": {
+      "paper": "https://aclanthology.org/W99-0618/"
+    }
+  }
+]

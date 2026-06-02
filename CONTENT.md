@@ -46,24 +46,18 @@ descEn: English description
 ---
 ```
 
-## 加一篇论文 → `src/content/publications/YYYY-slug.md`
+## 论文（自动爬取，不用手写）
 
-```yaml
----
-title: "论文标题（含冒号时务必加引号）"
-authors: 张三, 李四, Kang Liu, Jun Zhao
-venue: "ACL 2025 (Main)"
-year: 2025
-highlight: Spotlight        # 可选：Spotlight / Oral / Best Paper
-links:                      # 全部可选；paper 用会议官方页
-  paper: https://aclanthology.org/2025.acl-long.123/
-  arxiv: https://arxiv.org/abs/2501.00000
-  code: https://github.com/nlpkeg/xxx
----
+论文数据由爬虫维护，**不要手写**：`src/data/publications.json` 来自 `scripts/fetch_publications.py`（从 DBLP 按作者爬取、去重、同名过滤、按"主会→arXiv→期刊"选链接）。
+
+```bash
+python3 scripts/fetch_publications.py            # 增量更新（推荐，日常用）
+python3 scripts/fetch_publications.py --refresh  # 全量重建
 ```
 
-> 论文按 `year` 自动分组（新年份在上）。`paper` 链接请直接指向会议官方页（ACL→aclanthology.org，ICLR/NeurIPS→openreview.net，AAAI→ojs.aaai.org）。
-> ⚠️ 当前种子论文的**作者列表是占位/待核对**（会议链接已核实为真实），正式上线前请逐条校对作者与顺序。
+- 加新老师：编辑脚本顶部 `AUTHORS`（加 name/email/DBLP pid），跑增量。
+- 想给某篇加 `highlight`（如 Spotlight/Oral）：直接在 `publications.json` 里那条加 `"highlight": "Spotlight"`；增量更新会保留你的手工编辑。
+- 想隐藏个别误入的同名论文：从 json 删掉该条即可（下次增量不会重新加回，因为增量只补新 id——但 `--refresh` 会；误判请优先调脚本的过滤规则）。
 
 ## 加一个成员 → `src/content/people/slug.md`
 
