@@ -1,10 +1,14 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHead from '../../components/PageHead.astro';
-import Publications from '../../components/Publications.astro';
+import PublicationsByYear from '../../components/PublicationsByYear.astro';
+
+const pubs = await getCollection('publications');
+const latest = Math.max(...pubs.map((p) => p.data.year));
 ---
 
 <BaseLayout lang="en" title="Publications">
   <PageHead kicker="Publications" title="Publications" />
-  <Publications lang="en" />
+  <PublicationsByYear lang="en" year={latest} />
 </BaseLayout>

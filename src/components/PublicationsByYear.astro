@@ -1,0 +1,109 @@
+---
+import { getCollection } from 'astro:content';
+import { type Lang } from '../i18n/ui';
+import { localizedPath } from '../i18n/utils';
+
+interface Props { lang: Lang; year: number }
+const { lang, year } = Astro.props;
+
+const pubs = await getCollection('publications');
+const years = [...new Set(pubs.map((p) => p.data.year))].sort((a, b) => b - a);
+const items = pubs
+  .filter((p) => p.data.year === year)
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+const idx = years.indexOf(year);
+const newer = idx > 0 ? years[idx - 1] : null; // larger year
+const older = idx < years.length - 1 ? years[idx + 1] : null; // smaller year
+
+const yearHref = (y: number) => localizedPath(`/publications/${y}`, lang);
+const linkLabel = {
+  paper: lang === 'zh' ? '论文' : 'Paper',
+  arxiv: 'arXiv',
+  code: lang === 'zh' ? '代码' : 'Code',
+  project: lang === 'zh' ? '项目' : 'Project',
+};
+const t = {
+  count: lang === 'zh' ? `${year} 年 · ${items.length} 篇` : `${year} · ${items.length} papers`,
+  newer: lang === 'zh' ? '更新一年' : 'Newer',
+  older: lang === 'zh' ? '更早一年' : 'Older',
+};
+---
+
+<section class="sec">
+  <div class="wrap">
+    <nav class="ynav" aria-label="year">
+      {years.map((y) => (
+        <a href={yearHref(y)} class={y === year ? 'y cur' : 'y'} aria-current={y === year ? 'page' : undefined}>{y}</a>
+      ))}
+    </nav>
+
+    <div class="yhead">
+      <h2>{t.count}</h2>
+      <div class="pager">
+        {older && <a href={yearHref(older)}>← {t.older} ({older})</a>}
+        {newer && <a href={yearHref(newer)}>{t.newer} ({newer}) →</a>}
+      </div>
+    </div>
+
+    <ol class="plist">
+      {items.map((p) => (
+        <li class="pub">
+          <div class="title">
+            {p.data.links.paper ? (
+              <a href={p.data.links.paper} target="_blank" rel="noopener">{p.data.title}</a>
+            ) : p.data.links.arxiv ? (
+              <a href={p.data.links.arxiv} target="_blank" rel="noopener">{p.data.title}</a>
+            ) : (
+              <span>{p.data.title}</span>
+            )}
+            {p.data.highlight && <span class="badge">{p.data.highlight}</span>}
+          </div>
+          <div class="authors">{p.data.authors}</div>
+          <div class="venue">{p.data.venue}</div>
+          <div class="links">
+            {(['paper', 'arxiv', 'code', 'project'] as const).map((k) =>
+              p.data.links[k] ? (
+                <a href={p.data.links[k]} target="_blank" rel="noopener">{linkLabel[k]}</a>
+              ) : null
+            )}
+          </div>
+        </li>
+      ))}
+    </ol>
+
+    <div class="pager bottom">
+      {older && <a href={yearHref(older)}>← {t.older} ({older})</a>}
+      {newer && <a href={yearHref(newer)}>{t.newer} ({newer}) →</a>}
+    </div>
+  </div>
+</section>
+
+<style>
+  .sec { padding: 24px 0 90px; position: relative; z-index: 2; }
+  /* year jump bar */
+  .ynav { display: flex; flex-wrap: wrap; gap: 7px; padding-bottom: 22px; margin-bottom: 24px; border-bottom: 1px solid var(--line); }
+  .ynav .y { font-family: var(--font-display); font-size: 13.5px; color: var(--muted); border: 1px solid var(--line); border-radius: 8px; padding: 5px 11px; transition: .18s; }
+  .ynav .y:hover { color: var(--accent); border-color: var(--accent); }
+  .ynav .y.cur { background: var(--accent-grad); color: #fff; border-color: transparent; box-shadow: var(--glow); }
+
+  .yhead { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 18px; }
+  .yhead h2 { font-size: 26px; font-weight: 800; }
+  .pager { display: flex; gap: 16px; }
+  .pager a { font-family: var(--font-display); font-size: 13.5px; color: var(--accent); }
+  .pager a:hover { text-decoration: underline; }
+  .pager.bottom { margin-top: 30px; justify-content: space-between; border-top: 1px solid var(--line); padding-top: 22px; }
+
+  .plist { list-style: none; margin: 0; padding: 0; }
+  .pub { padding: 18px 0; border-bottom: 1px solid var(--line); }
+  .pub:first-child { padding-top: 0; }
+  .title { font-size: 17px; font-weight: 600; line-height: 1.45; margin-bottom: 6px; }
+  .title a { color: var(--ink); }
+  .title a:hover { color: var(--accent); }
+  .badge { display: inline-block; font-family: var(--font-display); font-size: 11px; color: var(--accent); border: 1px solid color-mix(in srgb, var(--accent) 50%, transparent); border-radius: 5px; padding: 1px 7px; margin-left: 8px; vertical-align: middle; }
+  .authors { color: var(--muted); font-size: 14px; margin-bottom: 3px; }
+  .venue { color: var(--faint); font-size: 13px; font-family: var(--font-display); margin-bottom: 10px; }
+  .links { display: flex; gap: 10px; flex-wrap: wrap; }
+  .links a { font-family: var(--font-display); font-size: 12.5px; color: var(--accent); border: 1px solid var(--line); border-radius: 7px; padding: 4px 11px; }
+  .links a:hover { border-color: var(--accent); }
+</style>

@@ -1,0 +1,19 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PageHead from '../../../components/PageHead.astro';
+import PublicationsByYear from '../../../components/PublicationsByYear.astro';
+
+export async function getStaticPaths() {
+  const pubs = await getCollection('publications');
+  const years = [...new Set(pubs.map((p) => p.data.year))];
+  return years.map((y) => ({ params: { year: String(y) }, props: { year: y } }));
+}
+
+const { year } = Astro.props;
+---
+
+<BaseLayout lang="en" title={`Publications ${year}`}>
+  <PageHead kicker="Publications" title="Publications" />
+  <PublicationsByYear lang="en" year={year} />
+</BaseLayout>
