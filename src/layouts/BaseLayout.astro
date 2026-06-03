@@ -14,8 +14,8 @@ interface Props {
 const { lang, title, description } = Astro.props;
 const pageTitle = title ? `${title} · ${SITE.shortName}@${SITE.org}` : `${SITE.shortName}@${SITE.org} · ${lang === 'zh' ? SITE.nameZh : SITE.nameEn}`;
 const desc = description ?? (lang === 'zh' ? SITE.nameZh : SITE.nameEn);
-// Each theme has a natural mode; the toggle + localStorage can override.
-const defaultMode = ACTIVE_THEME === 'constellation' ? 'dark' : 'light';
+// Site defaults to light mode; the toggle + localStorage can override per visitor.
+const defaultMode = 'light';
 ---
 
 <!doctype html>

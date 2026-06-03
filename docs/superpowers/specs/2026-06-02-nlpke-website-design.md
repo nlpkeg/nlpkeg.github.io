@@ -100,7 +100,7 @@ Astro 5.18 + Tailwind v4 + Content Collections + 内置 i18n（zh 默认 / en）
   - **导师**=4 faculty 大卡（照片+bioZh/bioEn，点进 `/team/[slug]` 详情；仅 faculty 生成详情页）。
   - **工程师与秘书**=小卡（工程师：薛智朋/吴顺/叶锦宇/吴迪/张学友；秘书：李文婷/郝希），只姓名+职称、无照片。
   - **研究生**=只显示人数，不列名字。`src/config.ts` 的 `GRAD_STUDENTS='50+'`（用户名单去重后唯一学生 54 人，排除了混入的 1 老师+4 工程师；用户要求不列名字、给稳妥数）。
-- **论文**：`src/content/publications/`（6 篇种子，会议链接已核实真实；⚠️作者列表是占位待核对）。/publications 按年分组，链 ACL Anthology/OpenReview/AAAI/arXiv/code。
+- **论文（全量 411 篇，DBLP 爬取）**：`scripts/fetch_publications.py`（仅标准库）按 8 位作者 DBLP PID 拉全量 → 跨作者按 key 去重 → 合并 arXiv 预印本 → **同名过滤**（DBLP profile 混入同名他人：规则 ≥2 组内作者 或 1+严格NLP顶会，523→411）→ 选链接（主会官方>arXiv>期刊）→ 写 `src/data/publications.json`。论文集合改用 `file()` loader 读该 JSON（不再手写 md）。增量：`python3 scripts/fetch_publications.py`；全量重建：`--refresh`。作者 PID/邮箱配置在脚本顶部 `AUTHORS`（金卓然、郭少茹邮箱未公开=空；张元哲可能已转所）。
 - **工具**：6 个直链 nlpkeg 组真实仓库（Know-MRI/KMatrix/KMatrix-2/KMatrix-CR/Capability-Neuron-Localization/D4S）。RWKU 不在该组，已移到论文。首页显 3 旗舰，/tools 显全部。
 - **logo**：`public/logos/`。**本地预览**：`npm run dev` → http://localhost:4321（Windows `ssh -L 4321:localhost:4321`）。
 - 待做：学生名单、论文页真实数据、研究方向详情页、deploy.yml、刘康/何世柱更高清照片（现用旧图）。
